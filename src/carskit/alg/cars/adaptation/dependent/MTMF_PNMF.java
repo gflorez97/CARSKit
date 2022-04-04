@@ -8,7 +8,7 @@ import librec.data.MatrixEntry;
 import librec.data.SymmMatrix;
 
 /**
- * Multitask Matrix Factorization - Bayesian Personalized Ranking
+ * Multitask Matrix Factorization - Preference Non-negative Matrix Factorization
  *
  *
  *
@@ -16,7 +16,7 @@ import librec.data.SymmMatrix;
  *
  */
 
-public class MTMF_BPR extends ContextRecommender {
+public class MTMF_PNMF extends ContextRecommender {
 
     // members for deviation-based models
     protected DenseVector condBias;
@@ -31,7 +31,7 @@ public class MTMF_BPR extends ContextRecommender {
     // factor for rating vs ranking
     double alpha;
 
-    public MTMF_BPR(SparseMatrix trainMatrix, SparseMatrix testMatrix, int fold) {
+    public MTMF_PNMF(SparseMatrix trainMatrix, SparseMatrix testMatrix, int fold) {
         super(trainMatrix, testMatrix, fold);
     }
 
@@ -127,29 +127,35 @@ public class MTMF_BPR extends ContextRecommender {
                         loss += (regU * puf * puf + regI * qjf * qjf) * alpha;
                     }
 
-                    // PAIRWISE RANKING (BPR)
+                    // PAIRWISE RANKING (PNMF)
                     int j2 = rateDao.getItemIdFromUI(ui2);
                     int ctx2 = me2.column(); // context
 
-                    double pred2 = predict(u2, j2, ctx2, false);
-                    double xuij = pred1 - pred2;
+                    double piReal = 0.5;
+                    if(rujc1 > rujc2) piReal = 1;
+                    else if(rujc1 < rujc2) piReal = 0;
 
-                    double vals = -Math.log(g(xuij));
-                    loss += vals * (1-alpha);
+                    double accumulatedLoss = 0;
 
-                    double cmg = g(-xuij);
-                    for (int f = 0; f < numFactors; f++) {
+                    for (int f = 0; f < numFactors; f++) { //TODO possibly wrong, also still not using context
                         double puf = P.get(u1, f);
                         double qif = Q.get(j1, f);
                         double qjf = Q.get(j2, f);
 
-                        P.add(u1, f, lRate * (cmg * (qif - qjf) - regU * puf));
-                        Q.add(j1, f, lRate * (cmg * puf - regI * qif));
-                        Q.add(j2, f, lRate * (cmg * (-puf) - regI * qjf));
+                        double cmg = g(Math.exp(puf * (qif - qjf)));
+                        double piEst = Math.exp(puf * (qif - qjf)) * cmg;
+                        double eps = Math.pow(piReal - piEst, 2);
+
+                        P.add(u1, f, lRate * (cmg * piEst * (qif - qjf) * eps - regU * puf));
+                        Q.add(j1, f, lRate * (cmg * piEst * puf - regI * qif));
+                        Q.add(j2, f, - lRate * (cmg * piEst * puf - regI * qjf));
 
                         loss += (regU * puf * puf + regI * qif * qif + regI * qjf * qjf) * (1-alpha);
+
+                        accumulatedLoss = accumulatedLoss - Math.log(piEst); //TODO still not sure which one to use here
                     }
 
+                    loss += accumulatedLoss * (1-alpha);
                 }
                 loss *= 0.5;
 
