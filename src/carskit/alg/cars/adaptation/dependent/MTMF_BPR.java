@@ -62,7 +62,6 @@ public class MTMF_BPR extends ContextRecommender {
     @Override
     protected void buildModel() throws Exception {
 
-        //double alpha = 0.5; // will be a parameter
         alpha = algoOptions.getFloat("-alpha");
 
         for (int iter = 1; iter <= numIters; iter++) {
