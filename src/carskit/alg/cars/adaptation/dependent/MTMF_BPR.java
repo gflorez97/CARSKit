@@ -10,7 +10,7 @@ import librec.data.SymmMatrix;
 /**
  * Multitask Matrix Factorization - Bayesian Personalized Ranking
  *
- *
+ * Rendle, S., Freudenthaler, C., Gantner, Z., & Schmidt-Thieme, L. (2012). BPR: Bayesian personalized ranking from implicit feedback. arXiv preprint arXiv:1205.2618.
  *
  * @author Gonzalo Florez Arias
  *

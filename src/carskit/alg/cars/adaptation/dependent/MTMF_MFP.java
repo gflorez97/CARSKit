@@ -8,15 +8,15 @@ import librec.data.MatrixEntry;
 import librec.data.SymmMatrix;
 
 /**
- * Multitask Matrix Factorization - Preference Non-negative Matrix Factorization
+ * Multitask Matrix Factorization - Pair Scores
  *
- * Desarkar, M. S., Saxena, R., & Sarkar, S. (2012, July). Preference relation based matrix factorization for recommender systems. In International conference on user modeling, adaptation, and personalization (pp. 63-75). Springer, Berlin, Heidelberg.
+ * Kalloori, S., Ricci, F., & Tkalcic, M. (2016, September). Pairwise preferences based matrix factorization and nearest neighbor recommendation techniques. In Proceedings of the 10th ACM Conference on Recommender Systems (pp. 143-146).
  *
  * @author Gonzalo Florez Arias
  *
  */
 
-public class MTMF_PNMF extends ContextRecommender {
+public class MTMF_MFP extends ContextRecommender {
 
     // members for deviation-based models
     protected DenseVector condBias;
@@ -31,7 +31,7 @@ public class MTMF_PNMF extends ContextRecommender {
     // factor for rating vs ranking
     double alpha;
 
-    public MTMF_PNMF(SparseMatrix trainMatrix, SparseMatrix testMatrix, int fold) {
+    public MTMF_MFP(SparseMatrix trainMatrix, SparseMatrix testMatrix, int fold) {
         super(trainMatrix, testMatrix, fold);
     }
 
@@ -45,6 +45,9 @@ public class MTMF_PNMF extends ContextRecommender {
         itemBias = new DenseVector(numItems);
         itemBias.init(initMean, initStd);
 
+        itemBiasPairs = new DenseVector(numItems*numItems); //TODO how to store pairs in vector, size probably needs to be constrained
+        itemBiasPairs.init(initMean, initStd);
+
         condBias = new DenseVector(numConditions);
         condBias.init(initMean, initStd);
 
@@ -53,6 +56,14 @@ public class MTMF_PNMF extends ContextRecommender {
     @Override
     protected double predict(int u, int j, int c) throws Exception {
         double pred=globalMean + userBias.get(u) + itemBias.get(j) + DenseMatrix.rowMult(P, u, Q, j);
+        for(int cond:getConditions(c)){
+            pred+=condBias.get(cond);
+        }
+        return pred;
+    }
+
+    protected double predictPair(int u, int ij, int c) throws Exception { //TODO
+        double pred=globalMean + userBias.get(u) + itemBiasPairs.get(ij) + DenseMatrix.rowMult(P, u, Qp, ij);
         for(int cond:getConditions(c)){
             pred+=condBias.get(cond);
         }
@@ -127,35 +138,31 @@ public class MTMF_PNMF extends ContextRecommender {
                         loss += (regU * puf * puf + regI * qjf * qjf) * alpha;
                     }
 
-                    // PAIRWISE RANKING (PNMF)
+                    // PAIRWISE RANKING (MFP)
                     int j2 = rateDao.getItemIdFromUI(ui2);
                     int ctx2 = me2.column(); // context
 
-                    double piReal = 0.5;
-                    if(rujc1 > rujc2) piReal = 1;
-                    else if(rujc1 < rujc2) piReal = 0;
+                    double rPred = predictPair(u1,j1+j2,ctx1); //TODO
 
-                    double accumulatedLoss = 0;
+                    /*double pred2 = predict(u2, j2, ctx2, false);
+                    double xuij = pred1 - pred2;
 
-                    for (int f = 0; f < numFactors; f++) { //TODO possibly wrong, also still not using context
+                    double vals = -Math.log(g(xuij));
+                    loss += vals * (1-alpha);
+
+                    double cmg = g(-xuij);
+                    for (int f = 0; f < numFactors; f++) {
                         double puf = P.get(u1, f);
                         double qif = Q.get(j1, f);
                         double qjf = Q.get(j2, f);
 
-                        double cmg = g(Math.exp(puf * (qif - qjf)));
-                        double piEst = Math.exp(puf * (qif - qjf)) * cmg;
-                        double eps = Math.pow(piReal - piEst, 2);
-
-                        P.add(u1, f, lRate * (cmg * piEst * (qif - qjf) * eps - regU * puf));
-                        Q.add(j1, f, lRate * (cmg * piEst * puf - regI * qif));
-                        Q.add(j2, f, - lRate * (cmg * piEst * puf - regI * qjf));
+                        P.add(u1, f, lRate * (cmg * (qif - qjf) - regU * puf));
+                        Q.add(j1, f, lRate * (cmg * puf - regI * qif));
+                        Q.add(j2, f, lRate * (cmg * (-puf) - regI * qjf));
 
                         loss += (regU * puf * puf + regI * qif * qif + regI * qjf * qjf) * (1-alpha);
+                    }*/
 
-                        accumulatedLoss = accumulatedLoss - Math.log(piEst); //TODO still not sure which one to use here
-                    }
-
-                    loss += accumulatedLoss * (1-alpha);
                 }
                 loss *= 0.5;
 

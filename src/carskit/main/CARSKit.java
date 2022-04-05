@@ -747,6 +747,8 @@ public class CARSKit {
                 return new MTMF_BPR(trainMatrix, testMatrix, fold);
             case "mtmf_pnmf":
                 return new MTMF_BPR(trainMatrix, testMatrix, fold);
+            case "mtmf_mfp":
+                return new MTMF_BPR(trainMatrix, testMatrix, fold);
             case "cabpr":
                 return new CABPR(trainMatrix, testMatrix, fold);
 

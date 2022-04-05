@@ -58,10 +58,14 @@ public abstract class IterativeRecommender extends Recommender {
     // factorized item-factor matrix
     protected DenseMatrix Q;
 
+    // factorized item-factor matrix for pair scores
+    protected DenseMatrix Qp;
+
     // user biases
     protected DenseVector userBias;
     // item biases
     protected DenseVector itemBias;
+    protected DenseVector itemBiasPairs;
 
     // adaptive learn rate
     protected double lRate;
@@ -234,14 +238,17 @@ public abstract class IterativeRecommender extends Recommender {
         super.initModel();
         P = new DenseMatrix(numUsers, numFactors);
         Q = new DenseMatrix(numItems, numFactors);
+        Qp = new DenseMatrix(numItems*numItems, numFactors);
 
         // initialize model
         if (initByNorm) {
             P.init(initMean, initStd);
             Q.init(initMean, initStd);
+            Qp.init(initMean, initStd);
         } else {
             P.init(); // P.init(smallValue);
             Q.init(); // Q.init(smallValue);
+            Qp.init();
         }
 
     }
