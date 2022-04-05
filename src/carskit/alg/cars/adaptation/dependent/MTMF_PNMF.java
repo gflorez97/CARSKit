@@ -142,7 +142,7 @@ public class MTMF_PNMF extends ContextRecommender {
                         double qif = Q.get(j1, f);
                         double qjf = Q.get(j2, f);
 
-                        double cmg = g(Math.exp(puf * (qif - qjf)));
+                        double cmg = g(-puf * (qif - qjf)); //TODO negative or positive?
                         double piEst = Math.exp(puf * (qif - qjf)) * cmg;
                         double eps = Math.pow(piReal - piEst, 2);
 

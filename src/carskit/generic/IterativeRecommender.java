@@ -273,6 +273,8 @@ public abstract class IterativeRecommender extends Recommender {
             FileIO.serialize(userBias, dirPath + "userBiases" + suffix);
         if (itemBias != null)
             FileIO.serialize(itemBias, dirPath + "itemBiases" + suffix);
+        if (itemBiasPairs != null)
+            FileIO.serialize(itemBiasPairs, dirPath + "itemBiasesPairs" + suffix);
 
         Logs.debug("Learned models are saved to folder \"{}\"", dirPath);
     }

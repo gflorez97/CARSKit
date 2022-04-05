@@ -21,9 +21,7 @@ package carskit.main;
 import carskit.alg.baseline.avg.*;
 import carskit.alg.baseline.cf.*;
 import carskit.alg.baseline.ranking.*;
-import carskit.alg.cars.adaptation.dependent.CABPR;
-import carskit.alg.cars.adaptation.dependent.FM;
-import carskit.alg.cars.adaptation.dependent.MTMF_BPR;
+import carskit.alg.cars.adaptation.dependent.*;
 import carskit.alg.cars.adaptation.dependent.dev.*;
 import carskit.alg.cars.adaptation.dependent.sim.*;
 import carskit.alg.cars.adaptation.independent.CPTF;
@@ -746,9 +744,9 @@ public class CARSKit {
             case "mtmf_bpr":
                 return new MTMF_BPR(trainMatrix, testMatrix, fold);
             case "mtmf_pnmf":
-                return new MTMF_BPR(trainMatrix, testMatrix, fold);
+                return new MTMF_PNMF(trainMatrix, testMatrix, fold);
             case "mtmf_mfp":
-                return new MTMF_BPR(trainMatrix, testMatrix, fold);
+                return new MTMF_MFP(trainMatrix, testMatrix, fold);
             case "cabpr":
                 return new CABPR(trainMatrix, testMatrix, fold);
 

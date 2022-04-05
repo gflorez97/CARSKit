@@ -62,7 +62,7 @@ public class MTMF_MFP extends ContextRecommender {
         return pred;
     }
 
-    protected double predictPair(int u, int ij, int c) throws Exception { //TODO
+    protected double predictPair(int u, int ij, int c) throws Exception {
         double pred=globalMean + userBias.get(u) + itemBiasPairs.get(ij) + DenseMatrix.rowMult(P, u, Qp, ij);
         for(int cond:getConditions(c)){
             pred+=condBias.get(cond);
@@ -142,26 +142,50 @@ public class MTMF_MFP extends ContextRecommender {
                     int j2 = rateDao.getItemIdFromUI(ui2);
                     int ctx2 = me2.column(); // context
 
-                    double rPred = predictPair(u1,j1+j2,ctx1); //TODO
+                    int positionIJ = (numItems*j1 + j2); //TODO in which position to store values for Qp and itemBiasPairs
 
-                    /*double pred2 = predict(u2, j2, ctx2, false);
-                    double xuij = pred1 - pred2;
+                    double rPred = predictPair(u1,positionIJ,ctx1);
+                    double rReal = rujc1 - rujc2;
 
-                    double vals = -Math.log(g(xuij));
-                    loss += vals * (1-alpha);
+                    double euj2 = rReal - rPred; //For now, reusing from rating loss
+                    loss += euj2 * euj2 * alpha;
 
-                    double cmg = g(-xuij);
+                    // update factors
+                    double bu2 = userBias.get(u1);
+                    double sgd2 = euj2 - regB * bu2;
+                    userBias.add(u1, lRate * sgd2);
+
+                    loss += regB * bu2 * bu2 * (1-alpha);
+
+
+                    double bj2 = itemBiasPairs.get(positionIJ);
+                    sgd2 = euj2 - regB * bj2;
+                    itemBiasPairs.add(positionIJ, lRate * sgd2);
+
+                    loss += regB * bj2 * bj2 * (1-alpha);
+
+                    bc_sum = 0;
+                    for (int cond : getConditions(ctx1)) { //TODO
+                        double bc = condBias.get(cond);
+                        bc_sum += bc;
+                        sgd2 = euj2 - regC * bc;
+                        condBias.add(cond, lRate * sgd2);
+                    }
+
+                    loss += regB * bc_sum * (1-alpha);
+
                     for (int f = 0; f < numFactors; f++) {
                         double puf = P.get(u1, f);
-                        double qif = Q.get(j1, f);
-                        double qjf = Q.get(j2, f);
+                        double qjf = Qp.get(positionIJ, f);
 
-                        P.add(u1, f, lRate * (cmg * (qif - qjf) - regU * puf));
-                        Q.add(j1, f, lRate * (cmg * puf - regI * qif));
-                        Q.add(j2, f, lRate * (cmg * (-puf) - regI * qjf));
+                        double delta_u = euj2 * qjf - regU * puf;
+                        double delta_j = euj2 * puf - regI * qjf;
 
-                        loss += (regU * puf * puf + regI * qif * qif + regI * qjf * qjf) * (1-alpha);
-                    }*/
+                        P.add(u1, f, lRate * delta_u);
+                        Qp.add(positionIJ, f, lRate * delta_j);
+
+                        loss += (regU * puf * puf + regI * qjf * qjf) * (1-alpha);
+                    }
 
                 }
                 loss *= 0.5;
