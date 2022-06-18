@@ -71,9 +71,9 @@ public class CAPAIRSMF extends ContextRecommender {
         condBias.init(initMean, initStd);
     }
 
-    @Override
-    protected double predict(int u, int i, int j, int c) throws Exception {
-        double pred=globalMean + userBias.get(u) + itemBias.get(i,j) + DenseMatrix.rowMult(P, u, Q, i,j);
+    //@Override
+    protected double predictPair(int u, int i, int j, int c) throws Exception {
+        double pred = 0;//double pred=globalMean + userBias.get(u) + itemBias.get(i,j) + DenseMatrix.rowMult(P, u, Q, i,j); //TODO
 
         for(int cond:getConditions(c)){
             pred+=condBias.get(cond);
@@ -108,7 +108,7 @@ public class CAPAIRSMF extends ContextRecommender {
                     int i = rateDao.getItemIdFromUI(ui);
                     int j = rateDao.getItemIdFromUI(ui2);
 
-                    double pred = predict(u1, i, j, ctx1, false);
+                    double pred = predictPair(u1, i, j, ctx1); //TODO adapt the method to the pair score situation
                     double euij = ruijc - pred;
                     double xuij = euij;
 
@@ -129,10 +129,10 @@ public class CAPAIRSMF extends ContextRecommender {
 
                     for (int f = 0; f < numFactors; f++) {
                         double puf = P.get(u1, f);
-                        double qijf = Q.get(i,j, f);
+                        double qijf = 0.0; //double qijf = Q.get(i,j, f); //TODO
 
-                        P.add(u1, f, lRate * ((-qijf) - regI * qjf));
-                        Q.add(j, f, lRate * ((-puf) - regI * qjf));
+                        P.add(u1, f, lRate * ((-qijf) - regI * qijf));
+                        Q.add(j, f, lRate * ((-puf) - regI * qijf));
 
                         //TODO should I also add matrices to store and update bu and Bc ??
 

@@ -74,20 +74,23 @@ public class CARELMODEL extends ContextRecommender {
     //@Override
     protected double predictRel(int u, int i, int j, int c) throws Exception {
         //double pred=globalMean + userBias.get(u) + itemBias.get(j) + DenseMatrix.rowMult(P, u, Q, j);
-        double pred = 0.0;
+        //double pred = 0.0;
 
-        //puRow = P.row(u);
-        //qiRow = Q.row(i);
+        double predAux = 0.0;
+        int l = 0;
+        for(int k = Q.numColumns(); l < k; ++l) {
+            predAux += P.get(u, l) * (Q.get(i, l) - Q.get(j, l));
+        }
+        double pred = Math.exp(predAux) / (1 + Math.exp(predAux));
 
-
-        for (int f = 0; f < numFactors; f++) { //TODO is this correct? How else can i get the i and j sepparately to substract one from the other
+        /*for (int f = 0; f < numFactors; f++) { //TODO is this correct? How else can I get the i and j separately to substract one from the other?
             double puf = P.get(u, f);
             double qif = Q.get(i, f);
             double qjf = Q.get(j, f);
 
             pred += Math.exp(puf*(qif-qjf)) / (1 + Math.exp(puf*(qif-qjf))); //TODO problem is here
+        }*/
 
-        }
         for(int cond:getConditions(c)){
             pred+=condBias.get(cond);
         }
@@ -126,6 +129,7 @@ public class CARELMODEL extends ContextRecommender {
                     double piHat = predictRel(u1, i, j, ctx1);
 
                     double euij = Math.pow(pi - piHat, 2);
+                    euij = pi - piHat; //TODO gets to infinite if I do squared as above
 
                     loss += euij/2;
 
@@ -151,6 +155,7 @@ public class CARELMODEL extends ContextRecommender {
                         //TODO should I also add matrices to store and update bu and Bc ??
 
                         loss += regU * puf * puf + regI * qif * qif + regI * qjf * qjf;
+                        //System.out.println(loss);
                     }
                 }
             }
