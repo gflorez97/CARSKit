@@ -29,8 +29,7 @@ import librec.data.SparseVector;
 import carskit.data.structure.SparseMatrix;
 import carskit.generic.IterativeRecommender;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Context Aware BPR
@@ -104,14 +103,25 @@ public class CABPR extends ContextRecommender {
                     int u2 = rateDao.getUserIdFromUI(ui2);
                     if(u2 != u1) continue; // u2 has to be the same as u1, if not keep trying
 
+                    int i = rateDao.getItemIdFromUI(ui);
+                    int j = rateDao.getItemIdFromUI(ui2);
+                    if(i >= j) continue; //TODO I am trying to make sure combinations of items are not repeated ([0,1] and [1,0])
+
                     double ruic = me1.get();
                     double rujc = me2.get();
-                    if(ruic <= rujc) continue; //For the i and j item pairs, I should only be considering those in which rating of i is greater than rating of j.
+                    //if(ruic <= rujc) continue; //For the i and j item pairs, I should only be considering those in which rating of i is greater than rating of j.
 
-                    int i = rateDao.getItemIdFromUI(ui);
+                    if(ruic <= rujc){ //TODO invert the items, as per above only one side of the combination will be considered
+                        double aux = ruic;
+                        ruic = rujc;
+                        rujc = aux;
+                        int aux2 = i;
+                        i = j;
+                        j = aux2;
+                    }
+
                     double pred1 = predict(u1, i, ctx1, false);
                     double eui = ruic - pred1;
-                    int j = rateDao.getItemIdFromUI(ui2);
                     double pred2 = predict(u2, j, ctx2, false);
                     double euj = rujc - pred2;
                     double xuij = pred1 - pred2;
@@ -122,6 +132,17 @@ public class CABPR extends ContextRecommender {
                     double bu = userBias.get(u1); //bu1 == bu2
                     double sgd = eui - regB * bu;
                     double sgd2 = euj - regB * bu;
+                    userBias.add(u1, lRate * sgd);
+                    loss += regB * bu * bu;
+
+                    double bi = itemBias.get(i);
+                    sgd = eui - regB * bi;
+                    itemBias.add(i, lRate * sgd);
+                    double bj = itemBias.get(j);
+                    sgd2 = euj - regB * bj;
+                    itemBias.add(j, lRate * sgd2);
+                    loss += regB * bi * bi + regB * bj * bj;
+
                     double bc_sum = 0;
                     for (int cond : getConditions(ctx1)) {
                         double bc = condBias.get(cond);
@@ -131,9 +152,9 @@ public class CABPR extends ContextRecommender {
                         condBias.add(cond, lRate * sgd);
                         condBias.add(cond, lRate * sgd2);
                     }
+                    loss += regB * bc_sum;
 
                     double cmg = g(-xuij);
-
                     for (int f = 0; f < numFactors; f++) {
                         double puf = P.get(u1, f);
                         double qif = Q.get(i, f);
@@ -147,13 +168,13 @@ public class CABPR extends ContextRecommender {
                         P.add(u1, f, lRate * (Math.exp(pred2) * (qif-qjf)/(Math.exp(pred1)+Math.exp(pred2))));
                         Q.add(i, f, lRate * (Math.exp(pred1) * (puf)/(Math.exp(pred1)+Math.exp(pred2))));
                         Q.add(j, f, lRate * (Math.exp(pred2) * (puf)/(Math.exp(pred1)+Math.exp(pred2))));
-                        //TODO should I also add matrices to store and update bu and Bc ??
 
                         loss += regU * puf * puf + regI * qif * qif + regI * qjf * qjf;
                     }
-
                 }
             }
+
+            loss*=0.5;
 
             if (isConverged(iter))
                 break;

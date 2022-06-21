@@ -52,7 +52,7 @@ public class CARELMODEL extends ContextRecommender {
 
         isRankingPred = true;
         initByNorm = false;
-        this.algoName = "CARELBPR";
+        this.algoName = "CARELMODEL";
     }
 
     @Override
@@ -71,8 +71,18 @@ public class CARELMODEL extends ContextRecommender {
         condBias.init(initMean, initStd);
     }
 
+    @Override
+    protected double predict(int u, int j, int c) throws Exception { //(same as in notes but with just qi, remove golbalMean, bu and bi)
+        double predAux = DenseMatrix.rowMult(P, u, Q, j);
+        for(int cond:getConditions(c)){
+            predAux+=condBias.get(cond);
+        }
+        double pred = Math.exp(predAux) / (1 + Math.exp(predAux));
+        return pred;
+    }
+
     //@Override
-    protected double predictRel(int u, int i, int j, int c) throws Exception {
+    protected double predictRel(int u, int i, int j, int c) throws Exception { //new prediction from notes
         //double pred=globalMean + userBias.get(u) + itemBias.get(j) + DenseMatrix.rowMult(P, u, Q, j);
         //double pred = 0.0;
 
@@ -81,6 +91,11 @@ public class CARELMODEL extends ContextRecommender {
         for(int k = Q.numColumns(); l < k; ++l) {
             predAux += P.get(u, l) * (Q.get(i, l) - Q.get(j, l));
         }
+
+        for(int cond:getConditions(c)){
+            predAux+=condBias.get(cond);
+        }
+
         double pred = Math.exp(predAux) / (1 + Math.exp(predAux));
 
         /*for (int f = 0; f < numFactors; f++) { //TODO is this correct? How else can I get the i and j separately to substract one from the other?
@@ -88,12 +103,9 @@ public class CARELMODEL extends ContextRecommender {
             double qif = Q.get(i, f);
             double qjf = Q.get(j, f);
 
-            pred += Math.exp(puf*(qif-qjf)) / (1 + Math.exp(puf*(qif-qjf))); //TODO problem is here
+            pred += Math.exp(puf*(qif-qjf)) / (1 + Math.exp(puf*(qif-qjf)));
         }*/
 
-        for(int cond:getConditions(c)){
-            pred+=condBias.get(cond);
-        }
         return pred;
     }
 
@@ -126,15 +138,15 @@ public class CARELMODEL extends ContextRecommender {
 
                     int i = rateDao.getItemIdFromUI(ui);
                     int j = rateDao.getItemIdFromUI(ui2);
+                    if(i >= j) continue; //to make sure unique pairs are selected (1,2 ; 1,3 ; 2,3 ; but not 2,1 ; 3,2 ; 3,1
+
                     double piHat = predictRel(u1, i, j, ctx1);
 
-                    double euij = Math.pow(pi - piHat, 2);
-                    euij = pi - piHat; //TODO gets to infinite if I do squared as above
+                    double euij = pi - piHat;
 
-                    loss += euij/2;
+                    loss += euij * euij;
 
-                    double bu = userBias.get(u1); //bu1 == bu2
-                    double sgd = euij - regB * bu;
+                    double sgd = 0.0;
                     double bc_sum = 0;
                     for (int cond : getConditions(ctx1)) {
                         double bc = condBias.get(cond);
@@ -142,6 +154,7 @@ public class CARELMODEL extends ContextRecommender {
                         sgd = euij - regC * bc;
                         condBias.add(cond, lRate * sgd);
                     }
+                    loss += regB * bc_sum;
 
                     for (int f = 0; f < numFactors; f++) {
                         double puf = P.get(u1, f);
@@ -152,13 +165,12 @@ public class CARELMODEL extends ContextRecommender {
                         Q.add(i, f, lRate * ((puf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi))/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3));
                         Q.add(j, f, lRate * ((puf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi))/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3));
 
-                        //TODO should I also add matrices to store and update bu and Bc ??
-
                         loss += regU * puf * puf + regI * qif * qif + regI * qjf * qjf;
-                        //System.out.println(loss);
                     }
                 }
             }
+
+            loss *= 0.5;
 
             if (isConverged(iter))
                 break;

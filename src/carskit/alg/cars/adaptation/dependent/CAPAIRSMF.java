@@ -52,7 +52,7 @@ public class CAPAIRSMF extends ContextRecommender {
 
         isRankingPred = true;
         initByNorm = false;
-        this.algoName = "CABPR";
+        this.algoName = "CAPAIRSMF";
     }
 
     @Override
