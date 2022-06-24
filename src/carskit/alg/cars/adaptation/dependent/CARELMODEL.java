@@ -50,7 +50,7 @@ public class CARELMODEL extends ContextRecommender {
         numConditions = rateDao.numConditions();
         EmptyContextConditions = rateDao.getEmptyContextConditions();
 
-        isRankingPred = true;
+        //isRankingPred = true;
         initByNorm = false;
         this.algoName = "CARELMODEL";
     }
@@ -161,9 +161,15 @@ public class CARELMODEL extends ContextRecommender {
                         double qif = Q.get(i, f);
                         double qjf = Q.get(j, f);
 
-                        P.add(u1, f, lRate * ((qif-qjf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi))/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3));
-                        Q.add(i, f, lRate * ((puf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi))/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3));
-                        Q.add(j, f, lRate * ((puf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi))/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3));
+                        /*P.add(u1, f, lRate * ((qif-qjf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi)/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3) + regU * puf));
+                        Q.add(i, f, lRate * ((puf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi)/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3) + regI * qif));
+                        Q.add(j, f, lRate * ((puf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi)/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3) + regI * qjf));*/
+
+                        double eAux = Math.exp(puf*(qif-qjf) + bc_sum);
+                        double eDiv = eAux / (1+eAux);
+                        P.add(u1, f, lRate * (((qif-qjf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regU * puf);
+                        Q.add(i, f, lRate * (((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regU * puf);
+                        Q.add(j, f, lRate * (((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regU * puf);
 
                         loss += regU * puf * puf + regI * qif * qif + regI * qjf * qjf;
                     }

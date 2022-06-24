@@ -50,7 +50,7 @@ public class CAPAIRSMF extends ContextRecommender {
         numConditions = rateDao.numConditions();
         EmptyContextConditions = rateDao.getEmptyContextConditions();
 
-        isRankingPred = true;
+        //isRankingPred = true;
         initByNorm = false;
         this.algoName = "CAPAIRSMF";
     }
