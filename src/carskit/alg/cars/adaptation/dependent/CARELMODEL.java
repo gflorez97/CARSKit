@@ -37,8 +37,6 @@ import java.util.List;
 public class CARELMODEL extends ContextRecommender {
 
     protected DenseVector condBias;
-    protected DenseMatrix ucBias;
-    protected DenseMatrix icBias;
 
     protected static int numConditions;
     protected static ArrayList<Integer> EmptyContextConditions;
@@ -58,14 +56,6 @@ public class CARELMODEL extends ContextRecommender {
     @Override
     protected void initModel() throws Exception {
         super.initModel();
-
-        //userCache = train.rowCache(cacheSpec);
-
-        userBias = new DenseVector(numUsers);
-        userBias.init(initMean, initStd);
-
-        itemBias = new DenseVector(numItems);
-        itemBias.init(initMean, initStd);
 
         condBias = new DenseVector(numConditions);
         condBias.init(initMean, initStd);
@@ -98,7 +88,7 @@ public class CARELMODEL extends ContextRecommender {
 
         double pred = Math.exp(predAux) / (1 + Math.exp(predAux));
 
-        /*for (int f = 0; f < numFactors; f++) { //TODO is this correct? How else can I get the i and j separately to substract one from the other?
+        /*for (int f = 0; f < numFactors; f++) { //is this correct? How else can I get the i and j separately to substract one from the other?
             double puf = P.get(u, f);
             double qif = Q.get(i, f);
             double qjf = Q.get(j, f);
@@ -146,7 +136,7 @@ public class CARELMODEL extends ContextRecommender {
 
                     loss += euij * euij;
 
-                    double sgd = 0.0;
+                    /*double sgd = 0.0; //old formula
                     double bc_sum = 0;
                     for (int cond : getConditions(ctx1)) {
                         double bc = condBias.get(cond);
@@ -154,7 +144,13 @@ public class CARELMODEL extends ContextRecommender {
                         sgd = euij - regC * bc;
                         condBias.add(cond, lRate * sgd);
                     }
-                    loss += regB * bc_sum;
+                    loss += regB * bc_sum;*/
+
+                    double bc_sum = 0;
+                    for (int cond : getConditions(ctx1)) {
+                        double bc = condBias.get(cond);
+                        bc_sum += bc;
+                    }
 
                     for (int f = 0; f < numFactors; f++) {
                         double puf = P.get(u1, f);
@@ -171,12 +167,18 @@ public class CARELMODEL extends ContextRecommender {
                         Q.add(i, f, lRate * (((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regU * puf);
                         Q.add(j, f, lRate * (((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regU * puf);
 
-                        loss += regU * puf * puf + regI * qif * qif + regI * qjf * qjf;
+                        double sgd = 0.0;
+                        for (int cond : getConditions(ctx1)) {
+                            double bc = condBias.get(cond);
+                            condBias.add(cond, lRate * - (((eAux*((pi-1)*eAux + pi))/Math.pow(eAux + 1,3)) + regB * bc));
+                        }
+
+                        loss += regU * puf * puf + regI * qif * qif + regI * qjf * qjf + regB * bc_sum * bc_sum;
                     }
                 }
             }
 
-            loss *= 0.5;
+            loss *= 0.05;
 
             if (isConverged(iter))
                 break;

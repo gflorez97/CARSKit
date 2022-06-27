@@ -74,7 +74,7 @@ public class CABPR extends ContextRecommender {
     }
 
     @Override
-    protected double predict(int u, int j, int c) throws Exception {
+    protected double predict(int u, int j, int c) throws Exception { //TODO getting better results with the original basic predict function
         double pred=globalMean + userBias.get(u) + itemBias.get(j) + DenseMatrix.rowMult(P, u, Q, j);
 
         for(int cond:getConditions(c)){
@@ -105,7 +105,7 @@ public class CABPR extends ContextRecommender {
 
                     int i = rateDao.getItemIdFromUI(ui);
                     int j = rateDao.getItemIdFromUI(ui2);
-                    if(i >= j) continue; //TODO I am trying to make sure combinations of items are not repeated ([0,1] and [1,0])
+                    if(i >= j) continue; //I am trying to make sure combinations of items are not repeated ([0,1] and [1,0])
 
                     //System.out.println(u1 + " " + i + " " + j);
 
@@ -113,7 +113,7 @@ public class CABPR extends ContextRecommender {
                     double rujc = me2.get();
                     //if(ruic <= rujc) continue; //For the i and j item pairs, I should only be considering those in which rating of i is greater than rating of j.
 
-                    if(ruic <= rujc){ //TODO invert the items, as per above only one side of the combination will be considered
+                    if(ruic <= rujc){ //invert the items, as per above only one side of the combination will be considered
                         double aux = ruic;
                         ruic = rujc;
                         rujc = aux;
