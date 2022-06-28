@@ -78,15 +78,26 @@ public class CARELMODEL extends ContextRecommender {
 
         double predAux = 0.0;
         int l = 0;
-        for(int k = Q.numColumns(); l < k; ++l) {
+        for(int k = P.numColumns(); l < k; ++l) { //TODO l<k or numFactors??
             predAux += P.get(u, l) * (Q.get(i, l) - Q.get(j, l));
+
+            if(predAux > 700){ //TODO P and some Q gets large which causes infinity
+                System.out.println(P.get(u, l) + " ;;;; " + Q.get(i,l) + " ;;;; " + Q.get(j,l));
+            }
         }
+
+        double pre = predAux;
 
         for(int cond:getConditions(c)){
             predAux+=condBias.get(cond);
         }
 
-        double pred = Math.exp(predAux) / (1 + Math.exp(predAux));
+        double pred = Math.exp(predAux) / (1 + Math.exp(predAux)); //TODO this gets to infinity due to P*(Qi-Qj)
+        /*if(Double.isNaN(pred)){
+            System.out.println("NOT A NUMBER");
+            System.out.println(pre);
+            System.out.println(predAux);
+        }*/
 
         /*for (int f = 0; f < numFactors; f++) { //is this correct? How else can I get the i and j separately to substract one from the other?
             double puf = P.get(u, f);
@@ -163,9 +174,9 @@ public class CARELMODEL extends ContextRecommender {
 
                         double eAux = Math.exp(puf*(qif-qjf) + bc_sum);
                         double eDiv = eAux / (1+eAux);
-                        P.add(u1, f, lRate * (((qif-qjf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regU * puf);
-                        Q.add(i, f, lRate * (((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regU * puf);
-                        Q.add(j, f, lRate * (((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regU * puf);
+                        P.add(u1, f, lRate * ((((qif-qjf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regU * puf));
+                        Q.add(i, f, lRate * ((((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regI * qif));
+                        Q.add(j, f, lRate * ((((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regI * qjf));
 
                         double sgd = 0.0;
                         for (int cond : getConditions(ctx1)) {
