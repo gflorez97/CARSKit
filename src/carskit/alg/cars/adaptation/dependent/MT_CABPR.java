@@ -1,42 +1,21 @@
 package carskit.alg.cars.adaptation.dependent;
 
-// Copyright (C) 2015 Yong Zheng
-//
-// This file is part of CARSKit.
-//
-// CARSKit is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-//
-// CARSKit is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with CARSKit. If not, see <http://www.gnu.org/licenses/>.
-//
-
+import carskit.data.structure.SparseMatrix;
 import carskit.generic.ContextRecommender;
 import happy.coding.io.Strings;
-import happy.coding.math.Randoms;
 import librec.data.DenseMatrix;
 import librec.data.DenseVector;
 import librec.data.MatrixEntry;
-import librec.data.SparseVector;
 
-import carskit.data.structure.SparseMatrix;
-import carskit.generic.IterativeRecommender;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
- * Context Aware BPR
+ * Multitask Context Aware BPR
  *
  */
 
-public class CABPR extends ContextRecommender {
+public class MT_CABPR extends ContextRecommender { //TODO
 
     protected DenseVector condBias;
     protected DenseMatrix ucBias;
@@ -45,7 +24,7 @@ public class CABPR extends ContextRecommender {
     protected static int numConditions;
     protected static ArrayList<Integer> EmptyContextConditions;
 
-    public CABPR(SparseMatrix trainMatrix, SparseMatrix testMatrix, int fold) {
+    public MT_CABPR(SparseMatrix trainMatrix, SparseMatrix testMatrix, int fold) {
         super(trainMatrix, testMatrix, fold);
 
         isCARSRecommender=true;
@@ -54,7 +33,7 @@ public class CABPR extends ContextRecommender {
 
         //isRankingPred = true;
         initByNorm = false;
-        this.algoName = "CABPR";
+        this.algoName = "MT_CABPR";
     }
 
     @Override
@@ -86,6 +65,8 @@ public class CABPR extends ContextRecommender {
 
     @Override
     protected void buildModel() throws Exception {
+
+        double alpha = algoOptions.getFloat("-alpha");
 
         for (int iter = 1; iter <= numIters; iter++) {
 
@@ -128,8 +109,13 @@ public class CABPR extends ContextRecommender {
                     double euj = rujc - pred2;
                     double xuij = pred1 - pred2;
 
+                    // Rating prediction
+                    loss += alpha/2 * (eui * eui);
+                    loss += alpha/2 * (euj * euj);
+
+                    // Ranking
                     double vals = -Math.log(g(xuij));
-                    loss += vals;
+                    loss += (1-alpha) * vals;
 
                     double bu = userBias.get(u1); //bu1 == bu2
                     double sgd = eui - regB * bu;
