@@ -148,15 +148,16 @@ public class MT_CABPR extends ContextRecommender { //TODO
                         double qif = Q.get(i, f);
                         double qjf = Q.get(j, f);
 
-                        //TODO original BPR above, with my derivatives below
-                        /*P.add(u1, f, lRate * (cmg * (qif - qjf) - regU * puf));
-                        Q.add(i, f, lRate * (cmg * puf - regI * qif));
-                        Q.add(j, f, lRate * (cmg * (-puf) - regI * qjf));*/
+                        // Rating //TODO should regularization be updated also here or not?
+                        for (int cond : getConditions(ctx1)) {
+                            double bc = condBias.get(cond);
+                            P.add(u1, f, lRate * (2*qif*(globalMean + bu + bi + bc - ruic) + regU * puf));
+                            Q.add(i, f, lRate * (2*puf*(globalMean + bu + bi + bc - ruic) + regI * qif));
+                            P.add(u1, f, lRate * (2*qjf*(globalMean + bu + bj + bc - rujc) + regU * puf));
+                            Q.add(j, f, lRate * (2*puf*(globalMean + bu + bj + bc - rujc) + regI * qjf));
+                        }
 
-                        /*P.add(u1, f, lRate * (Math.exp(puf*qjf) * (qif-qjf)/(Math.exp(puf*qif)+Math.exp(puf*qjf)) + regU * puf));
-                        Q.add(i, f, lRate * (Math.exp(puf*qjf) * (puf)/(Math.exp(puf*qif)+Math.exp(puf*qjf)) + regI * qif));
-                        Q.add(j, f, lRate * (Math.exp(puf*qif) * (puf)/(Math.exp(puf*qif)+Math.exp(puf*qjf)) + regI * qjf));*/
-
+                        // Ranking
                         P.add(u1, f, lRate * (Math.exp(pred2) * (qif-qjf)/(Math.exp(pred1)+Math.exp(pred2)) + regU * puf));
                         Q.add(i, f, lRate * (Math.exp(pred2) * (puf)/(Math.exp(pred1)+Math.exp(pred2)) + regI * qif));
                         Q.add(j, f, lRate * (Math.exp(pred1) * (puf)/(Math.exp(pred1)+Math.exp(pred2)) + regI * qjf));

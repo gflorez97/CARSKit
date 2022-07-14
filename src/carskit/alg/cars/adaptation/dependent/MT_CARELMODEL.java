@@ -153,6 +153,10 @@ public class MT_CARELMODEL extends ContextRecommender { //TODO
                     for (int cond : getConditions(ctx1)) {
                         double bc = condBias.get(cond);
                         bc_sum += bc;
+
+                        //Only for rating
+                        double sgd = euj - regC * bc;
+                        condBias.add(cond, lRate * sgd);
                     }
 
                     for (int f = 0; f < numFactors; f++) {
@@ -164,6 +168,23 @@ public class MT_CARELMODEL extends ContextRecommender { //TODO
                         Q.add(i, f, lRate * ((puf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi)/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3) + regI * qif));
                         Q.add(j, f, lRate * ((puf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi)/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3) + regI * qjf));*/
 
+                        // Rating TODO apply alpha as well in update?
+                        P.add(u1, f, lRate * (euj * qjf - regU * puf));
+                        Q.add(i, f, lRate * (eui * puf - regI * qif));
+                        Q.add(j, f, lRate * (euj * puf - regI * qjf));
+
+                        for (int cond : getConditions(ctx1)) {
+                            double bc = condBias.get(cond);
+                            /*P.add(u1, f, lRate * (2*qif*(globalMean + bu + bi + bc - ruic) + regU * puf));
+                            Q.add(i, f, lRate * (2*puf*(globalMean + bu + bi + bc - ruic) + regI * qif));
+                            P.add(u1, f, lRate * (2*qjf*(globalMean + bu + bj + bc - rujc) + regU * puf));
+                            Q.add(j, f, lRate * (2*puf*(globalMean + bu + bj + bc - rujc) + regI * qjf));
+                            */
+
+
+                        }
+
+                        // Ranking
                         double eAux = Math.exp(puf*(qif-qjf) + bc_sum);
                         double eDiv = eAux / (1+eAux);
                         P.add(u1, f, lRate * ((((qif-qjf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regU * puf));
