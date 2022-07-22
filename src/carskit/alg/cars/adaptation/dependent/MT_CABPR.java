@@ -15,7 +15,7 @@ import java.util.List;
  *
  */
 
-public class MT_CABPR extends ContextRecommender { //TODO
+public class MT_CABPR extends ContextRecommender {
 
     protected DenseVector condBias;
     protected DenseMatrix ucBias;
@@ -53,12 +53,18 @@ public class MT_CABPR extends ContextRecommender { //TODO
     }
 
     @Override
-    protected double predict(int u, int j, int c) throws Exception { //TODO getting better results with the original basic predict function
+    protected double predict(int u, int j, int c) throws Exception {
         double pred=globalMean + userBias.get(u) + itemBias.get(j) + DenseMatrix.rowMult(P, u, Q, j);
 
         for(int cond:getConditions(c)){
             pred+=condBias.get(cond);
         }
+
+//        if(pred>100) { //TODO Big numbers causing infinity
+//            System.out.println(DenseMatrix.rowMult(P, u, Q, j));
+//            System.out.println(pred);
+//            System.out.println("____________");
+//        }
         return pred;
     }
 
@@ -105,6 +111,9 @@ public class MT_CABPR extends ContextRecommender { //TODO
 
                     double pred1 = predict(u1, i, ctx1, false);
                     double eui = ruic - pred1;
+
+
+
                     double pred2 = predict(u2, j, ctx2, false);
                     double euj = rujc - pred2;
                     double xuij = pred1 - pred2;
@@ -148,19 +157,24 @@ public class MT_CABPR extends ContextRecommender { //TODO
                         double qif = Q.get(i, f);
                         double qjf = Q.get(j, f);
 
-                        // Rating //TODO should regularization be updated also here or not?
-                        for (int cond : getConditions(ctx1)) {
-                            double bc = condBias.get(cond);
-                            P.add(u1, f, lRate * (2*qif*(globalMean + bu + bi + bc - ruic) + regU * puf));
-                            Q.add(i, f, lRate * (2*puf*(globalMean + bu + bi + bc - ruic) + regI * qif));
-                            P.add(u1, f, lRate * (2*qjf*(globalMean + bu + bj + bc - rujc) + regU * puf));
-                            Q.add(j, f, lRate * (2*puf*(globalMean + bu + bj + bc - rujc) + regI * qjf));
-                        }
+                        // Rating
+                        P.add(u1, f, lRate * alpha * (euj * qjf - regU * puf));
+                        Q.add(i, f, lRate * alpha * (eui * puf - regI * qif));
+                        Q.add(j, f, lRate * alpha * (euj * puf - regI * qjf));
+
+                        //TODO the one above or this one?
+//                        for (int cond : getConditions(ctx1)) {
+//                            double bc = condBias.get(cond);
+//                            P.add(u1, f, lRate * (alpha*qif*(globalMean + bu + bi + bc - ruic) - regU * puf));
+//                            Q.add(i, f, lRate * (alpha*puf*(globalMean + bu + bi + bc - ruic) - regI * qif));
+//                            P.add(u1, f, lRate * (alpha*qjf*(globalMean + bu + bj + bc - rujc) - regU * puf));
+//                            Q.add(j, f, lRate * (alpha*puf*(globalMean + bu + bj + bc - rujc) - regI * qjf));
+//                        }
 
                         // Ranking
-                        P.add(u1, f, lRate * (Math.exp(pred2) * (qif-qjf)/(Math.exp(pred1)+Math.exp(pred2)) + regU * puf));
-                        Q.add(i, f, lRate * (Math.exp(pred2) * (puf)/(Math.exp(pred1)+Math.exp(pred2)) + regI * qif));
-                        Q.add(j, f, lRate * (Math.exp(pred1) * (puf)/(Math.exp(pred1)+Math.exp(pred2)) + regI * qjf));
+                        P.add(u1, f, lRate * (alpha - 1) * (Math.exp(pred2) * (qif-qjf)/(Math.exp(pred1)+Math.exp(pred2)) - regU * puf));
+                        Q.add(i, f, lRate * (alpha - 1) * (Math.exp(pred2) * (puf)/(Math.exp(pred1)+Math.exp(pred2)) - regI * qif));
+                        Q.add(j, f, lRate * (alpha - 1) * (Math.exp(pred1) * (puf)/(Math.exp(pred1)+Math.exp(pred2)) - regI * qjf));
 
 
                         loss += regU * puf * puf + regI * qif * qif + regI * qjf * qjf;
@@ -168,7 +182,7 @@ public class MT_CABPR extends ContextRecommender { //TODO
                 }
             }
 
-            loss*=0.5;
+            loss*=0.05;
 
             if (isConverged(iter))
                 break;

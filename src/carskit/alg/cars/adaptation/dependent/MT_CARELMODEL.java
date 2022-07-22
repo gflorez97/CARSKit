@@ -15,7 +15,7 @@ import java.util.List;
  *
  */
 
-public class MT_CARELMODEL extends ContextRecommender { //TODO
+public class MT_CARELMODEL extends ContextRecommender {
 
     protected DenseVector condBias;
 
@@ -124,6 +124,7 @@ public class MT_CARELMODEL extends ContextRecommender { //TODO
                     if(i >= j) continue; //to make sure unique pairs are selected (1,2 ; 1,3 ; 2,3 ; but not 2,1 ; 3,2 ; 3,1
 
                     double piHat = predictRel(u1, i, j, ctx1);
+                    System.out.println(piHat);
 
                     double euij = pi - piHat;
 
@@ -159,6 +160,7 @@ public class MT_CARELMODEL extends ContextRecommender { //TODO
                         condBias.add(cond, lRate * sgd);
                     }
 
+
                     for (int f = 0; f < numFactors; f++) {
                         double puf = P.get(u1, f);
                         double qif = Q.get(i, f);
@@ -168,33 +170,32 @@ public class MT_CARELMODEL extends ContextRecommender { //TODO
                         Q.add(i, f, lRate * ((puf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi)/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3) + regI * qif));
                         Q.add(j, f, lRate * ((puf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi)/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3) + regI * qjf));*/
 
-                        // Rating TODO apply alpha as well in update?
-                        P.add(u1, f, lRate * (euj * qjf - regU * puf));
-                        Q.add(i, f, lRate * (eui * puf - regI * qif));
-                        Q.add(j, f, lRate * (euj * puf - regI * qjf));
+                        // Rating
+                        P.add(u1, f, lRate * alpha * (euj * qjf - regU * puf));
+                        Q.add(i, f, lRate * alpha * (eui * puf - regI * qif));
+                        Q.add(j, f, lRate * alpha * (euj * puf - regI * qjf));
 
                         for (int cond : getConditions(ctx1)) {
                             double bc = condBias.get(cond);
-                            /*P.add(u1, f, lRate * (2*qif*(globalMean + bu + bi + bc - ruic) + regU * puf));
-                            Q.add(i, f, lRate * (2*puf*(globalMean + bu + bi + bc - ruic) + regI * qif));
-                            P.add(u1, f, lRate * (2*qjf*(globalMean + bu + bj + bc - rujc) + regU * puf));
-                            Q.add(j, f, lRate * (2*puf*(globalMean + bu + bj + bc - rujc) + regI * qjf));
+                            /*P.add(u1, f, lRate * (alpha*qif*(globalMean + bu + bi + bc - ruic) + regU * puf)); //TODO what about the biases here?
+                            Q.add(i, f, lRate * (alpha*puf*(globalMean + bu + bi + bc - ruic) + regI * qif));
+                            P.add(u1, f, lRate * (alpha*qjf*(globalMean + bu + bj + bc - rujc) + regU * puf));
+                            Q.add(j, f, lRate * (alpha*puf*(globalMean + bu + bj + bc - rujc) + regI * qjf));
                             */
-
-
                         }
 
                         // Ranking
                         double eAux = Math.exp(puf*(qif-qjf) + bc_sum);
                         double eDiv = eAux / (1+eAux);
-                        P.add(u1, f, lRate * ((((qif-qjf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regU * puf));
-                        Q.add(i, f, lRate * ((((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regI * qif));
-                        Q.add(j, f, lRate * ((((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regI * qjf));
+
+                        P.add(u1, f, lRate * (alpha - 1) * ((((qif-qjf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regU * puf));
+                        Q.add(i, f, lRate * (alpha - 1) * ((((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regI * qif));
+                        Q.add(j, f, lRate * (alpha - 1) * ((((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regI * qjf));
 
                         double sgd = 0.0;
                         for (int cond : getConditions(ctx1)) {
                             double bc = condBias.get(cond);
-                            condBias.add(cond, lRate * - (((eAux*((pi-1)*eAux + pi))/Math.pow(eAux + 1,3)) + regB * bc));
+                            condBias.add(cond, lRate * (alpha - 1) * - (((eAux*((pi-1)*eAux + pi))/Math.pow(eAux + 1,3)) - regB * bc));
                         }
 
                         loss += regU * puf * puf + regI * qif * qif + regI * qjf * qjf + regB * bc_sum * bc_sum;
