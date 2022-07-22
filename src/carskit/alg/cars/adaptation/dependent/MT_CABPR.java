@@ -158,7 +158,7 @@ public class MT_CABPR extends ContextRecommender {
                         double qjf = Q.get(j, f);
 
                         // Rating
-                        P.add(u1, f, lRate * alpha * (euj * qjf - regU * puf) ); //TODO + (alpha-1) ...);
+                        P.add(u1, f, lRate * alpha * (euj * qjf - regU * puf));
                         Q.add(i, f, lRate * alpha * (eui * puf - regI * qif));
                         Q.add(j, f, lRate * alpha * (euj * puf - regI * qjf));
 

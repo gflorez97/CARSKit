@@ -749,6 +749,14 @@ public class CARSKit {
                 return new MTMF_MFP(trainMatrix, testMatrix, fold);
             case "cabpr":
                 return new CABPR(trainMatrix, testMatrix, fold);
+            case "carelmodel":
+                return new CARELMODEL(trainMatrix, testMatrix, fold);
+            case "capairsmf":
+                return new CAPAIRSMF(trainMatrix, testMatrix, fold);
+            case "mt_cabpr":
+                return new MT_CABPR(trainMatrix, testMatrix, fold);
+            case "mt_carelmodel":
+                return new MT_CARELMODEL(trainMatrix, testMatrix, fold);
 
 
             default:
@@ -772,19 +780,19 @@ public class CARSKit {
     private void about() {
         String about = "\nCARSKit version " + version + ", copyright (C) 2015-2019 Yong Zheng \n\n"
 
-		        /* Description */
+                /* Description */
                 + "CARSKit is free software: you can redistribute it and/or modify \n"
                 + "it under the terms of the GNU General Public License as published by \n"
                 + "the Free Software Foundation, either version 3 of the License, \n"
                 + "or (at your option) any later version. \n\n"
 
-				/* Usage */
+                /* Usage */
                 + "CARSKit is distributed in the hope that it will be useful, \n"
                 + "but WITHOUT ANY WARRANTY; without even the implied warranty of \n"
                 + "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the \n"
                 + "GNU General Public License for more details. \n\n"
 
-				/* licence */
+                /* licence */
                 + "You should have received a copy of the GNU General Public License \n"
                 + "along with CARSKit. If not, see <http://www.gnu.org/licenses/>.";
 

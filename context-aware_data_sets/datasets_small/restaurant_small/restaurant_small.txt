@@ -1,0 +1,2318 @@
+user_id,item_id,rating,time,location
+1,applebees,1,weekday,school,weekday_school,1_weekday_school
+1,burger king,4,weekday,school,weekday_school,1_weekday_school
+1,carls jr,5,weekday,school,weekday_school,1_weekday_school
+1,costco,5,weekday,school,weekday_school,1_weekday_school
+1,el mazateno,1,weekday,school,weekday_school,1_weekday_school
+1,kentucky fried chicken,5,weekday,school,weekday_school,1_weekday_school
+1,mc donals,1,weekday,school,weekday_school,1_weekday_school
+2,applebees,5,weekday,school,weekday_school,2_weekday_school
+2,daruma,5,weekday,school,weekday_school,2_weekday_school
+2,la casa del mole,5,weekday,school,weekday_school,2_weekday_school
+3,carls jr,4,weekday,school,weekday_school,3_weekday_school
+2,applebees,5,weekday,school,weekday_school,2_weekday_school
+2,cafe de la flor,5,weekday,school,weekday_school,2_weekday_school
+2,el mazateno,5,weekday,school,weekday_school,2_weekday_school
+4,burger king,4,weekday,school,weekday_school,4_weekday_school
+4,kentucky fried chicken,5,weekday,school,weekday_school,4_weekday_school
+4,la torta plaza,4,weekday,school,weekday_school,4_weekday_school
+4,peter piper pizza,5,weekday,school,weekday_school,4_weekday_school
+5,carls jr,5,weekday,school,weekday_school,5_weekday_school
+6,el mazateno,4,weekday,school,weekday_school,6_weekday_school
+6,pampas do brasil,3,weekday,school,weekday_school,6_weekday_school
+8,carls jr,5,weekday,school,weekday_school,8_weekday_school
+9,applebees,5,weekday,school,weekday_school,9_weekday_school
+10,burger king,4,weekday,school,weekday_school,10_weekday_school
+10,carls jr,1,weekday,school,weekday_school,10_weekday_school
+10,costco,3,weekday,school,weekday_school,10_weekday_school
+10,dominos pizza,4,weekday,school,weekday_school,10_weekday_school
+10,kentucky fried chicken,3,weekday,school,weekday_school,10_weekday_school
+10,mc donals,3,weekday,school,weekday_school,10_weekday_school
+10,peter piper pizza,3,weekday,school,weekday_school,10_weekday_school
+10,subway,4,weekday,school,weekday_school,10_weekday_school
+11,applebees,2,weekday,school,weekday_school,11_weekday_school
+11,big boy,1,weekday,school,weekday_school,11_weekday_school
+11,carls jr,5,weekday,school,weekday_school,11_weekday_school
+11,la torta plaza,5,weekday,school,weekday_school,11_weekday_school
+11,sanborns,1,weekday,school,weekday_school,11_weekday_school
+13,carls jr,4,weekday,school,weekday_school,13_weekday_school
+13,subway,4,weekday,school,weekday_school,13_weekday_school
+15,big boy,5,weekday,school,weekday_school,15_weekday_school
+15,costco,5,weekday,school,weekday_school,15_weekday_school
+15,kentucky fried chicken,5,weekday,school,weekday_school,15_weekday_school
+15,subway,5,weekday,school,weekday_school,15_weekday_school
+15,tortas la vuelta,5,weekday,school,weekday_school,15_weekday_school
+17,carls jr,5,weekday,school,weekday_school,17_weekday_school
+17,ricardos,3,weekday,school,weekday_school,17_weekday_school
+18,pampas do brasil,5,weekday,school,weekday_school,18_weekday_school
+19,applebees,5,weekday,school,weekday_school,19_weekday_school
+19,sanborns,5,weekday,school,weekday_school,19_weekday_school
+20,tortas chapultepec,5,weekday,school,weekday_school,20_weekday_school
+21,applebees,3,weekday,school,weekday_school,21_weekday_school
+21,burger king,3,weekday,school,weekday_school,21_weekday_school
+21,carls jr,5,weekday,school,weekday_school,21_weekday_school
+21,costco,3,weekday,school,weekday_school,21_weekday_school
+21,daruma,3,weekday,school,weekday_school,21_weekday_school
+21,el mazateno,5,weekday,school,weekday_school,21_weekday_school
+21,la lena,2,weekday,school,weekday_school,21_weekday_school
+21,la torta plaza,4,weekday,school,weekday_school,21_weekday_school
+21,la espadana,3,weekday,school,weekday_school,21_weekday_school
+21,pampas do brasil,3,weekday,school,weekday_school,21_weekday_school
+21,sirloin stockade,5,weekday,school,weekday_school,21_weekday_school
+21,subway,5,weekday,school,weekday_school,21_weekday_school
+25,el mazateno,5,weekday,school,weekday_school,25_weekday_school
+25,peter piper pizza,5,weekday,school,weekday_school,25_weekday_school
+26,carnitas uruapan,5,weekday,school,weekday_school,26_weekday_school
+26,costco,5,weekday,school,weekday_school,26_weekday_school
+26,daruma,5,weekday,school,weekday_school,26_weekday_school
+26,dominos pizza,5,weekday,school,weekday_school,26_weekday_school
+26,fonda argentina,5,weekday,school,weekday_school,26_weekday_school
+26,la casa del mole,5,weekday,school,weekday_school,26_weekday_school
+26,la lena,5,weekday,school,weekday_school,26_weekday_school
+26,landini ristorante toscano,5,weekday,school,weekday_school,26_weekday_school
+26,californias,5,weekday,school,weekday_school,26_weekday_school
+26,ricardos,5,weekday,school,weekday_school,26_weekday_school
+26,cien anos,5,weekday,school,weekday_school,26_weekday_school
+26,tortas chapultepec,5,weekday,school,weekday_school,26_weekday_school
+26,tortas wash movile,5,weekday,school,weekday_school,26_weekday_school
+27,dominos pizza,5,weekday,school,weekday_school,27_weekday_school
+28,applebees,1,weekday,school,weekday_school,28_weekday_school
+28,la casa del mole,1,weekday,school,weekday_school,28_weekday_school
+28,mc donals,1,weekday,school,weekday_school,28_weekday_school
+29,burger king,4,weekday,school,weekday_school,29_weekday_school
+30,applebees,1,weekday,school,weekday_school,30_weekday_school
+30,burger king,1,weekday,school,weekday_school,30_weekday_school
+30,cafe de la flor,1,weekday,school,weekday_school,30_weekday_school
+30,carls jr,3,weekday,school,weekday_school,30_weekday_school
+30,dominos pizza,2,weekday,school,weekday_school,30_weekday_school
+30,kentucky fried chicken,2,weekday,school,weekday_school,30_weekday_school
+30,mc donals,1,weekday,school,weekday_school,30_weekday_school
+30,peter piper pizza,3,weekday,school,weekday_school,30_weekday_school
+30,subway,1,weekday,school,weekday_school,30_weekday_school
+30,vips,4,weekday,school,weekday_school,30_weekday_school
+31,applebees,1,weekday,school,weekday_school,31_weekday_school
+31,big boy,1,weekday,school,weekday_school,31_weekday_school
+31,burger king,1,weekday,school,weekday_school,31_weekday_school
+31,cafe de la flor,3,weekday,school,weekday_school,31_weekday_school
+31,carls jr,5,weekday,school,weekday_school,31_weekday_school
+31,carnitas uruapan,2,weekday,school,weekday_school,31_weekday_school
+31,costco,3,weekday,school,weekday_school,31_weekday_school
+31,dominos pizza,4,weekday,school,weekday_school,31_weekday_school
+31,el mazateno,4,weekday,school,weekday_school,31_weekday_school
+31,kentucky fried chicken,3,weekday,school,weekday_school,31_weekday_school
+31,la torta plaza,4,weekday,school,weekday_school,31_weekday_school
+31,pancake house,3,weekday,school,weekday_school,31_weekday_school
+31,subway,4,weekday,school,weekday_school,31_weekday_school
+31,tortas la vuelta,4,weekday,school,weekday_school,31_weekday_school
+31,tortas wash movile,4,weekday,school,weekday_school,31_weekday_school
+32,carls jr,5,weekday,school,weekday_school,32_weekday_school
+32,costco,5,weekday,school,weekday_school,32_weekday_school
+32,dominos pizza,5,weekday,school,weekday_school,32_weekday_school
+32,la torta plaza,5,weekday,school,weekday_school,32_weekday_school
+32,mc donals,5,weekday,school,weekday_school,32_weekday_school
+32,subway,5,weekday,school,weekday_school,32_weekday_school
+32,villa saverios,5,weekday,school,weekday_school,32_weekday_school
+33,giuseppis,5,weekday,school,weekday_school,33_weekday_school
+33,la espadana,5,weekday,school,weekday_school,33_weekday_school
+34,cafe de la flor,4,weekday,school,weekday_school,34_weekday_school
+34,la espadana,5,weekday,school,weekday_school,34_weekday_school
+35,la casa del mole,5,weekday,school,weekday_school,35_weekday_school
+36,daruma,5,weekday,school,weekday_school,36_weekday_school
+36,tortas wash movile,5,weekday,school,weekday_school,36_weekday_school
+37,applebees,5,weekday,school,weekday_school,37_weekday_school
+37,burger king,1,weekday,school,weekday_school,37_weekday_school
+37,cafe de la flor,1,weekday,school,weekday_school,37_weekday_school
+37,carls jr,1,weekday,school,weekday_school,37_weekday_school
+37,carnitas uruapan,1,weekday,school,weekday_school,37_weekday_school
+37,casa plascencia,1,weekday,school,weekday_school,37_weekday_school
+37,kentucky fried chicken,3,weekday,school,weekday_school,37_weekday_school
+37,la torta plaza,4,weekday,school,weekday_school,37_weekday_school
+37,la espadana,5,weekday,school,weekday_school,37_weekday_school
+37,pampas do brasil,5,weekday,school,weekday_school,37_weekday_school
+37,peter piper pizza,2,weekday,school,weekday_school,37_weekday_school
+37,sirloin stockade,5,weekday,school,weekday_school,37_weekday_school
+37,subway,2,weekday,school,weekday_school,37_weekday_school
+37,tortas wash movile,5,weekday,school,weekday_school,37_weekday_school
+38,applebees,5,weekday,school,weekday_school,38_weekday_school
+38,la casa del mole,5,weekday,school,weekday_school,38_weekday_school
+39,applebees,5,weekday,school,weekday_school,39_weekday_school
+39,carnitas uruapan,5,weekday,school,weekday_school,39_weekday_school
+39,el porton,1,weekday,school,weekday_school,39_weekday_school
+39,el rodeo,1,weekday,school,weekday_school,39_weekday_school
+39,giuseppis,1,weekday,school,weekday_school,39_weekday_school
+39,la lena,1,weekday,school,weekday_school,39_weekday_school
+39,mc donals,5,weekday,school,weekday_school,39_weekday_school
+39,pampas do brasil,5,weekday,school,weekday_school,39_weekday_school
+39,villa saverios,5,weekday,school,weekday_school,39_weekday_school
+39,vips,5,weekday,school,weekday_school,39_weekday_school
+40,daruma,5,weekday,school,weekday_school,40_weekday_school
+40,el mazateno,5,weekday,school,weekday_school,40_weekday_school
+40,subway,5,weekday,school,weekday_school,40_weekday_school
+40,super antojitos,5,weekday,school,weekday_school,40_weekday_school
+41,big boy,5,weekday,school,weekday_school,41_weekday_school
+41,mc donals,5,weekday,school,weekday_school,41_weekday_school
+42,carls jr,5,weekday,school,weekday_school,42_weekday_school
+43,landini ristorante toscano,5,weekday,school,weekday_school,43_weekday_school
+44,applebees,1,weekday,school,weekday_school,44_weekday_school
+44,big boy,1,weekday,school,weekday_school,44_weekday_school
+44,burger king,1,weekday,school,weekday_school,44_weekday_school
+44,cafe de la flor,1,weekday,school,weekday_school,44_weekday_school
+44,carls jr,4,weekday,school,weekday_school,44_weekday_school
+44,carnitas uruapan,1,weekday,school,weekday_school,44_weekday_school
+44,casa plascencia,4,weekday,school,weekday_school,44_weekday_school
+44,cheripan,1,weekday,school,weekday_school,44_weekday_school
+44,costco,1,weekday,school,weekday_school,44_weekday_school
+44,daruma,1,weekday,school,weekday_school,44_weekday_school
+44,dominos pizza,1,weekday,school,weekday_school,44_weekday_school
+44,el mazateno,4,weekday,school,weekday_school,44_weekday_school
+44,el porton,1,weekday,school,weekday_school,44_weekday_school
+44,el rodeo,1,weekday,school,weekday_school,44_weekday_school
+44,fonda argentina,4,weekday,school,weekday_school,44_weekday_school
+44,giuseppis,4,weekday,school,weekday_school,44_weekday_school
+44,kentucky fried chicken,1,weekday,school,weekday_school,44_weekday_school
+44,la casa del mole,4,weekday,school,weekday_school,44_weekday_school
+44,la lena,1,weekday,school,weekday_school,44_weekday_school
+44,la querencia,1,weekday,school,weekday_school,44_weekday_school
+44,la torta plaza,1,weekday,school,weekday_school,44_weekday_school
+44,la espadana,4,weekday,school,weekday_school,44_weekday_school
+44,landini ristorante toscano,4,weekday,school,weekday_school,44_weekday_school
+44,los arcos,1,weekday,school,weekday_school,44_weekday_school
+44,mc donals,1,weekday,school,weekday_school,44_weekday_school
+44,pampas do brasil,4,weekday,school,weekday_school,44_weekday_school
+44,pancake house,1,weekday,school,weekday_school,44_weekday_school
+44,peter piper pizza,1,weekday,school,weekday_school,44_weekday_school
+44,californias,1,weekday,school,weekday_school,44_weekday_school
+44,ricardos,1,weekday,school,weekday_school,44_weekday_school
+44,cien anos,1,weekday,school,weekday_school,44_weekday_school
+44,sanborns,1,weekday,school,weekday_school,44_weekday_school
+44,sirloin stockade,1,weekday,school,weekday_school,44_weekday_school
+44,subway,1,weekday,school,weekday_school,44_weekday_school
+44,super antojitos,1,weekday,school,weekday_school,44_weekday_school
+44,tortas chapultepec,4,weekday,school,weekday_school,44_weekday_school
+44,tortas la vuelta,1,weekday,school,weekday_school,44_weekday_school
+44,tortas wash movile,1,weekday,school,weekday_school,44_weekday_school
+44,villa saverios,4,weekday,school,weekday_school,44_weekday_school
+44,vips,4,weekday,school,weekday_school,44_weekday_school
+45,costco,5,weekday,school,weekday_school,45_weekday_school
+46,el porton,5,weekday,school,weekday_school,46_weekday_school
+47,applebees,1,weekday,school,weekday_school,47_weekday_school
+47,cafe de la flor,5,weekday,school,weekday_school,47_weekday_school
+47,cheripan,1,weekday,school,weekday_school,47_weekday_school
+47,el mazateno,1,weekday,school,weekday_school,47_weekday_school
+47,la espadana,1,weekday,school,weekday_school,47_weekday_school
+48,burger king,1,weekday,school,weekday_school,48_weekday_school
+48,carls jr,2,weekday,school,weekday_school,48_weekday_school
+48,el mazateno,3,weekday,school,weekday_school,48_weekday_school
+48,peter piper pizza,3,weekday,school,weekday_school,48_weekday_school
+48,sirloin stockade,2,weekday,school,weekday_school,48_weekday_school
+48,tortas wash movile,2,weekday,school,weekday_school,48_weekday_school
+49,carls jr,5,weekday,school,weekday_school,49_weekday_school
+49,carnitas uruapan,3,weekday,school,weekday_school,49_weekday_school
+49,daruma,2,weekday,school,weekday_school,49_weekday_school
+49,el mazateno,3,weekday,school,weekday_school,49_weekday_school
+49,la espadana,4,weekday,school,weekday_school,49_weekday_school
+49,sirloin stockade,4,weekday,school,weekday_school,49_weekday_school
+50,burger king,4,weekday,school,weekday_school,50_weekday_school
+50,carls jr,4,weekday,school,weekday_school,50_weekday_school
+50,costco,2,weekday,school,weekday_school,50_weekday_school
+50,daruma,3,weekday,school,weekday_school,50_weekday_school
+50,el mazateno,1,weekday,school,weekday_school,50_weekday_school
+50,kentucky fried chicken,3,weekday,school,weekday_school,50_weekday_school
+50,peter piper pizza,3,weekday,school,weekday_school,50_weekday_school
+50,sanborns,3,weekday,school,weekday_school,50_weekday_school
+50,sirloin stockade,3,weekday,school,weekday_school,50_weekday_school
+1,applebees,2,weekday,home,weekday_home,1_weekday_home
+1,burger king,4,weekday,home,weekday_home,1_weekday_home
+1,carls jr,5,weekday,home,weekday_home,1_weekday_home
+1,el mazateno,5,weekday,home,weekday_home,1_weekday_home
+1,mc donals,1,weekday,home,weekday_home,1_weekday_home
+1,peter piper pizza,5,weekday,home,weekday_home,1_weekday_home
+2,costco,5,weekday,home,weekday_home,2_weekday_home
+2,daruma,5,weekday,home,weekday_home,2_weekday_home
+2,dominos pizza,5,weekday,home,weekday_home,2_weekday_home
+2,fonda argentina,5,weekday,home,weekday_home,2_weekday_home
+2,la casa del mole,5,weekday,home,weekday_home,2_weekday_home
+2,subway,5,weekday,home,weekday_home,2_weekday_home
+2,tortas chapultepec,5,weekday,home,weekday_home,2_weekday_home
+2,vips,5,weekday,home,weekday_home,2_weekday_home
+3,la torta plaza,5,weekday,home,weekday_home,3_weekday_home
+2,burger king,5,weekday,home,weekday_home,2_weekday_home
+2,cafe de la flor,5,weekday,home,weekday_home,2_weekday_home
+2,carls jr,5,weekday,home,weekday_home,2_weekday_home
+2,costco,5,weekday,home,weekday_home,2_weekday_home
+2,el mazateno,5,weekday,home,weekday_home,2_weekday_home
+2,peter piper pizza,5,weekday,home,weekday_home,2_weekday_home
+2,ricardos,5,weekday,home,weekday_home,2_weekday_home
+2,subway,5,weekday,home,weekday_home,2_weekday_home
+4,burger king,4,weekday,home,weekday_home,4_weekday_home
+4,kentucky fried chicken,5,weekday,home,weekday_home,4_weekday_home
+4,la torta plaza,4,weekday,home,weekday_home,4_weekday_home
+4,peter piper pizza,5,weekday,home,weekday_home,4_weekday_home
+5,el mazateno,5,weekday,home,weekday_home,5_weekday_home
+6,burger king,4,weekday,home,weekday_home,6_weekday_home
+7,carls jr,5,weekday,home,weekday_home,7_weekday_home
+7,daruma,5,weekday,home,weekday_home,7_weekday_home
+8,carls jr,5,weekday,home,weekday_home,8_weekday_home
+8,peter piper pizza,5,weekday,home,weekday_home,8_weekday_home
+10,burger king,4,weekday,home,weekday_home,10_weekday_home
+10,carls jr,4,weekday,home,weekday_home,10_weekday_home
+10,costco,3,weekday,home,weekday_home,10_weekday_home
+10,dominos pizza,3,weekday,home,weekday_home,10_weekday_home
+10,kentucky fried chicken,2,weekday,home,weekday_home,10_weekday_home
+10,mc donals,3,weekday,home,weekday_home,10_weekday_home
+10,peter piper pizza,2,weekday,home,weekday_home,10_weekday_home
+10,subway,4,weekday,home,weekday_home,10_weekday_home
+11,applebees,2,weekday,home,weekday_home,11_weekday_home
+11,big boy,1,weekday,home,weekday_home,11_weekday_home
+11,carls jr,5,weekday,home,weekday_home,11_weekday_home
+11,la torta plaza,5,weekday,home,weekday_home,11_weekday_home
+11,sanborns,1,weekday,home,weekday_home,11_weekday_home
+12,burger king,5,weekday,home,weekday_home,12_weekday_home
+12,cafe de la flor,5,weekday,home,weekday_home,12_weekday_home
+12,carls jr,5,weekday,home,weekday_home,12_weekday_home
+12,el mazateno,5,weekday,home,weekday_home,12_weekday_home
+12,peter piper pizza,5,weekday,home,weekday_home,12_weekday_home
+12,sirloin stockade,5,weekday,home,weekday_home,12_weekday_home
+13,el mazateno,5,weekday,home,weekday_home,13_weekday_home
+13,sirloin stockade,5,weekday,home,weekday_home,13_weekday_home
+15,big boy,5,weekday,home,weekday_home,15_weekday_home
+15,burger king,5,weekday,home,weekday_home,15_weekday_home
+15,costco,5,weekday,home,weekday_home,15_weekday_home
+15,kentucky fried chicken,5,weekday,home,weekday_home,15_weekday_home
+15,mc donals,5,weekday,home,weekday_home,15_weekday_home
+15,ricardos,5,weekday,home,weekday_home,15_weekday_home
+15,subway,5,weekday,home,weekday_home,15_weekday_home
+15,tortas la vuelta,5,weekday,home,weekday_home,15_weekday_home
+16,dominos pizza,3,weekday,home,weekday_home,16_weekday_home
+17,el mazateno,4,weekday,home,weekday_home,17_weekday_home
+17,peter piper pizza,4,weekday,home,weekday_home,17_weekday_home
+18,carls jr,5,weekday,home,weekday_home,18_weekday_home
+19,burger king,5,weekday,home,weekday_home,19_weekday_home
+19,los arcos,5,weekday,home,weekday_home,19_weekday_home
+20,subway,5,weekday,home,weekday_home,20_weekday_home
+21,applebees,2,weekday,home,weekday_home,21_weekday_home
+21,burger king,4,weekday,home,weekday_home,21_weekday_home
+21,carls jr,4,weekday,home,weekday_home,21_weekday_home
+21,costco,2,weekday,home,weekday_home,21_weekday_home
+21,daruma,5,weekday,home,weekday_home,21_weekday_home
+21,el mazateno,4,weekday,home,weekday_home,21_weekday_home
+21,la lena,2,weekday,home,weekday_home,21_weekday_home
+21,la torta plaza,3,weekday,home,weekday_home,21_weekday_home
+21,la espadana,2,weekday,home,weekday_home,21_weekday_home
+21,pampas do brasil,2,weekday,home,weekday_home,21_weekday_home
+21,sirloin stockade,3,weekday,home,weekday_home,21_weekday_home
+21,subway,5,weekday,home,weekday_home,21_weekday_home
+22,applebees,3,weekday,home,weekday_home,22_weekday_home
+22,big boy,5,weekday,home,weekday_home,22_weekday_home
+22,burger king,5,weekday,home,weekday_home,22_weekday_home
+22,cafe de la flor,5,weekday,home,weekday_home,22_weekday_home
+22,carls jr,5,weekday,home,weekday_home,22_weekday_home
+22,carnitas uruapan,5,weekday,home,weekday_home,22_weekday_home
+22,casa plascencia,5,weekday,home,weekday_home,22_weekday_home
+22,cheripan,5,weekday,home,weekday_home,22_weekday_home
+22,costco,5,weekday,home,weekday_home,22_weekday_home
+22,daruma,5,weekday,home,weekday_home,22_weekday_home
+22,dominos pizza,4,weekday,home,weekday_home,22_weekday_home
+22,el mazateno,5,weekday,home,weekday_home,22_weekday_home
+22,el porton,5,weekday,home,weekday_home,22_weekday_home
+22,el rodeo,5,weekday,home,weekday_home,22_weekday_home
+22,fonda argentina,5,weekday,home,weekday_home,22_weekday_home
+22,giuseppis,5,weekday,home,weekday_home,22_weekday_home
+22,kentucky fried chicken,4,weekday,home,weekday_home,22_weekday_home
+22,la casa del mole,5,weekday,home,weekday_home,22_weekday_home
+22,la lena,5,weekday,home,weekday_home,22_weekday_home
+22,la querencia,5,weekday,home,weekday_home,22_weekday_home
+22,la torta plaza,2,weekday,home,weekday_home,22_weekday_home
+22,la espadana,5,weekday,home,weekday_home,22_weekday_home
+22,landini ristorante toscano,5,weekday,home,weekday_home,22_weekday_home
+22,los arcos,5,weekday,home,weekday_home,22_weekday_home
+22,mc donals,5,weekday,home,weekday_home,22_weekday_home
+22,pampas do brasil,2,weekday,home,weekday_home,22_weekday_home
+22,pancake house,4,weekday,home,weekday_home,22_weekday_home
+22,peter piper pizza,4,weekday,home,weekday_home,22_weekday_home
+22,californias,5,weekday,home,weekday_home,22_weekday_home
+22,ricardos,5,weekday,home,weekday_home,22_weekday_home
+22,cien anos,5,weekday,home,weekday_home,22_weekday_home
+22,sanborns,4,weekday,home,weekday_home,22_weekday_home
+22,sirloin stockade,2,weekday,home,weekday_home,22_weekday_home
+22,subway,4,weekday,home,weekday_home,22_weekday_home
+22,super antojitos,5,weekday,home,weekday_home,22_weekday_home
+22,tortas chapultepec,5,weekday,home,weekday_home,22_weekday_home
+22,tortas la vuelta,5,weekday,home,weekday_home,22_weekday_home
+22,tortas wash movile,5,weekday,home,weekday_home,22_weekday_home
+22,villa saverios,5,weekday,home,weekday_home,22_weekday_home
+22,vips,5,weekday,home,weekday_home,22_weekday_home
+24,carls jr,5,weekday,home,weekday_home,24_weekday_home
+24,subway,5,weekday,home,weekday_home,24_weekday_home
+24,super antojitos,5,weekday,home,weekday_home,24_weekday_home
+25,carls jr,2,weekday,home,weekday_home,25_weekday_home
+25,dominos pizza,5,weekday,home,weekday_home,25_weekday_home
+25,giuseppis,5,weekday,home,weekday_home,25_weekday_home
+25,la casa del mole,5,weekday,home,weekday_home,25_weekday_home
+25,sanborns,5,weekday,home,weekday_home,25_weekday_home
+26,big boy,5,weekday,home,weekday_home,26_weekday_home
+26,carls jr,5,weekday,home,weekday_home,26_weekday_home
+26,subway,5,weekday,home,weekday_home,26_weekday_home
+26,super antojitos,5,weekday,home,weekday_home,26_weekday_home
+27,pancake house,5,weekday,home,weekday_home,27_weekday_home
+28,applebees,2,weekday,home,weekday_home,28_weekday_home
+28,burger king,2,weekday,home,weekday_home,28_weekday_home
+28,carls jr,2,weekday,home,weekday_home,28_weekday_home
+28,dominos pizza,2,weekday,home,weekday_home,28_weekday_home
+28,la casa del mole,2,weekday,home,weekday_home,28_weekday_home
+28,californias,2,weekday,home,weekday_home,28_weekday_home
+28,subway,2,weekday,home,weekday_home,28_weekday_home
+29,dominos pizza,3,weekday,home,weekday_home,29_weekday_home
+30,applebees,1,weekday,home,weekday_home,30_weekday_home
+30,burger king,1,weekday,home,weekday_home,30_weekday_home
+30,cafe de la flor,1,weekday,home,weekday_home,30_weekday_home
+30,carls jr,3,weekday,home,weekday_home,30_weekday_home
+30,dominos pizza,3,weekday,home,weekday_home,30_weekday_home
+30,kentucky fried chicken,2,weekday,home,weekday_home,30_weekday_home
+30,mc donals,1,weekday,home,weekday_home,30_weekday_home
+30,peter piper pizza,3,weekday,home,weekday_home,30_weekday_home
+30,subway,1,weekday,home,weekday_home,30_weekday_home
+30,vips,4,weekday,home,weekday_home,30_weekday_home
+31,burger king,3,weekday,home,weekday_home,31_weekday_home
+31,carls jr,4,weekday,home,weekday_home,31_weekday_home
+31,el mazateno,3,weekday,home,weekday_home,31_weekday_home
+31,kentucky fried chicken,3,weekday,home,weekday_home,31_weekday_home
+31,la torta plaza,5,weekday,home,weekday_home,31_weekday_home
+31,subway,5,weekday,home,weekday_home,31_weekday_home
+31,tortas wash movile,3,weekday,home,weekday_home,31_weekday_home
+32,burger king,5,weekday,home,weekday_home,32_weekday_home
+32,carls jr,5,weekday,home,weekday_home,32_weekday_home
+32,costco,5,weekday,home,weekday_home,32_weekday_home
+32,kentucky fried chicken,5,weekday,home,weekday_home,32_weekday_home
+32,mc donals,5,weekday,home,weekday_home,32_weekday_home
+32,peter piper pizza,5,weekday,home,weekday_home,32_weekday_home
+32,villa saverios,5,weekday,home,weekday_home,32_weekday_home
+33,el mazateno,5,weekday,home,weekday_home,33_weekday_home
+34,cafe de la flor,4,weekday,home,weekday_home,34_weekday_home
+34,la espadana,5,weekday,home,weekday_home,34_weekday_home
+35,cafe de la flor,5,weekday,home,weekday_home,35_weekday_home
+36,daruma,5,weekday,home,weekday_home,36_weekday_home
+36,tortas wash movile,5,weekday,home,weekday_home,36_weekday_home
+37,applebees,3,weekday,home,weekday_home,37_weekday_home
+37,burger king,1,weekday,home,weekday_home,37_weekday_home
+37,cafe de la flor,2,weekday,home,weekday_home,37_weekday_home
+37,carls jr,1,weekday,home,weekday_home,37_weekday_home
+37,carnitas uruapan,3,weekday,home,weekday_home,37_weekday_home
+37,casa plascencia,1,weekday,home,weekday_home,37_weekday_home
+37,kentucky fried chicken,3,weekday,home,weekday_home,37_weekday_home
+37,la torta plaza,2,weekday,home,weekday_home,37_weekday_home
+37,la espadana,5,weekday,home,weekday_home,37_weekday_home
+37,pampas do brasil,5,weekday,home,weekday_home,37_weekday_home
+37,peter piper pizza,3,weekday,home,weekday_home,37_weekday_home
+37,sirloin stockade,5,weekday,home,weekday_home,37_weekday_home
+37,subway,1,weekday,home,weekday_home,37_weekday_home
+37,tortas wash movile,1,weekday,home,weekday_home,37_weekday_home
+38,burger king,5,weekday,home,weekday_home,38_weekday_home
+38,carls jr,5,weekday,home,weekday_home,38_weekday_home
+38,el mazateno,5,weekday,home,weekday_home,38_weekday_home
+38,la torta plaza,5,weekday,home,weekday_home,38_weekday_home
+38,subway,5,weekday,home,weekday_home,38_weekday_home
+39,big boy,5,weekday,home,weekday_home,39_weekday_home
+39,burger king,5,weekday,home,weekday_home,39_weekday_home
+39,cafe de la flor,5,weekday,home,weekday_home,39_weekday_home
+39,casa plascencia,5,weekday,home,weekday_home,39_weekday_home
+39,cheripan,5,weekday,home,weekday_home,39_weekday_home
+39,dominos pizza,2,weekday,home,weekday_home,39_weekday_home
+39,fonda argentina,2,weekday,home,weekday_home,39_weekday_home
+39,la espadana,5,weekday,home,weekday_home,39_weekday_home
+39,peter piper pizza,5,weekday,home,weekday_home,39_weekday_home
+39,cien anos,5,weekday,home,weekday_home,39_weekday_home
+40,burger king,5,weekday,home,weekday_home,40_weekday_home
+40,carls jr,5,weekday,home,weekday_home,40_weekday_home
+40,carnitas uruapan,5,weekday,home,weekday_home,40_weekday_home
+40,daruma,5,weekday,home,weekday_home,40_weekday_home
+40,el mazateno,5,weekday,home,weekday_home,40_weekday_home
+40,peter piper pizza,5,weekday,home,weekday_home,40_weekday_home
+40,subway,5,weekday,home,weekday_home,40_weekday_home
+40,super antojitos,5,weekday,home,weekday_home,40_weekday_home
+41,burger king,5,weekday,home,weekday_home,41_weekday_home
+41,dominos pizza,5,weekday,home,weekday_home,41_weekday_home
+41,la lena,5,weekday,home,weekday_home,41_weekday_home
+41,la torta plaza,5,weekday,home,weekday_home,41_weekday_home
+41,peter piper pizza,5,weekday,home,weekday_home,41_weekday_home
+41,ricardos,5,weekday,home,weekday_home,41_weekday_home
+41,tortas la vuelta,5,weekday,home,weekday_home,41_weekday_home
+41,villa saverios,5,weekday,home,weekday_home,41_weekday_home
+42,el mazateno,5,weekday,home,weekday_home,42_weekday_home
+43,dominos pizza,5,weekday,home,weekday_home,43_weekday_home
+44,applebees,2,weekday,home,weekday_home,44_weekday_home
+44,big boy,2,weekday,home,weekday_home,44_weekday_home
+44,burger king,2,weekday,home,weekday_home,44_weekday_home
+44,cafe de la flor,2,weekday,home,weekday_home,44_weekday_home
+44,carls jr,5,weekday,home,weekday_home,44_weekday_home
+44,carnitas uruapan,2,weekday,home,weekday_home,44_weekday_home
+44,casa plascencia,5,weekday,home,weekday_home,44_weekday_home
+44,cheripan,2,weekday,home,weekday_home,44_weekday_home
+44,costco,2,weekday,home,weekday_home,44_weekday_home
+44,daruma,2,weekday,home,weekday_home,44_weekday_home
+44,dominos pizza,2,weekday,home,weekday_home,44_weekday_home
+44,el mazateno,5,weekday,home,weekday_home,44_weekday_home
+44,el porton,2,weekday,home,weekday_home,44_weekday_home
+44,el rodeo,2,weekday,home,weekday_home,44_weekday_home
+44,fonda argentina,5,weekday,home,weekday_home,44_weekday_home
+44,giuseppis,5,weekday,home,weekday_home,44_weekday_home
+44,kentucky fried chicken,2,weekday,home,weekday_home,44_weekday_home
+44,la casa del mole,5,weekday,home,weekday_home,44_weekday_home
+44,la lena,2,weekday,home,weekday_home,44_weekday_home
+44,la querencia,2,weekday,home,weekday_home,44_weekday_home
+44,la torta plaza,2,weekday,home,weekday_home,44_weekday_home
+44,la espadana,5,weekday,home,weekday_home,44_weekday_home
+44,landini ristorante toscano,5,weekday,home,weekday_home,44_weekday_home
+44,los arcos,2,weekday,home,weekday_home,44_weekday_home
+44,mc donals,2,weekday,home,weekday_home,44_weekday_home
+44,pampas do brasil,5,weekday,home,weekday_home,44_weekday_home
+44,pancake house,2,weekday,home,weekday_home,44_weekday_home
+44,peter piper pizza,2,weekday,home,weekday_home,44_weekday_home
+44,californias,2,weekday,home,weekday_home,44_weekday_home
+44,ricardos,2,weekday,home,weekday_home,44_weekday_home
+44,cien anos,2,weekday,home,weekday_home,44_weekday_home
+44,sanborns,2,weekday,home,weekday_home,44_weekday_home
+44,sirloin stockade,2,weekday,home,weekday_home,44_weekday_home
+44,subway,2,weekday,home,weekday_home,44_weekday_home
+44,super antojitos,2,weekday,home,weekday_home,44_weekday_home
+44,tortas chapultepec,5,weekday,home,weekday_home,44_weekday_home
+44,tortas la vuelta,2,weekday,home,weekday_home,44_weekday_home
+44,tortas wash movile,2,weekday,home,weekday_home,44_weekday_home
+44,villa saverios,5,weekday,home,weekday_home,44_weekday_home
+44,vips,5,weekday,home,weekday_home,44_weekday_home
+45,subway,5,weekday,home,weekday_home,45_weekday_home
+46,el mazateno,5,weekday,home,weekday_home,46_weekday_home
+46,ricardos,5,weekday,home,weekday_home,46_weekday_home
+47,applebees,1,weekday,home,weekday_home,47_weekday_home
+47,cafe de la flor,5,weekday,home,weekday_home,47_weekday_home
+47,cheripan,1,weekday,home,weekday_home,47_weekday_home
+47,el mazateno,3,weekday,home,weekday_home,47_weekday_home
+47,la espadana,1,weekday,home,weekday_home,47_weekday_home
+48,burger king,3,weekday,home,weekday_home,48_weekday_home
+48,carls jr,4,weekday,home,weekday_home,48_weekday_home
+48,el mazateno,5,weekday,home,weekday_home,48_weekday_home
+48,peter piper pizza,5,weekday,home,weekday_home,48_weekday_home
+48,sirloin stockade,4,weekday,home,weekday_home,48_weekday_home
+48,tortas wash movile,5,weekday,home,weekday_home,48_weekday_home
+49,carls jr,5,weekday,home,weekday_home,49_weekday_home
+49,carnitas uruapan,2,weekday,home,weekday_home,49_weekday_home
+49,daruma,5,weekday,home,weekday_home,49_weekday_home
+49,el mazateno,5,weekday,home,weekday_home,49_weekday_home
+49,la espadana,3,weekday,home,weekday_home,49_weekday_home
+49,sirloin stockade,3,weekday,home,weekday_home,49_weekday_home
+50,burger king,4,weekday,home,weekday_home,50_weekday_home
+50,carls jr,4,weekday,home,weekday_home,50_weekday_home
+50,costco,2,weekday,home,weekday_home,50_weekday_home
+50,daruma,3,weekday,home,weekday_home,50_weekday_home
+50,el mazateno,2,weekday,home,weekday_home,50_weekday_home
+50,kentucky fried chicken,3,weekday,home,weekday_home,50_weekday_home
+50,peter piper pizza,2,weekday,home,weekday_home,50_weekday_home
+50,sanborns,3,weekday,home,weekday_home,50_weekday_home
+50,sirloin stockade,3,weekday,home,weekday_home,50_weekday_home
+1,applebees,1,weekday,work,weekday_work,1_weekday_work
+1,burger king,4,weekday,work,weekday_work,1_weekday_work
+1,carls jr,5,weekday,work,weekday_work,1_weekday_work
+1,el mazateno,4,weekday,work,weekday_work,1_weekday_work
+1,mc donals,1,weekday,work,weekday_work,1_weekday_work
+1,peter piper pizza,5,weekday,work,weekday_work,1_weekday_work
+2,applebees,5,weekday,work,weekday_work,2_weekday_work
+2,cheripan,5,weekday,work,weekday_work,2_weekday_work
+2,daruma,5,weekday,work,weekday_work,2_weekday_work
+2,fonda argentina,5,weekday,work,weekday_work,2_weekday_work
+2,la casa del mole,5,weekday,work,weekday_work,2_weekday_work
+2,vips,5,weekday,work,weekday_work,2_weekday_work
+3,subway,4,weekday,work,weekday_work,3_weekday_work
+2,applebees,5,weekday,work,weekday_work,2_weekday_work
+2,big boy,5,weekday,work,weekday_work,2_weekday_work
+2,cafe de la flor,5,weekday,work,weekday_work,2_weekday_work
+2,costco,5,weekday,work,weekday_work,2_weekday_work
+2,el mazateno,5,weekday,work,weekday_work,2_weekday_work
+2,subway,5,weekday,work,weekday_work,2_weekday_work
+4,burger king,4,weekday,work,weekday_work,4_weekday_work
+4,kentucky fried chicken,5,weekday,work,weekday_work,4_weekday_work
+4,la torta plaza,4,weekday,work,weekday_work,4_weekday_work
+4,peter piper pizza,5,weekday,work,weekday_work,4_weekday_work
+5,la torta plaza,5,weekday,work,weekday_work,5_weekday_work
+6,applebees,4,weekday,work,weekday_work,6_weekday_work
+7,la torta plaza,5,weekday,work,weekday_work,7_weekday_work
+8,carls jr,5,weekday,work,weekday_work,8_weekday_work
+8,subway,5,weekday,work,weekday_work,8_weekday_work
+10,burger king,1,weekday,work,weekday_work,10_weekday_work
+10,carls jr,1,weekday,work,weekday_work,10_weekday_work
+10,costco,1,weekday,work,weekday_work,10_weekday_work
+10,dominos pizza,1,weekday,work,weekday_work,10_weekday_work
+10,kentucky fried chicken,1,weekday,work,weekday_work,10_weekday_work
+10,mc donals,1,weekday,work,weekday_work,10_weekday_work
+10,peter piper pizza,1,weekday,work,weekday_work,10_weekday_work
+10,subway,3,weekday,work,weekday_work,10_weekday_work
+11,applebees,2,weekday,work,weekday_work,11_weekday_work
+11,big boy,1,weekday,work,weekday_work,11_weekday_work
+11,carls jr,5,weekday,work,weekday_work,11_weekday_work
+11,la torta plaza,5,weekday,work,weekday_work,11_weekday_work
+11,sanborns,3,weekday,work,weekday_work,11_weekday_work
+13,costco,4,weekday,work,weekday_work,13_weekday_work
+15,big boy,5,weekday,work,weekday_work,15_weekday_work
+15,carls jr,5,weekday,work,weekday_work,15_weekday_work
+15,cheripan,5,weekday,work,weekday_work,15_weekday_work
+15,costco,5,weekday,work,weekday_work,15_weekday_work
+15,el mazateno,5,weekday,work,weekday_work,15_weekday_work
+15,el rodeo,5,weekday,work,weekday_work,15_weekday_work
+15,kentucky fried chicken,5,weekday,work,weekday_work,15_weekday_work
+15,la lena,5,weekday,work,weekday_work,15_weekday_work
+15,la torta plaza,5,weekday,work,weekday_work,15_weekday_work
+15,landini ristorante toscano,5,weekday,work,weekday_work,15_weekday_work
+15,peter piper pizza,5,weekday,work,weekday_work,15_weekday_work
+15,cien anos,5,weekday,work,weekday_work,15_weekday_work
+15,super antojitos,5,weekday,work,weekday_work,15_weekday_work
+15,tortas la vuelta,5,weekday,work,weekday_work,15_weekday_work
+15,tortas wash movile,5,weekday,work,weekday_work,15_weekday_work
+17,la torta plaza,3,weekday,work,weekday_work,17_weekday_work
+17,ricardos,4,weekday,work,weekday_work,17_weekday_work
+17,subway,4,weekday,work,weekday_work,17_weekday_work
+18,super antojitos,5,weekday,work,weekday_work,18_weekday_work
+19,la torta plaza,5,weekday,work,weekday_work,19_weekday_work
+20,la casa del mole,5,weekday,work,weekday_work,20_weekday_work
+21,applebees,1,weekday,work,weekday_work,21_weekday_work
+21,burger king,2,weekday,work,weekday_work,21_weekday_work
+21,carls jr,4,weekday,work,weekday_work,21_weekday_work
+21,costco,3,weekday,work,weekday_work,21_weekday_work
+21,daruma,5,weekday,work,weekday_work,21_weekday_work
+21,el mazateno,4,weekday,work,weekday_work,21_weekday_work
+21,la lena,4,weekday,work,weekday_work,21_weekday_work
+21,la torta plaza,3,weekday,work,weekday_work,21_weekday_work
+21,la espadana,4,weekday,work,weekday_work,21_weekday_work
+21,pampas do brasil,4,weekday,work,weekday_work,21_weekday_work
+21,sirloin stockade,4,weekday,work,weekday_work,21_weekday_work
+21,subway,5,weekday,work,weekday_work,21_weekday_work
+25,burger king,5,weekday,work,weekday_work,25_weekday_work
+25,la torta plaza,5,weekday,work,weekday_work,25_weekday_work
+25,subway,5,weekday,work,weekday_work,25_weekday_work
+26,applebees,5,weekday,work,weekday_work,26_weekday_work
+26,casa plascencia,5,weekday,work,weekday_work,26_weekday_work
+26,la torta plaza,5,weekday,work,weekday_work,26_weekday_work
+26,la espadana,5,weekday,work,weekday_work,26_weekday_work
+26,sanborns,5,weekday,work,weekday_work,26_weekday_work
+26,sirloin stockade,5,weekday,work,weekday_work,26_weekday_work
+27,carls jr,5,weekday,work,weekday_work,27_weekday_work
+28,mc donals,3,weekday,work,weekday_work,28_weekday_work
+29,kentucky fried chicken,2,weekday,work,weekday_work,29_weekday_work
+30,applebees,1,weekday,work,weekday_work,30_weekday_work
+30,burger king,1,weekday,work,weekday_work,30_weekday_work
+30,cafe de la flor,1,weekday,work,weekday_work,30_weekday_work
+30,carls jr,3,weekday,work,weekday_work,30_weekday_work
+30,dominos pizza,4,weekday,work,weekday_work,30_weekday_work
+30,kentucky fried chicken,2,weekday,work,weekday_work,30_weekday_work
+30,mc donals,1,weekday,work,weekday_work,30_weekday_work
+30,peter piper pizza,3,weekday,work,weekday_work,30_weekday_work
+30,subway,1,weekday,work,weekday_work,30_weekday_work
+30,vips,4,weekday,work,weekday_work,30_weekday_work
+31,burger king,3,weekday,work,weekday_work,31_weekday_work
+31,cafe de la flor,2,weekday,work,weekday_work,31_weekday_work
+31,el mazateno,3,weekday,work,weekday_work,31_weekday_work
+31,la torta plaza,4,weekday,work,weekday_work,31_weekday_work
+31,subway,5,weekday,work,weekday_work,31_weekday_work
+31,tortas wash movile,3,weekday,work,weekday_work,31_weekday_work
+32,applebees,5,weekday,work,weekday_work,32_weekday_work
+32,carnitas uruapan,5,weekday,work,weekday_work,32_weekday_work
+32,costco,5,weekday,work,weekday_work,32_weekday_work
+32,dominos pizza,5,weekday,work,weekday_work,32_weekday_work
+32,el mazateno,5,weekday,work,weekday_work,32_weekday_work
+32,el rodeo,5,weekday,work,weekday_work,32_weekday_work
+32,mc donals,5,weekday,work,weekday_work,32_weekday_work
+32,pancake house,5,weekday,work,weekday_work,32_weekday_work
+32,ricardos,5,weekday,work,weekday_work,32_weekday_work
+32,sirloin stockade,5,weekday,work,weekday_work,32_weekday_work
+33,cafe de la flor,5,weekday,work,weekday_work,33_weekday_work
+33,carls jr,5,weekday,work,weekday_work,33_weekday_work
+33,la espadana,5,weekday,work,weekday_work,33_weekday_work
+34,cafe de la flor,5,weekday,work,weekday_work,34_weekday_work
+34,la espadana,5,weekday,work,weekday_work,34_weekday_work
+35,cheripan,5,weekday,work,weekday_work,35_weekday_work
+36,daruma,5,weekday,work,weekday_work,36_weekday_work
+36,tortas wash movile,5,weekday,work,weekday_work,36_weekday_work
+37,applebees,5,weekday,work,weekday_work,37_weekday_work
+37,burger king,2,weekday,work,weekday_work,37_weekday_work
+37,cafe de la flor,1,weekday,work,weekday_work,37_weekday_work
+37,carls jr,1,weekday,work,weekday_work,37_weekday_work
+37,carnitas uruapan,3,weekday,work,weekday_work,37_weekday_work
+37,casa plascencia,1,weekday,work,weekday_work,37_weekday_work
+37,kentucky fried chicken,3,weekday,work,weekday_work,37_weekday_work
+37,la torta plaza,2,weekday,work,weekday_work,37_weekday_work
+37,la espadana,5,weekday,work,weekday_work,37_weekday_work
+37,pampas do brasil,5,weekday,work,weekday_work,37_weekday_work
+37,peter piper pizza,3,weekday,work,weekday_work,37_weekday_work
+37,sirloin stockade,5,weekday,work,weekday_work,37_weekday_work
+37,subway,1,weekday,work,weekday_work,37_weekday_work
+37,tortas wash movile,3,weekday,work,weekday_work,37_weekday_work
+38,burger king,5,weekday,work,weekday_work,38_weekday_work
+38,carls jr,5,weekday,work,weekday_work,38_weekday_work
+38,el mazateno,5,weekday,work,weekday_work,38_weekday_work
+38,super antojitos,5,weekday,work,weekday_work,38_weekday_work
+39,kentucky fried chicken,3,weekday,work,weekday_work,39_weekday_work
+39,la querencia,5,weekday,work,weekday_work,39_weekday_work
+39,landini ristorante toscano,5,weekday,work,weekday_work,39_weekday_work
+39,los arcos,5,weekday,work,weekday_work,39_weekday_work
+39,sanborns,5,weekday,work,weekday_work,39_weekday_work
+39,super antojitos,5,weekday,work,weekday_work,39_weekday_work
+40,burger king,5,weekday,work,weekday_work,40_weekday_work
+40,carls jr,5,weekday,work,weekday_work,40_weekday_work
+40,daruma,5,weekday,work,weekday_work,40_weekday_work
+40,el mazateno,5,weekday,work,weekday_work,40_weekday_work
+40,peter piper pizza,5,weekday,work,weekday_work,40_weekday_work
+40,subway,5,weekday,work,weekday_work,40_weekday_work
+40,tortas la vuelta,5,weekday,work,weekday_work,40_weekday_work
+41,casa plascencia,5,weekday,work,weekday_work,41_weekday_work
+41,el porton,5,weekday,work,weekday_work,41_weekday_work
+41,la querencia,5,weekday,work,weekday_work,41_weekday_work
+41,la espadana,5,weekday,work,weekday_work,41_weekday_work
+41,landini ristorante toscano,5,weekday,work,weekday_work,41_weekday_work
+41,pampas do brasil,5,weekday,work,weekday_work,41_weekday_work
+41,cien anos,5,weekday,work,weekday_work,41_weekday_work
+41,sirloin stockade,5,weekday,work,weekday_work,41_weekday_work
+41,subway,5,weekday,work,weekday_work,41_weekday_work
+41,super antojitos,5,weekday,work,weekday_work,41_weekday_work
+41,tortas chapultepec,5,weekday,work,weekday_work,41_weekday_work
+41,tortas wash movile,5,weekday,work,weekday_work,41_weekday_work
+42,vips,5,weekday,work,weekday_work,42_weekday_work
+43,applebees,5,weekday,work,weekday_work,43_weekday_work
+44,applebees,3,weekday,work,weekday_work,44_weekday_work
+44,big boy,3,weekday,work,weekday_work,44_weekday_work
+44,burger king,3,weekday,work,weekday_work,44_weekday_work
+44,cafe de la flor,3,weekday,work,weekday_work,44_weekday_work
+44,carls jr,5,weekday,work,weekday_work,44_weekday_work
+44,carnitas uruapan,3,weekday,work,weekday_work,44_weekday_work
+44,casa plascencia,5,weekday,work,weekday_work,44_weekday_work
+44,cheripan,3,weekday,work,weekday_work,44_weekday_work
+44,costco,3,weekday,work,weekday_work,44_weekday_work
+44,daruma,3,weekday,work,weekday_work,44_weekday_work
+44,dominos pizza,3,weekday,work,weekday_work,44_weekday_work
+44,el mazateno,5,weekday,work,weekday_work,44_weekday_work
+44,el porton,3,weekday,work,weekday_work,44_weekday_work
+44,el rodeo,3,weekday,work,weekday_work,44_weekday_work
+44,fonda argentina,5,weekday,work,weekday_work,44_weekday_work
+44,giuseppis,5,weekday,work,weekday_work,44_weekday_work
+44,kentucky fried chicken,3,weekday,work,weekday_work,44_weekday_work
+44,la casa del mole,5,weekday,work,weekday_work,44_weekday_work
+44,la lena,3,weekday,work,weekday_work,44_weekday_work
+44,la querencia,3,weekday,work,weekday_work,44_weekday_work
+44,la torta plaza,3,weekday,work,weekday_work,44_weekday_work
+44,la espadana,5,weekday,work,weekday_work,44_weekday_work
+44,landini ristorante toscano,5,weekday,work,weekday_work,44_weekday_work
+44,los arcos,3,weekday,work,weekday_work,44_weekday_work
+44,mc donals,3,weekday,work,weekday_work,44_weekday_work
+44,pampas do brasil,5,weekday,work,weekday_work,44_weekday_work
+44,pancake house,3,weekday,work,weekday_work,44_weekday_work
+44,peter piper pizza,3,weekday,work,weekday_work,44_weekday_work
+44,californias,3,weekday,work,weekday_work,44_weekday_work
+44,ricardos,3,weekday,work,weekday_work,44_weekday_work
+44,cien anos,3,weekday,work,weekday_work,44_weekday_work
+44,sanborns,3,weekday,work,weekday_work,44_weekday_work
+44,sirloin stockade,3,weekday,work,weekday_work,44_weekday_work
+44,subway,3,weekday,work,weekday_work,44_weekday_work
+44,super antojitos,3,weekday,work,weekday_work,44_weekday_work
+44,tortas chapultepec,5,weekday,work,weekday_work,44_weekday_work
+44,tortas la vuelta,3,weekday,work,weekday_work,44_weekday_work
+44,tortas wash movile,3,weekday,work,weekday_work,44_weekday_work
+44,villa saverios,5,weekday,work,weekday_work,44_weekday_work
+44,vips,5,weekday,work,weekday_work,44_weekday_work
+45,burger king,5,weekday,work,weekday_work,45_weekday_work
+47,applebees,1,weekday,work,weekday_work,47_weekday_work
+47,cafe de la flor,4,weekday,work,weekday_work,47_weekday_work
+47,cheripan,1,weekday,work,weekday_work,47_weekday_work
+47,el mazateno,2,weekday,work,weekday_work,47_weekday_work
+47,la espadana,1,weekday,work,weekday_work,47_weekday_work
+48,burger king,3,weekday,work,weekday_work,48_weekday_work
+48,carls jr,4,weekday,work,weekday_work,48_weekday_work
+48,el mazateno,5,weekday,work,weekday_work,48_weekday_work
+48,peter piper pizza,5,weekday,work,weekday_work,48_weekday_work
+48,sirloin stockade,4,weekday,work,weekday_work,48_weekday_work
+48,tortas wash movile,5,weekday,work,weekday_work,48_weekday_work
+49,carls jr,5,weekday,work,weekday_work,49_weekday_work
+49,carnitas uruapan,2,weekday,work,weekday_work,49_weekday_work
+49,daruma,5,weekday,work,weekday_work,49_weekday_work
+49,el mazateno,5,weekday,work,weekday_work,49_weekday_work
+49,la espadana,3,weekday,work,weekday_work,49_weekday_work
+49,sirloin stockade,3,weekday,work,weekday_work,49_weekday_work
+50,burger king,4,weekday,work,weekday_work,50_weekday_work
+50,carls jr,4,weekday,work,weekday_work,50_weekday_work
+50,costco,2,weekday,work,weekday_work,50_weekday_work
+50,daruma,3,weekday,work,weekday_work,50_weekday_work
+50,el mazateno,3,weekday,work,weekday_work,50_weekday_work
+50,kentucky fried chicken,3,weekday,work,weekday_work,50_weekday_work
+50,peter piper pizza,1,weekday,work,weekday_work,50_weekday_work
+50,sanborns,3,weekday,work,weekday_work,50_weekday_work
+50,sirloin stockade,3,weekday,work,weekday_work,50_weekday_work
+1,applebees,1,weekend,school,weekend_school,1_weekend_school
+1,burger king,4,weekend,school,weekend_school,1_weekend_school
+1,costco,5,weekend,school,weekend_school,1_weekend_school
+1,el mazateno,1,weekend,school,weekend_school,1_weekend_school
+1,mc donals,1,weekend,school,weekend_school,1_weekend_school
+1,peter piper pizza,5,weekend,school,weekend_school,1_weekend_school
+2,applebees,5,weekend,school,weekend_school,2_weekend_school
+2,costco,5,weekend,school,weekend_school,2_weekend_school
+2,daruma,5,weekend,school,weekend_school,2_weekend_school
+2,dominos pizza,5,weekend,school,weekend_school,2_weekend_school
+2,mc donals,5,weekend,school,weekend_school,2_weekend_school
+2,peter piper pizza,5,weekend,school,weekend_school,2_weekend_school
+2,subway,5,weekend,school,weekend_school,2_weekend_school
+2,villa saverios,5,weekend,school,weekend_school,2_weekend_school
+3,cafe de la flor,4,weekend,school,weekend_school,3_weekend_school
+2,applebees,5,weekend,school,weekend_school,2_weekend_school
+2,burger king,5,weekend,school,weekend_school,2_weekend_school
+2,cafe de la flor,5,weekend,school,weekend_school,2_weekend_school
+2,carls jr,5,weekend,school,weekend_school,2_weekend_school
+2,la lena,5,weekend,school,weekend_school,2_weekend_school
+2,la espadana,5,weekend,school,weekend_school,2_weekend_school
+2,peter piper pizza,5,weekend,school,weekend_school,2_weekend_school
+2,sirloin stockade,5,weekend,school,weekend_school,2_weekend_school
+4,burger king,4,weekend,school,weekend_school,4_weekend_school
+4,kentucky fried chicken,5,weekend,school,weekend_school,4_weekend_school
+4,la torta plaza,4,weekend,school,weekend_school,4_weekend_school
+4,peter piper pizza,5,weekend,school,weekend_school,4_weekend_school
+5,applebees,5,weekend,school,weekend_school,5_weekend_school
+6,el mazateno,4,weekend,school,weekend_school,6_weekend_school
+7,costco,5,weekend,school,weekend_school,7_weekend_school
+7,pampas do brasil,5,weekend,school,weekend_school,7_weekend_school
+7,peter piper pizza,5,weekend,school,weekend_school,7_weekend_school
+7,californias,5,weekend,school,weekend_school,7_weekend_school
+8,applebees,5,weekend,school,weekend_school,8_weekend_school
+8,cafe de la flor,5,weekend,school,weekend_school,8_weekend_school
+8,el mazateno,5,weekend,school,weekend_school,8_weekend_school
+8,kentucky fried chicken,5,weekend,school,weekend_school,8_weekend_school
+8,pancake house,5,weekend,school,weekend_school,8_weekend_school
+8,ricardos,5,weekend,school,weekend_school,8_weekend_school
+10,burger king,3,weekend,school,weekend_school,10_weekend_school
+10,carls jr,5,weekend,school,weekend_school,10_weekend_school
+10,costco,3,weekend,school,weekend_school,10_weekend_school
+10,dominos pizza,4,weekend,school,weekend_school,10_weekend_school
+10,kentucky fried chicken,4,weekend,school,weekend_school,10_weekend_school
+10,mc donals,3,weekend,school,weekend_school,10_weekend_school
+10,peter piper pizza,5,weekend,school,weekend_school,10_weekend_school
+10,subway,3,weekend,school,weekend_school,10_weekend_school
+11,applebees,5,weekend,school,weekend_school,11_weekend_school
+11,big boy,1,weekend,school,weekend_school,11_weekend_school
+11,carls jr,4,weekend,school,weekend_school,11_weekend_school
+11,la torta plaza,4,weekend,school,weekend_school,11_weekend_school
+11,sanborns,4,weekend,school,weekend_school,11_weekend_school
+12,applebees,5,weekend,school,weekend_school,12_weekend_school
+12,costco,5,weekend,school,weekend_school,12_weekend_school
+12,dominos pizza,5,weekend,school,weekend_school,12_weekend_school
+12,sirloin stockade,5,weekend,school,weekend_school,12_weekend_school
+13,giuseppis,5,weekend,school,weekend_school,13_weekend_school
+14,la torta plaza,5,weekend,school,weekend_school,14_weekend_school
+14,los arcos,5,weekend,school,weekend_school,14_weekend_school
+15,applebees,5,weekend,school,weekend_school,15_weekend_school
+15,big boy,5,weekend,school,weekend_school,15_weekend_school
+15,daruma,5,weekend,school,weekend_school,15_weekend_school
+15,giuseppis,5,weekend,school,weekend_school,15_weekend_school
+15,la lena,5,weekend,school,weekend_school,15_weekend_school
+15,peter piper pizza,5,weekend,school,weekend_school,15_weekend_school
+15,ricardos,5,weekend,school,weekend_school,15_weekend_school
+15,subway,5,weekend,school,weekend_school,15_weekend_school
+15,tortas chapultepec,5,weekend,school,weekend_school,15_weekend_school
+17,costco,5,weekend,school,weekend_school,17_weekend_school
+18,la lena,5,weekend,school,weekend_school,18_weekend_school
+20,carls jr,5,weekend,school,weekend_school,20_weekend_school
+21,applebees,4,weekend,school,weekend_school,21_weekend_school
+21,burger king,2,weekend,school,weekend_school,21_weekend_school
+21,carls jr,4,weekend,school,weekend_school,21_weekend_school
+21,costco,5,weekend,school,weekend_school,21_weekend_school
+21,daruma,2,weekend,school,weekend_school,21_weekend_school
+21,el mazateno,5,weekend,school,weekend_school,21_weekend_school
+21,la lena,4,weekend,school,weekend_school,21_weekend_school
+21,la torta plaza,2,weekend,school,weekend_school,21_weekend_school
+21,la espadana,4,weekend,school,weekend_school,21_weekend_school
+21,pampas do brasil,4,weekend,school,weekend_school,21_weekend_school
+21,sirloin stockade,5,weekend,school,weekend_school,21_weekend_school
+21,subway,2,weekend,school,weekend_school,21_weekend_school
+24,applebees,5,weekend,school,weekend_school,24_weekend_school
+24,giuseppis,5,weekend,school,weekend_school,24_weekend_school
+25,landini ristorante toscano,5,weekend,school,weekend_school,25_weekend_school
+26,burger king,5,weekend,school,weekend_school,26_weekend_school
+26,cheripan,5,weekend,school,weekend_school,26_weekend_school
+26,el porton,5,weekend,school,weekend_school,26_weekend_school
+26,el rodeo,5,weekend,school,weekend_school,26_weekend_school
+26,giuseppis,5,weekend,school,weekend_school,26_weekend_school
+26,kentucky fried chicken,5,weekend,school,weekend_school,26_weekend_school
+26,la querencia,5,weekend,school,weekend_school,26_weekend_school
+26,mc donals,5,weekend,school,weekend_school,26_weekend_school
+26,pancake house,5,weekend,school,weekend_school,26_weekend_school
+26,tortas chapultepec,5,weekend,school,weekend_school,26_weekend_school
+26,tortas la vuelta,5,weekend,school,weekend_school,26_weekend_school
+26,villa saverios,5,weekend,school,weekend_school,26_weekend_school
+27,applebees,5,weekend,school,weekend_school,27_weekend_school
+29,carnitas uruapan,5,weekend,school,weekend_school,29_weekend_school
+30,applebees,5,weekend,school,weekend_school,30_weekend_school
+30,burger king,1,weekend,school,weekend_school,30_weekend_school
+30,cafe de la flor,2,weekend,school,weekend_school,30_weekend_school
+30,carls jr,4,weekend,school,weekend_school,30_weekend_school
+30,dominos pizza,5,weekend,school,weekend_school,30_weekend_school
+30,kentucky fried chicken,3,weekend,school,weekend_school,30_weekend_school
+30,mc donals,1,weekend,school,weekend_school,30_weekend_school
+30,peter piper pizza,3,weekend,school,weekend_school,30_weekend_school
+30,subway,1,weekend,school,weekend_school,30_weekend_school
+30,vips,4,weekend,school,weekend_school,30_weekend_school
+31,applebees,3,weekend,school,weekend_school,31_weekend_school
+31,carls jr,4,weekend,school,weekend_school,31_weekend_school
+31,costco,4,weekend,school,weekend_school,31_weekend_school
+31,dominos pizza,3,weekend,school,weekend_school,31_weekend_school
+31,el mazateno,3,weekend,school,weekend_school,31_weekend_school
+31,kentucky fried chicken,3,weekend,school,weekend_school,31_weekend_school
+31,la torta plaza,3,weekend,school,weekend_school,31_weekend_school
+31,los arcos,4,weekend,school,weekend_school,31_weekend_school
+31,pancake house,5,weekend,school,weekend_school,31_weekend_school
+31,peter piper pizza,3,weekend,school,weekend_school,31_weekend_school
+31,sirloin stockade,5,weekend,school,weekend_school,31_weekend_school
+32,cafe de la flor,5,weekend,school,weekend_school,32_weekend_school
+32,carls jr,5,weekend,school,weekend_school,32_weekend_school
+32,carnitas uruapan,5,weekend,school,weekend_school,32_weekend_school
+32,el mazateno,5,weekend,school,weekend_school,32_weekend_school
+32,fonda argentina,5,weekend,school,weekend_school,32_weekend_school
+32,giuseppis,5,weekend,school,weekend_school,32_weekend_school
+32,pampas do brasil,5,weekend,school,weekend_school,32_weekend_school
+32,pancake house,5,weekend,school,weekend_school,32_weekend_school
+32,ricardos,5,weekend,school,weekend_school,32_weekend_school
+32,sanborns,5,weekend,school,weekend_school,32_weekend_school
+34,cafe de la flor,5,weekend,school,weekend_school,34_weekend_school
+34,la espadana,5,weekend,school,weekend_school,34_weekend_school
+35,los arcos,5,weekend,school,weekend_school,35_weekend_school
+36,daruma,5,weekend,school,weekend_school,36_weekend_school
+36,tortas wash movile,5,weekend,school,weekend_school,36_weekend_school
+37,applebees,1,weekend,school,weekend_school,37_weekend_school
+37,burger king,5,weekend,school,weekend_school,37_weekend_school
+37,cafe de la flor,3,weekend,school,weekend_school,37_weekend_school
+37,carls jr,4,weekend,school,weekend_school,37_weekend_school
+37,carnitas uruapan,1,weekend,school,weekend_school,37_weekend_school
+37,casa plascencia,1,weekend,school,weekend_school,37_weekend_school
+37,kentucky fried chicken,2,weekend,school,weekend_school,37_weekend_school
+37,la torta plaza,5,weekend,school,weekend_school,37_weekend_school
+37,la espadana,1,weekend,school,weekend_school,37_weekend_school
+37,pampas do brasil,1,weekend,school,weekend_school,37_weekend_school
+37,peter piper pizza,2,weekend,school,weekend_school,37_weekend_school
+37,sirloin stockade,5,weekend,school,weekend_school,37_weekend_school
+37,subway,3,weekend,school,weekend_school,37_weekend_school
+37,tortas wash movile,5,weekend,school,weekend_school,37_weekend_school
+38,cafe de la flor,5,weekend,school,weekend_school,38_weekend_school
+38,carls jr,5,weekend,school,weekend_school,38_weekend_school
+38,la torta plaza,5,weekend,school,weekend_school,38_weekend_school
+38,mc donals,5,weekend,school,weekend_school,38_weekend_school
+38,peter piper pizza,5,weekend,school,weekend_school,38_weekend_school
+39,tortas chapultepec,5,weekend,school,weekend_school,39_weekend_school
+39,tortas la vuelta,5,weekend,school,weekend_school,39_weekend_school
+40,applebees,5,weekend,school,weekend_school,40_weekend_school
+40,burger king,5,weekend,school,weekend_school,40_weekend_school
+40,la casa del mole,5,weekend,school,weekend_school,40_weekend_school
+40,la lena,5,weekend,school,weekend_school,40_weekend_school
+40,la torta plaza,5,weekend,school,weekend_school,40_weekend_school
+40,peter piper pizza,5,weekend,school,weekend_school,40_weekend_school
+40,vips,5,weekend,school,weekend_school,40_weekend_school
+41,applebees,5,weekend,school,weekend_school,41_weekend_school
+41,cafe de la flor,5,weekend,school,weekend_school,41_weekend_school
+41,carls jr,5,weekend,school,weekend_school,41_weekend_school
+41,cheripan,5,weekend,school,weekend_school,41_weekend_school
+41,costco,5,weekend,school,weekend_school,41_weekend_school
+41,daruma,5,weekend,school,weekend_school,41_weekend_school
+41,el mazateno,5,weekend,school,weekend_school,41_weekend_school
+41,el rodeo,5,weekend,school,weekend_school,41_weekend_school
+41,giuseppis,5,weekend,school,weekend_school,41_weekend_school
+41,kentucky fried chicken,5,weekend,school,weekend_school,41_weekend_school
+41,la casa del mole,5,weekend,school,weekend_school,41_weekend_school
+41,pancake house,5,weekend,school,weekend_school,41_weekend_school
+41,californias,5,weekend,school,weekend_school,41_weekend_school
+41,sanborns,5,weekend,school,weekend_school,41_weekend_school
+41,vips,5,weekend,school,weekend_school,41_weekend_school
+42,sanborns,5,weekend,school,weekend_school,42_weekend_school
+43,el porton,5,weekend,school,weekend_school,43_weekend_school
+43,la casa del mole,5,weekend,school,weekend_school,43_weekend_school
+44,applebees,4,weekend,school,weekend_school,44_weekend_school
+44,big boy,4,weekend,school,weekend_school,44_weekend_school
+44,burger king,4,weekend,school,weekend_school,44_weekend_school
+44,cafe de la flor,4,weekend,school,weekend_school,44_weekend_school
+44,carls jr,1,weekend,school,weekend_school,44_weekend_school
+44,carnitas uruapan,4,weekend,school,weekend_school,44_weekend_school
+44,casa plascencia,1,weekend,school,weekend_school,44_weekend_school
+44,cheripan,4,weekend,school,weekend_school,44_weekend_school
+44,costco,4,weekend,school,weekend_school,44_weekend_school
+44,daruma,4,weekend,school,weekend_school,44_weekend_school
+44,dominos pizza,4,weekend,school,weekend_school,44_weekend_school
+44,el mazateno,1,weekend,school,weekend_school,44_weekend_school
+44,el porton,4,weekend,school,weekend_school,44_weekend_school
+44,el rodeo,4,weekend,school,weekend_school,44_weekend_school
+44,fonda argentina,1,weekend,school,weekend_school,44_weekend_school
+44,giuseppis,1,weekend,school,weekend_school,44_weekend_school
+44,kentucky fried chicken,4,weekend,school,weekend_school,44_weekend_school
+44,la casa del mole,1,weekend,school,weekend_school,44_weekend_school
+44,la lena,4,weekend,school,weekend_school,44_weekend_school
+44,la querencia,4,weekend,school,weekend_school,44_weekend_school
+44,la torta plaza,4,weekend,school,weekend_school,44_weekend_school
+44,la espadana,1,weekend,school,weekend_school,44_weekend_school
+44,landini ristorante toscano,1,weekend,school,weekend_school,44_weekend_school
+44,los arcos,4,weekend,school,weekend_school,44_weekend_school
+44,mc donals,4,weekend,school,weekend_school,44_weekend_school
+44,pampas do brasil,1,weekend,school,weekend_school,44_weekend_school
+44,pancake house,4,weekend,school,weekend_school,44_weekend_school
+44,peter piper pizza,4,weekend,school,weekend_school,44_weekend_school
+44,californias,4,weekend,school,weekend_school,44_weekend_school
+44,ricardos,4,weekend,school,weekend_school,44_weekend_school
+44,cien anos,4,weekend,school,weekend_school,44_weekend_school
+44,sanborns,4,weekend,school,weekend_school,44_weekend_school
+44,sirloin stockade,4,weekend,school,weekend_school,44_weekend_school
+44,subway,4,weekend,school,weekend_school,44_weekend_school
+44,super antojitos,4,weekend,school,weekend_school,44_weekend_school
+44,tortas chapultepec,1,weekend,school,weekend_school,44_weekend_school
+44,tortas la vuelta,4,weekend,school,weekend_school,44_weekend_school
+44,tortas wash movile,4,weekend,school,weekend_school,44_weekend_school
+44,villa saverios,1,weekend,school,weekend_school,44_weekend_school
+44,vips,1,weekend,school,weekend_school,44_weekend_school
+45,cafe de la flor,5,weekend,school,weekend_school,45_weekend_school
+46,carnitas uruapan,5,weekend,school,weekend_school,46_weekend_school
+47,applebees,3,weekend,school,weekend_school,47_weekend_school
+47,cafe de la flor,5,weekend,school,weekend_school,47_weekend_school
+47,cheripan,4,weekend,school,weekend_school,47_weekend_school
+47,el mazateno,1,weekend,school,weekend_school,47_weekend_school
+47,la espadana,5,weekend,school,weekend_school,47_weekend_school
+48,burger king,3,weekend,school,weekend_school,48_weekend_school
+48,carls jr,3,weekend,school,weekend_school,48_weekend_school
+48,el mazateno,4,weekend,school,weekend_school,48_weekend_school
+48,peter piper pizza,4,weekend,school,weekend_school,48_weekend_school
+48,sirloin stockade,2,weekend,school,weekend_school,48_weekend_school
+48,tortas wash movile,2,weekend,school,weekend_school,48_weekend_school
+49,carls jr,2,weekend,school,weekend_school,49_weekend_school
+49,carnitas uruapan,3,weekend,school,weekend_school,49_weekend_school
+49,daruma,2,weekend,school,weekend_school,49_weekend_school
+49,el mazateno,2,weekend,school,weekend_school,49_weekend_school
+49,la espadana,5,weekend,school,weekend_school,49_weekend_school
+49,sirloin stockade,5,weekend,school,weekend_school,49_weekend_school
+50,burger king,4,weekend,school,weekend_school,50_weekend_school
+50,carls jr,4,weekend,school,weekend_school,50_weekend_school
+50,costco,4,weekend,school,weekend_school,50_weekend_school
+50,daruma,3,weekend,school,weekend_school,50_weekend_school
+50,el mazateno,4,weekend,school,weekend_school,50_weekend_school
+50,kentucky fried chicken,3,weekend,school,weekend_school,50_weekend_school
+50,peter piper pizza,3,weekend,school,weekend_school,50_weekend_school
+50,sanborns,3,weekend,school,weekend_school,50_weekend_school
+50,sirloin stockade,3,weekend,school,weekend_school,50_weekend_school
+1,applebees,1,weekend,home,weekend_home,1_weekend_home
+1,el mazateno,5,weekend,home,weekend_home,1_weekend_home
+1,mc donals,1,weekend,home,weekend_home,1_weekend_home
+1,tortas wash movile,5,weekend,home,weekend_home,1_weekend_home
+2,dominos pizza,5,weekend,home,weekend_home,2_weekend_home
+2,fonda argentina,5,weekend,home,weekend_home,2_weekend_home
+2,giuseppis,5,weekend,home,weekend_home,2_weekend_home
+2,kentucky fried chicken,5,weekend,home,weekend_home,2_weekend_home
+2,la casa del mole,5,weekend,home,weekend_home,2_weekend_home
+2,vips,5,weekend,home,weekend_home,2_weekend_home
+3,costco,3,weekend,home,weekend_home,3_weekend_home
+2,carls jr,5,weekend,home,weekend_home,2_weekend_home
+2,costco,5,weekend,home,weekend_home,2_weekend_home
+2,daruma,5,weekend,home,weekend_home,2_weekend_home
+2,dominos pizza,5,weekend,home,weekend_home,2_weekend_home
+2,el mazateno,5,weekend,home,weekend_home,2_weekend_home
+2,subway,5,weekend,home,weekend_home,2_weekend_home
+4,burger king,4,weekend,home,weekend_home,4_weekend_home
+4,kentucky fried chicken,5,weekend,home,weekend_home,4_weekend_home
+4,la torta plaza,4,weekend,home,weekend_home,4_weekend_home
+4,peter piper pizza,5,weekend,home,weekend_home,4_weekend_home
+6,carls jr,4,weekend,home,weekend_home,6_weekend_home
+8,carls jr,5,weekend,home,weekend_home,8_weekend_home
+8,peter piper pizza,5,weekend,home,weekend_home,8_weekend_home
+10,burger king,4,weekend,home,weekend_home,10_weekend_home
+10,carls jr,5,weekend,home,weekend_home,10_weekend_home
+10,costco,4,weekend,home,weekend_home,10_weekend_home
+10,dominos pizza,4,weekend,home,weekend_home,10_weekend_home
+10,kentucky fried chicken,3,weekend,home,weekend_home,10_weekend_home
+10,mc donals,3,weekend,home,weekend_home,10_weekend_home
+10,peter piper pizza,4,weekend,home,weekend_home,10_weekend_home
+10,subway,4,weekend,home,weekend_home,10_weekend_home
+11,applebees,3,weekend,home,weekend_home,11_weekend_home
+11,big boy,1,weekend,home,weekend_home,11_weekend_home
+11,carls jr,4,weekend,home,weekend_home,11_weekend_home
+11,la torta plaza,5,weekend,home,weekend_home,11_weekend_home
+11,sanborns,3,weekend,home,weekend_home,11_weekend_home
+14,burger king,5,weekend,home,weekend_home,14_weekend_home
+14,carls jr,5,weekend,home,weekend_home,14_weekend_home
+14,el mazateno,5,weekend,home,weekend_home,14_weekend_home
+14,la torta plaza,5,weekend,home,weekend_home,14_weekend_home
+14,los arcos,5,weekend,home,weekend_home,14_weekend_home
+14,peter piper pizza,5,weekend,home,weekend_home,14_weekend_home
+14,subway,5,weekend,home,weekend_home,14_weekend_home
+15,burger king,5,weekend,home,weekend_home,15_weekend_home
+15,el porton,5,weekend,home,weekend_home,15_weekend_home
+15,kentucky fried chicken,5,weekend,home,weekend_home,15_weekend_home
+15,la torta plaza,5,weekend,home,weekend_home,15_weekend_home
+15,pancake house,5,weekend,home,weekend_home,15_weekend_home
+15,subway,5,weekend,home,weekend_home,15_weekend_home
+17,los arcos,4,weekend,home,weekend_home,17_weekend_home
+17,ricardos,4,weekend,home,weekend_home,17_weekend_home
+17,tortas wash movile,4,weekend,home,weekend_home,17_weekend_home
+18,sirloin stockade,5,weekend,home,weekend_home,18_weekend_home
+20,el mazateno,5,weekend,home,weekend_home,20_weekend_home
+21,applebees,3,weekend,home,weekend_home,21_weekend_home
+21,burger king,3,weekend,home,weekend_home,21_weekend_home
+21,carls jr,3,weekend,home,weekend_home,21_weekend_home
+21,costco,2,weekend,home,weekend_home,21_weekend_home
+21,daruma,5,weekend,home,weekend_home,21_weekend_home
+21,el mazateno,2,weekend,home,weekend_home,21_weekend_home
+21,la lena,2,weekend,home,weekend_home,21_weekend_home
+21,la torta plaza,3,weekend,home,weekend_home,21_weekend_home
+21,la espadana,1,weekend,home,weekend_home,21_weekend_home
+21,pampas do brasil,2,weekend,home,weekend_home,21_weekend_home
+21,sirloin stockade,3,weekend,home,weekend_home,21_weekend_home
+21,subway,4,weekend,home,weekend_home,21_weekend_home
+23,applebees,5,weekend,home,weekend_home,23_weekend_home
+24,el mazateno,5,weekend,home,weekend_home,24_weekend_home
+25,la lena,5,weekend,home,weekend_home,25_weekend_home
+25,la querencia,5,weekend,home,weekend_home,25_weekend_home
+25,villa saverios,5,weekend,home,weekend_home,25_weekend_home
+26,los arcos,5,weekend,home,weekend_home,26_weekend_home
+26,peter piper pizza,5,weekend,home,weekend_home,26_weekend_home
+27,carls jr,5,weekend,home,weekend_home,27_weekend_home
+28,applebees,5,weekend,home,weekend_home,28_weekend_home
+28,burger king,5,weekend,home,weekend_home,28_weekend_home
+28,dominos pizza,5,weekend,home,weekend_home,28_weekend_home
+28,la casa del mole,5,weekend,home,weekend_home,28_weekend_home
+28,mc donals,5,weekend,home,weekend_home,28_weekend_home
+28,super antojitos,5,weekend,home,weekend_home,28_weekend_home
+29,la torta plaza,4,weekend,home,weekend_home,29_weekend_home
+30,applebees,3,weekend,home,weekend_home,30_weekend_home
+30,burger king,1,weekend,home,weekend_home,30_weekend_home
+30,cafe de la flor,2,weekend,home,weekend_home,30_weekend_home
+30,carls jr,5,weekend,home,weekend_home,30_weekend_home
+30,dominos pizza,4,weekend,home,weekend_home,30_weekend_home
+30,kentucky fried chicken,3,weekend,home,weekend_home,30_weekend_home
+30,mc donals,1,weekend,home,weekend_home,30_weekend_home
+30,peter piper pizza,3,weekend,home,weekend_home,30_weekend_home
+30,subway,1,weekend,home,weekend_home,30_weekend_home
+30,vips,4,weekend,home,weekend_home,30_weekend_home
+31,burger king,3,weekend,home,weekend_home,31_weekend_home
+31,carls jr,3,weekend,home,weekend_home,31_weekend_home
+31,costco,3,weekend,home,weekend_home,31_weekend_home
+31,el mazateno,4,weekend,home,weekend_home,31_weekend_home
+31,la espadana,4,weekend,home,weekend_home,31_weekend_home
+31,los arcos,4,weekend,home,weekend_home,31_weekend_home
+31,pancake house,5,weekend,home,weekend_home,31_weekend_home
+31,peter piper pizza,3,weekend,home,weekend_home,31_weekend_home
+31,sirloin stockade,5,weekend,home,weekend_home,31_weekend_home
+32,applebees,5,weekend,home,weekend_home,32_weekend_home
+32,burger king,5,weekend,home,weekend_home,32_weekend_home
+32,costco,5,weekend,home,weekend_home,32_weekend_home
+32,dominos pizza,5,weekend,home,weekend_home,32_weekend_home
+32,el mazateno,5,weekend,home,weekend_home,32_weekend_home
+32,kentucky fried chicken,5,weekend,home,weekend_home,32_weekend_home
+32,la torta plaza,5,weekend,home,weekend_home,32_weekend_home
+32,subway,5,weekend,home,weekend_home,32_weekend_home
+34,cafe de la flor,4,weekend,home,weekend_home,34_weekend_home
+34,la espadana,5,weekend,home,weekend_home,34_weekend_home
+35,la espadana,5,weekend,home,weekend_home,35_weekend_home
+36,cafe de la flor,5,weekend,home,weekend_home,36_weekend_home
+36,carls jr,5,weekend,home,weekend_home,36_weekend_home
+36,daruma,5,weekend,home,weekend_home,36_weekend_home
+36,los arcos,5,weekend,home,weekend_home,36_weekend_home
+36,cien anos,5,weekend,home,weekend_home,36_weekend_home
+36,tortas wash movile,5,weekend,home,weekend_home,36_weekend_home
+37,applebees,3,weekend,home,weekend_home,37_weekend_home
+37,burger king,5,weekend,home,weekend_home,37_weekend_home
+37,cafe de la flor,3,weekend,home,weekend_home,37_weekend_home
+37,carls jr,4,weekend,home,weekend_home,37_weekend_home
+37,carnitas uruapan,2,weekend,home,weekend_home,37_weekend_home
+37,casa plascencia,1,weekend,home,weekend_home,37_weekend_home
+37,kentucky fried chicken,3,weekend,home,weekend_home,37_weekend_home
+37,la torta plaza,2,weekend,home,weekend_home,37_weekend_home
+37,la espadana,5,weekend,home,weekend_home,37_weekend_home
+37,pampas do brasil,5,weekend,home,weekend_home,37_weekend_home
+37,peter piper pizza,3,weekend,home,weekend_home,37_weekend_home
+37,sirloin stockade,5,weekend,home,weekend_home,37_weekend_home
+37,subway,1,weekend,home,weekend_home,37_weekend_home
+37,tortas wash movile,1,weekend,home,weekend_home,37_weekend_home
+38,el mazateno,5,weekend,home,weekend_home,38_weekend_home
+38,la torta plaza,5,weekend,home,weekend_home,38_weekend_home
+38,los arcos,5,weekend,home,weekend_home,38_weekend_home
+38,tortas chapultepec,5,weekend,home,weekend_home,38_weekend_home
+39,carls jr,5,weekend,home,weekend_home,39_weekend_home
+39,daruma,5,weekend,home,weekend_home,39_weekend_home
+39,el mazateno,5,weekend,home,weekend_home,39_weekend_home
+39,pancake house,5,weekend,home,weekend_home,39_weekend_home
+39,ricardos,5,weekend,home,weekend_home,39_weekend_home
+39,sirloin stockade,5,weekend,home,weekend_home,39_weekend_home
+39,tortas wash movile,5,weekend,home,weekend_home,39_weekend_home
+40,burger king,5,weekend,home,weekend_home,40_weekend_home
+40,daruma,5,weekend,home,weekend_home,40_weekend_home
+40,el mazateno,5,weekend,home,weekend_home,40_weekend_home
+40,peter piper pizza,5,weekend,home,weekend_home,40_weekend_home
+40,subway,5,weekend,home,weekend_home,40_weekend_home
+41,carnitas uruapan,5,weekend,home,weekend_home,41_weekend_home
+41,los arcos,5,weekend,home,weekend_home,41_weekend_home
+42,burger king,5,weekend,home,weekend_home,42_weekend_home
+43,kentucky fried chicken,5,weekend,home,weekend_home,43_weekend_home
+44,applebees,5,weekend,home,weekend_home,44_weekend_home
+44,big boy,5,weekend,home,weekend_home,44_weekend_home
+44,burger king,5,weekend,home,weekend_home,44_weekend_home
+44,cafe de la flor,5,weekend,home,weekend_home,44_weekend_home
+44,carls jr,2,weekend,home,weekend_home,44_weekend_home
+44,carnitas uruapan,5,weekend,home,weekend_home,44_weekend_home
+44,casa plascencia,2,weekend,home,weekend_home,44_weekend_home
+44,cheripan,5,weekend,home,weekend_home,44_weekend_home
+44,costco,5,weekend,home,weekend_home,44_weekend_home
+44,daruma,5,weekend,home,weekend_home,44_weekend_home
+44,dominos pizza,5,weekend,home,weekend_home,44_weekend_home
+44,el mazateno,2,weekend,home,weekend_home,44_weekend_home
+44,el porton,5,weekend,home,weekend_home,44_weekend_home
+44,el rodeo,5,weekend,home,weekend_home,44_weekend_home
+44,fonda argentina,2,weekend,home,weekend_home,44_weekend_home
+44,giuseppis,2,weekend,home,weekend_home,44_weekend_home
+44,kentucky fried chicken,5,weekend,home,weekend_home,44_weekend_home
+44,la casa del mole,2,weekend,home,weekend_home,44_weekend_home
+44,la lena,5,weekend,home,weekend_home,44_weekend_home
+44,la querencia,5,weekend,home,weekend_home,44_weekend_home
+44,la torta plaza,5,weekend,home,weekend_home,44_weekend_home
+44,la espadana,2,weekend,home,weekend_home,44_weekend_home
+44,landini ristorante toscano,2,weekend,home,weekend_home,44_weekend_home
+44,los arcos,5,weekend,home,weekend_home,44_weekend_home
+44,mc donals,5,weekend,home,weekend_home,44_weekend_home
+44,pampas do brasil,2,weekend,home,weekend_home,44_weekend_home
+44,pancake house,5,weekend,home,weekend_home,44_weekend_home
+44,peter piper pizza,5,weekend,home,weekend_home,44_weekend_home
+44,californias,5,weekend,home,weekend_home,44_weekend_home
+44,ricardos,5,weekend,home,weekend_home,44_weekend_home
+44,cien anos,5,weekend,home,weekend_home,44_weekend_home
+44,sanborns,5,weekend,home,weekend_home,44_weekend_home
+44,sirloin stockade,5,weekend,home,weekend_home,44_weekend_home
+44,subway,5,weekend,home,weekend_home,44_weekend_home
+44,super antojitos,5,weekend,home,weekend_home,44_weekend_home
+44,tortas chapultepec,2,weekend,home,weekend_home,44_weekend_home
+44,tortas la vuelta,5,weekend,home,weekend_home,44_weekend_home
+44,tortas wash movile,5,weekend,home,weekend_home,44_weekend_home
+44,villa saverios,2,weekend,home,weekend_home,44_weekend_home
+44,vips,2,weekend,home,weekend_home,44_weekend_home
+45,el mazateno,5,weekend,home,weekend_home,45_weekend_home
+46,daruma,5,weekend,home,weekend_home,46_weekend_home
+47,applebees,2,weekend,home,weekend_home,47_weekend_home
+47,cafe de la flor,5,weekend,home,weekend_home,47_weekend_home
+47,cheripan,4,weekend,home,weekend_home,47_weekend_home
+47,el mazateno,5,weekend,home,weekend_home,47_weekend_home
+47,la espadana,5,weekend,home,weekend_home,47_weekend_home
+48,burger king,2,weekend,home,weekend_home,48_weekend_home
+48,carls jr,5,weekend,home,weekend_home,48_weekend_home
+48,el mazateno,5,weekend,home,weekend_home,48_weekend_home
+48,peter piper pizza,5,weekend,home,weekend_home,48_weekend_home
+48,sirloin stockade,4,weekend,home,weekend_home,48_weekend_home
+48,tortas wash movile,5,weekend,home,weekend_home,48_weekend_home
+49,carls jr,5,weekend,home,weekend_home,49_weekend_home
+49,carnitas uruapan,2,weekend,home,weekend_home,49_weekend_home
+49,daruma,5,weekend,home,weekend_home,49_weekend_home
+49,el mazateno,5,weekend,home,weekend_home,49_weekend_home
+49,la espadana,2,weekend,home,weekend_home,49_weekend_home
+49,sirloin stockade,2,weekend,home,weekend_home,49_weekend_home
+50,burger king,4,weekend,home,weekend_home,50_weekend_home
+50,carls jr,4,weekend,home,weekend_home,50_weekend_home
+50,costco,4,weekend,home,weekend_home,50_weekend_home
+50,daruma,3,weekend,home,weekend_home,50_weekend_home
+50,el mazateno,4,weekend,home,weekend_home,50_weekend_home
+50,kentucky fried chicken,3,weekend,home,weekend_home,50_weekend_home
+50,peter piper pizza,3,weekend,home,weekend_home,50_weekend_home
+50,sanborns,3,weekend,home,weekend_home,50_weekend_home
+50,sirloin stockade,3,weekend,home,weekend_home,50_weekend_home
+1,applebees,1,weekend,work,weekend_work,1_weekend_work
+1,el mazateno,3,weekend,work,weekend_work,1_weekend_work
+1,la lena,5,weekend,work,weekend_work,1_weekend_work
+1,la espadana,5,weekend,work,weekend_work,1_weekend_work
+1,mc donals,1,weekend,work,weekend_work,1_weekend_work
+2,applebees,5,weekend,work,weekend_work,2_weekend_work
+2,daruma,5,weekend,work,weekend_work,2_weekend_work
+2,la casa del mole,5,weekend,work,weekend_work,2_weekend_work
+2,mc donals,5,weekend,work,weekend_work,2_weekend_work
+2,peter piper pizza,5,weekend,work,weekend_work,2_weekend_work
+2,super antojitos,5,weekend,work,weekend_work,2_weekend_work
+2,tortas chapultepec,5,weekend,work,weekend_work,2_weekend_work
+2,vips,5,weekend,work,weekend_work,2_weekend_work
+3,la espadana,4,weekend,work,weekend_work,3_weekend_work
+2,applebees,5,weekend,work,weekend_work,2_weekend_work
+2,cafe de la flor,5,weekend,work,weekend_work,2_weekend_work
+2,el mazateno,5,weekend,work,weekend_work,2_weekend_work
+2,la lena,5,weekend,work,weekend_work,2_weekend_work
+2,la espadana,5,weekend,work,weekend_work,2_weekend_work
+2,californias,5,weekend,work,weekend_work,2_weekend_work
+2,ricardos,5,weekend,work,weekend_work,2_weekend_work
+2,subway,5,weekend,work,weekend_work,2_weekend_work
+4,burger king,4,weekend,work,weekend_work,4_weekend_work
+4,kentucky fried chicken,5,weekend,work,weekend_work,4_weekend_work
+4,la torta plaza,4,weekend,work,weekend_work,4_weekend_work
+4,peter piper pizza,5,weekend,work,weekend_work,4_weekend_work
+5,giuseppis,5,weekend,work,weekend_work,5_weekend_work
+6,applebees,4,weekend,work,weekend_work,6_weekend_work
+7,mc donals,5,weekend,work,weekend_work,7_weekend_work
+8,el porton,5,weekend,work,weekend_work,8_weekend_work
+10,burger king,1,weekend,work,weekend_work,10_weekend_work
+10,carls jr,1,weekend,work,weekend_work,10_weekend_work
+10,costco,1,weekend,work,weekend_work,10_weekend_work
+10,dominos pizza,1,weekend,work,weekend_work,10_weekend_work
+10,kentucky fried chicken,1,weekend,work,weekend_work,10_weekend_work
+10,mc donals,1,weekend,work,weekend_work,10_weekend_work
+10,peter piper pizza,1,weekend,work,weekend_work,10_weekend_work
+10,subway,3,weekend,work,weekend_work,10_weekend_work
+11,applebees,1,weekend,work,weekend_work,11_weekend_work
+11,big boy,1,weekend,work,weekend_work,11_weekend_work
+11,carls jr,3,weekend,work,weekend_work,11_weekend_work
+11,la torta plaza,3,weekend,work,weekend_work,11_weekend_work
+11,sanborns,3,weekend,work,weekend_work,11_weekend_work
+15,burger king,5,weekend,work,weekend_work,15_weekend_work
+15,casa plascencia,5,weekend,work,weekend_work,15_weekend_work
+15,daruma,5,weekend,work,weekend_work,15_weekend_work
+15,el porton,5,weekend,work,weekend_work,15_weekend_work
+15,fonda argentina,5,weekend,work,weekend_work,15_weekend_work
+15,la casa del mole,5,weekend,work,weekend_work,15_weekend_work
+15,la querencia,5,weekend,work,weekend_work,15_weekend_work
+15,la torta plaza,5,weekend,work,weekend_work,15_weekend_work
+15,californias,5,weekend,work,weekend_work,15_weekend_work
+15,subway,5,weekend,work,weekend_work,15_weekend_work
+15,tortas wash movile,5,weekend,work,weekend_work,15_weekend_work
+17,peter piper pizza,4,weekend,work,weekend_work,17_weekend_work
+18,tortas la vuelta,5,weekend,work,weekend_work,18_weekend_work
+20,burger king,5,weekend,work,weekend_work,20_weekend_work
+21,applebees,5,weekend,work,weekend_work,21_weekend_work
+21,burger king,4,weekend,work,weekend_work,21_weekend_work
+21,carls jr,3,weekend,work,weekend_work,21_weekend_work
+21,costco,4,weekend,work,weekend_work,21_weekend_work
+21,daruma,1,weekend,work,weekend_work,21_weekend_work
+21,el mazateno,4,weekend,work,weekend_work,21_weekend_work
+21,la lena,4,weekend,work,weekend_work,21_weekend_work
+21,la torta plaza,2,weekend,work,weekend_work,21_weekend_work
+21,la espadana,4,weekend,work,weekend_work,21_weekend_work
+21,pampas do brasil,3,weekend,work,weekend_work,21_weekend_work
+21,sirloin stockade,3,weekend,work,weekend_work,21_weekend_work
+21,subway,2,weekend,work,weekend_work,21_weekend_work
+26,cafe de la flor,5,weekend,work,weekend_work,26_weekend_work
+26,el mazateno,5,weekend,work,weekend_work,26_weekend_work
+26,vips,5,weekend,work,weekend_work,26_weekend_work
+27,vips,5,weekend,work,weekend_work,27_weekend_work
+29,ricardos,4,weekend,work,weekend_work,29_weekend_work
+30,applebees,5,weekend,work,weekend_work,30_weekend_work
+30,burger king,1,weekend,work,weekend_work,30_weekend_work
+30,cafe de la flor,2,weekend,work,weekend_work,30_weekend_work
+30,carls jr,4,weekend,work,weekend_work,30_weekend_work
+30,dominos pizza,5,weekend,work,weekend_work,30_weekend_work
+30,kentucky fried chicken,3,weekend,work,weekend_work,30_weekend_work
+30,mc donals,1,weekend,work,weekend_work,30_weekend_work
+30,peter piper pizza,3,weekend,work,weekend_work,30_weekend_work
+30,subway,1,weekend,work,weekend_work,30_weekend_work
+30,vips,4,weekend,work,weekend_work,30_weekend_work
+31,carls jr,4,weekend,work,weekend_work,31_weekend_work
+31,costco,3,weekend,work,weekend_work,31_weekend_work
+31,dominos pizza,4,weekend,work,weekend_work,31_weekend_work
+31,la torta plaza,4,weekend,work,weekend_work,31_weekend_work
+32,applebees,5,weekend,work,weekend_work,32_weekend_work
+32,cafe de la flor,5,weekend,work,weekend_work,32_weekend_work
+32,carnitas uruapan,5,weekend,work,weekend_work,32_weekend_work
+32,costco,5,weekend,work,weekend_work,32_weekend_work
+32,fonda argentina,5,weekend,work,weekend_work,32_weekend_work
+32,la espadana,5,weekend,work,weekend_work,32_weekend_work
+32,pampas do brasil,5,weekend,work,weekend_work,32_weekend_work
+32,pancake house,5,weekend,work,weekend_work,32_weekend_work
+32,ricardos,5,weekend,work,weekend_work,32_weekend_work
+33,cafe de la flor,5,weekend,work,weekend_work,33_weekend_work
+33,carls jr,5,weekend,work,weekend_work,33_weekend_work
+33,giuseppis,5,weekend,work,weekend_work,33_weekend_work
+33,la espadana,5,weekend,work,weekend_work,33_weekend_work
+34,cafe de la flor,5,weekend,work,weekend_work,34_weekend_work
+34,la espadana,5,weekend,work,weekend_work,34_weekend_work
+36,daruma,5,weekend,work,weekend_work,36_weekend_work
+36,la lena,5,weekend,work,weekend_work,36_weekend_work
+36,cien anos,5,weekend,work,weekend_work,36_weekend_work
+36,tortas wash movile,5,weekend,work,weekend_work,36_weekend_work
+37,applebees,4,weekend,work,weekend_work,37_weekend_work
+37,burger king,5,weekend,work,weekend_work,37_weekend_work
+37,cafe de la flor,3,weekend,work,weekend_work,37_weekend_work
+37,carls jr,4,weekend,work,weekend_work,37_weekend_work
+37,carnitas uruapan,2,weekend,work,weekend_work,37_weekend_work
+37,casa plascencia,1,weekend,work,weekend_work,37_weekend_work
+37,kentucky fried chicken,3,weekend,work,weekend_work,37_weekend_work
+37,la torta plaza,2,weekend,work,weekend_work,37_weekend_work
+37,la espadana,5,weekend,work,weekend_work,37_weekend_work
+37,pampas do brasil,5,weekend,work,weekend_work,37_weekend_work
+37,peter piper pizza,3,weekend,work,weekend_work,37_weekend_work
+37,sirloin stockade,5,weekend,work,weekend_work,37_weekend_work
+37,subway,1,weekend,work,weekend_work,37_weekend_work
+37,tortas wash movile,3,weekend,work,weekend_work,37_weekend_work
+38,el mazateno,5,weekend,work,weekend_work,38_weekend_work
+38,la torta plaza,5,weekend,work,weekend_work,38_weekend_work
+38,los arcos,5,weekend,work,weekend_work,38_weekend_work
+38,tortas la vuelta,5,weekend,work,weekend_work,38_weekend_work
+39,carls jr,5,weekend,work,weekend_work,39_weekend_work
+39,la casa del mole,5,weekend,work,weekend_work,39_weekend_work
+39,la torta plaza,5,weekend,work,weekend_work,39_weekend_work
+39,californias,5,weekend,work,weekend_work,39_weekend_work
+39,subway,5,weekend,work,weekend_work,39_weekend_work
+40,carls jr,5,weekend,work,weekend_work,40_weekend_work
+40,carnitas uruapan,5,weekend,work,weekend_work,40_weekend_work
+40,kentucky fried chicken,5,weekend,work,weekend_work,40_weekend_work
+40,la casa del mole,5,weekend,work,weekend_work,40_weekend_work
+40,la querencia,5,weekend,work,weekend_work,40_weekend_work
+40,los arcos,5,weekend,work,weekend_work,40_weekend_work
+40,vips,5,weekend,work,weekend_work,40_weekend_work
+42,costco,5,weekend,work,weekend_work,42_weekend_work
+43,carls jr,5,weekend,work,weekend_work,43_weekend_work
+43,kentucky fried chicken,5,weekend,work,weekend_work,43_weekend_work
+44,applebees,5,weekend,work,weekend_work,44_weekend_work
+44,big boy,5,weekend,work,weekend_work,44_weekend_work
+44,burger king,5,weekend,work,weekend_work,44_weekend_work
+44,cafe de la flor,5,weekend,work,weekend_work,44_weekend_work
+44,carls jr,3,weekend,work,weekend_work,44_weekend_work
+44,carnitas uruapan,5,weekend,work,weekend_work,44_weekend_work
+44,casa plascencia,3,weekend,work,weekend_work,44_weekend_work
+44,cheripan,5,weekend,work,weekend_work,44_weekend_work
+44,costco,5,weekend,work,weekend_work,44_weekend_work
+44,daruma,5,weekend,work,weekend_work,44_weekend_work
+44,dominos pizza,5,weekend,work,weekend_work,44_weekend_work
+44,el mazateno,3,weekend,work,weekend_work,44_weekend_work
+44,el porton,5,weekend,work,weekend_work,44_weekend_work
+44,el rodeo,5,weekend,work,weekend_work,44_weekend_work
+44,fonda argentina,3,weekend,work,weekend_work,44_weekend_work
+44,giuseppis,3,weekend,work,weekend_work,44_weekend_work
+44,kentucky fried chicken,5,weekend,work,weekend_work,44_weekend_work
+44,la casa del mole,3,weekend,work,weekend_work,44_weekend_work
+44,la lena,5,weekend,work,weekend_work,44_weekend_work
+44,la querencia,5,weekend,work,weekend_work,44_weekend_work
+44,la torta plaza,5,weekend,work,weekend_work,44_weekend_work
+44,la espadana,3,weekend,work,weekend_work,44_weekend_work
+44,landini ristorante toscano,3,weekend,work,weekend_work,44_weekend_work
+44,los arcos,5,weekend,work,weekend_work,44_weekend_work
+44,mc donals,5,weekend,work,weekend_work,44_weekend_work
+44,pampas do brasil,3,weekend,work,weekend_work,44_weekend_work
+44,pancake house,5,weekend,work,weekend_work,44_weekend_work
+44,peter piper pizza,5,weekend,work,weekend_work,44_weekend_work
+44,californias,5,weekend,work,weekend_work,44_weekend_work
+44,ricardos,5,weekend,work,weekend_work,44_weekend_work
+44,cien anos,5,weekend,work,weekend_work,44_weekend_work
+44,sanborns,5,weekend,work,weekend_work,44_weekend_work
+44,sirloin stockade,5,weekend,work,weekend_work,44_weekend_work
+44,subway,5,weekend,work,weekend_work,44_weekend_work
+44,super antojitos,5,weekend,work,weekend_work,44_weekend_work
+44,tortas chapultepec,3,weekend,work,weekend_work,44_weekend_work
+44,tortas la vuelta,5,weekend,work,weekend_work,44_weekend_work
+44,tortas wash movile,5,weekend,work,weekend_work,44_weekend_work
+44,villa saverios,3,weekend,work,weekend_work,44_weekend_work
+44,vips,3,weekend,work,weekend_work,44_weekend_work
+45,la casa del mole,5,weekend,work,weekend_work,45_weekend_work
+46,pampas do brasil,5,weekend,work,weekend_work,46_weekend_work
+47,applebees,1,weekend,work,weekend_work,47_weekend_work
+47,cafe de la flor,5,weekend,work,weekend_work,47_weekend_work
+47,cheripan,4,weekend,work,weekend_work,47_weekend_work
+47,el mazateno,1,weekend,work,weekend_work,47_weekend_work
+47,la espadana,5,weekend,work,weekend_work,47_weekend_work
+48,burger king,2,weekend,work,weekend_work,48_weekend_work
+48,carls jr,5,weekend,work,weekend_work,48_weekend_work
+48,el mazateno,5,weekend,work,weekend_work,48_weekend_work
+48,peter piper pizza,5,weekend,work,weekend_work,48_weekend_work
+48,sirloin stockade,4,weekend,work,weekend_work,48_weekend_work
+48,tortas wash movile,5,weekend,work,weekend_work,48_weekend_work
+49,carls jr,5,weekend,work,weekend_work,49_weekend_work
+49,carnitas uruapan,2,weekend,work,weekend_work,49_weekend_work
+49,daruma,5,weekend,work,weekend_work,49_weekend_work
+49,el mazateno,5,weekend,work,weekend_work,49_weekend_work
+49,la espadana,5,weekend,work,weekend_work,49_weekend_work
+49,sirloin stockade,5,weekend,work,weekend_work,49_weekend_work
+50,burger king,4,weekend,work,weekend_work,50_weekend_work
+50,carls jr,4,weekend,work,weekend_work,50_weekend_work
+50,costco,4,weekend,work,weekend_work,50_weekend_work
+50,daruma,3,weekend,work,weekend_work,50_weekend_work
+50,el mazateno,4,weekend,work,weekend_work,50_weekend_work
+50,kentucky fried chicken,3,weekend,work,weekend_work,50_weekend_work
+50,peter piper pizza,3,weekend,work,weekend_work,50_weekend_work
+50,sanborns,3,weekend,work,weekend_work,50_weekend_work
+50,sirloin stockade,3,weekend,work,weekend_work,50_weekend_work
+1,costco,5,NA,NA,NA_NA,1_NA_NA
+1,peter piper pizza,5,NA,NA,NA_NA,1_NA_NA
+1,subway,5,NA,NA,NA_NA,1_NA_NA
+2,cafe de la flor,5,NA,NA,NA_NA,2_NA_NA
+2,el mazateno,5,NA,NA,NA_NA,2_NA_NA
+2,la espadana,5,NA,NA,NA_NA,2_NA_NA
+2,sirloin stockade,5,NA,NA,NA_NA,2_NA_NA
+2,subway,5,NA,NA,NA_NA,2_NA_NA
+3,cafe de la flor,5,NA,NA,NA_NA,3_NA_NA
+3,carls jr,5,NA,NA,NA_NA,3_NA_NA
+3,la espadana,5,NA,NA,NA_NA,3_NA_NA
+3,subway,5,NA,NA,NA_NA,3_NA_NA
+4,burger king,5,NA,NA,NA_NA,4_NA_NA
+4,dominos pizza,5,NA,NA,NA_NA,4_NA_NA
+4,la torta plaza,5,NA,NA,NA_NA,4_NA_NA
+5,applebees,5,NA,NA,NA_NA,5_NA_NA
+5,el mazateno,5,NA,NA,NA_NA,5_NA_NA
+5,la casa del mole,5,NA,NA,NA_NA,5_NA_NA
+5,la espadana,5,NA,NA,NA_NA,5_NA_NA
+5,los arcos,5,NA,NA,NA_NA,5_NA_NA
+7,pampas do brasil,5,NA,NA,NA_NA,7_NA_NA
+7,californias,5,NA,NA,NA_NA,7_NA_NA
+7,ricardos,5,NA,NA,NA_NA,7_NA_NA
+7,super antojitos,5,NA,NA,NA_NA,7_NA_NA
+7,tortas chapultepec,5,NA,NA,NA_NA,7_NA_NA
+8,cafe de la flor,5,NA,NA,NA_NA,8_NA_NA
+8,carls jr,5,NA,NA,NA_NA,8_NA_NA
+8,daruma,5,NA,NA,NA_NA,8_NA_NA
+8,pampas do brasil,5,NA,NA,NA_NA,8_NA_NA
+8,pancake house,5,NA,NA,NA_NA,8_NA_NA
+8,sirloin stockade,5,NA,NA,NA_NA,8_NA_NA
+9,applebees,5,NA,NA,NA_NA,9_NA_NA
+9,carls jr,5,NA,NA,NA_NA,9_NA_NA
+9,el porton,5,NA,NA,NA_NA,9_NA_NA
+9,la casa del mole,5,NA,NA,NA_NA,9_NA_NA
+9,la lena,5,NA,NA,NA_NA,9_NA_NA
+9,los arcos,5,NA,NA,NA_NA,9_NA_NA
+9,mc donals,5,NA,NA,NA_NA,9_NA_NA
+9,ricardos,5,NA,NA,NA_NA,9_NA_NA
+9,sanborns,5,NA,NA,NA_NA,9_NA_NA
+9,sirloin stockade,5,NA,NA,NA_NA,9_NA_NA
+9,subway,5,NA,NA,NA_NA,9_NA_NA
+9,super antojitos,5,NA,NA,NA_NA,9_NA_NA
+9,tortas chapultepec,5,NA,NA,NA_NA,9_NA_NA
+9,tortas la vuelta,5,NA,NA,NA_NA,9_NA_NA
+9,vips,5,NA,NA,NA_NA,9_NA_NA
+11,giuseppis,5,NA,NA,NA_NA,11_NA_NA
+12,carls jr,5,NA,NA,NA_NA,12_NA_NA
+12,sirloin stockade,5,NA,NA,NA_NA,12_NA_NA
+13,sirloin stockade,5,NA,NA,NA_NA,13_NA_NA
+14,pampas do brasil,5,NA,NA,NA_NA,14_NA_NA
+15,carls jr,5,NA,NA,NA_NA,15_NA_NA
+15,costco,5,NA,NA,NA_NA,15_NA_NA
+15,giuseppis,5,NA,NA,NA_NA,15_NA_NA
+15,la espadana,5,NA,NA,NA_NA,15_NA_NA
+15,peter piper pizza,5,NA,NA,NA_NA,15_NA_NA
+15,ricardos,5,NA,NA,NA_NA,15_NA_NA
+17,el mazateno,5,NA,NA,NA_NA,17_NA_NA
+18,carls jr,5,NA,NA,NA_NA,18_NA_NA
+18,la lena,5,NA,NA,NA_NA,18_NA_NA
+18,pampas do brasil,5,NA,NA,NA_NA,18_NA_NA
+18,sirloin stockade,5,NA,NA,NA_NA,18_NA_NA
+21,daruma,5,NA,NA,NA_NA,21_NA_NA
+21,el mazateno,5,NA,NA,NA_NA,21_NA_NA
+21,la lena,5,NA,NA,NA_NA,21_NA_NA
+21,la espadana,5,NA,NA,NA_NA,21_NA_NA
+21,pampas do brasil,5,NA,NA,NA_NA,21_NA_NA
+21,sirloin stockade,5,NA,NA,NA_NA,21_NA_NA
+21,subway,5,NA,NA,NA_NA,21_NA_NA
+23,burger king,5,NA,NA,NA_NA,23_NA_NA
+23,carls jr,5,NA,NA,NA_NA,23_NA_NA
+23,la torta plaza,5,NA,NA,NA_NA,23_NA_NA
+23,landini ristorante toscano,5,NA,NA,NA_NA,23_NA_NA
+23,pancake house,5,NA,NA,NA_NA,23_NA_NA
+23,peter piper pizza,5,NA,NA,NA_NA,23_NA_NA
+26,carls jr,5,NA,NA,NA_NA,26_NA_NA
+26,carnitas uruapan,5,NA,NA,NA_NA,26_NA_NA
+26,giuseppis,5,NA,NA,NA_NA,26_NA_NA
+26,pampas do brasil,5,NA,NA,NA_NA,26_NA_NA
+26,pancake house,5,NA,NA,NA_NA,26_NA_NA
+26,peter piper pizza,5,NA,NA,NA_NA,26_NA_NA
+26,sirloin stockade,5,NA,NA,NA_NA,26_NA_NA
+26,subway,5,NA,NA,NA_NA,26_NA_NA
+26,super antojitos,5,NA,NA,NA_NA,26_NA_NA
+27,la espadana,5,NA,NA,NA_NA,27_NA_NA
+30,vips,5,NA,NA,NA_NA,30_NA_NA
+31,cafe de la flor,5,NA,NA,NA_NA,31_NA_NA
+31,carls jr,5,NA,NA,NA_NA,31_NA_NA
+31,costco,5,NA,NA,NA_NA,31_NA_NA
+31,daruma,5,NA,NA,NA_NA,31_NA_NA
+31,la espadana,5,NA,NA,NA_NA,31_NA_NA
+31,pancake house,5,NA,NA,NA_NA,31_NA_NA
+31,sirloin stockade,5,NA,NA,NA_NA,31_NA_NA
+32,carls jr,5,NA,NA,NA_NA,32_NA_NA
+32,pampas do brasil,5,NA,NA,NA_NA,32_NA_NA
+33,cafe de la flor,5,NA,NA,NA_NA,33_NA_NA
+33,la espadana,5,NA,NA,NA_NA,33_NA_NA
+34,cafe de la flor,5,NA,NA,NA_NA,34_NA_NA
+34,el mazateno,5,NA,NA,NA_NA,34_NA_NA
+34,la querencia,5,NA,NA,NA_NA,34_NA_NA
+34,la espadana,5,NA,NA,NA_NA,34_NA_NA
+34,landini ristorante toscano,5,NA,NA,NA_NA,34_NA_NA
+35,cafe de la flor,5,NA,NA,NA_NA,35_NA_NA
+35,casa plascencia,5,NA,NA,NA_NA,35_NA_NA
+35,giuseppis,5,NA,NA,NA_NA,35_NA_NA
+35,la lena,5,NA,NA,NA_NA,35_NA_NA
+35,la querencia,5,NA,NA,NA_NA,35_NA_NA
+35,la espadana,5,NA,NA,NA_NA,35_NA_NA
+35,los arcos,5,NA,NA,NA_NA,35_NA_NA
+35,sanborns,5,NA,NA,NA_NA,35_NA_NA
+35,villa saverios,5,NA,NA,NA_NA,35_NA_NA
+36,casa plascencia,5,NA,NA,NA_NA,36_NA_NA
+36,giuseppis,5,NA,NA,NA_NA,36_NA_NA
+36,la lena,5,NA,NA,NA_NA,36_NA_NA
+36,pancake house,5,NA,NA,NA_NA,36_NA_NA
+36,cien anos,5,NA,NA,NA_NA,36_NA_NA
+36,subway,5,NA,NA,NA_NA,36_NA_NA
+36,tortas wash movile,5,NA,NA,NA_NA,36_NA_NA
+37,applebees,5,NA,NA,NA_NA,37_NA_NA
+37,cafe de la flor,5,NA,NA,NA_NA,37_NA_NA
+37,carls jr,5,NA,NA,NA_NA,37_NA_NA
+37,cheripan,5,NA,NA,NA_NA,37_NA_NA
+37,costco,5,NA,NA,NA_NA,37_NA_NA
+37,dominos pizza,5,NA,NA,NA_NA,37_NA_NA
+37,el mazateno,5,NA,NA,NA_NA,37_NA_NA
+37,la espadana,5,NA,NA,NA_NA,37_NA_NA
+37,pampas do brasil,5,NA,NA,NA_NA,37_NA_NA
+37,peter piper pizza,5,NA,NA,NA_NA,37_NA_NA
+37,sanborns,5,NA,NA,NA_NA,37_NA_NA
+37,subway,5,NA,NA,NA_NA,37_NA_NA
+38,applebees,5,NA,NA,NA_NA,38_NA_NA
+38,cafe de la flor,5,NA,NA,NA_NA,38_NA_NA
+38,carls jr,5,NA,NA,NA_NA,38_NA_NA
+38,costco,5,NA,NA,NA_NA,38_NA_NA
+38,giuseppis,5,NA,NA,NA_NA,38_NA_NA
+38,los arcos,5,NA,NA,NA_NA,38_NA_NA
+38,peter piper pizza,5,NA,NA,NA_NA,38_NA_NA
+38,subway,5,NA,NA,NA_NA,38_NA_NA
+39,cheripan,5,NA,NA,NA_NA,39_NA_NA
+39,la torta plaza,5,NA,NA,NA_NA,39_NA_NA
+39,californias,5,NA,NA,NA_NA,39_NA_NA
+39,subway,5,NA,NA,NA_NA,39_NA_NA
+39,tortas la vuelta,5,NA,NA,NA_NA,39_NA_NA
+39,tortas wash movile,5,NA,NA,NA_NA,39_NA_NA
+40,applebees,5,NA,NA,NA_NA,40_NA_NA
+40,big boy,5,NA,NA,NA_NA,40_NA_NA
+40,burger king,5,NA,NA,NA_NA,40_NA_NA
+40,cafe de la flor,5,NA,NA,NA_NA,40_NA_NA
+40,carls jr,5,NA,NA,NA_NA,40_NA_NA
+40,cheripan,5,NA,NA,NA_NA,40_NA_NA
+40,dominos pizza,5,NA,NA,NA_NA,40_NA_NA
+40,el mazateno,5,NA,NA,NA_NA,40_NA_NA
+40,giuseppis,5,NA,NA,NA_NA,40_NA_NA
+40,peter piper pizza,5,NA,NA,NA_NA,40_NA_NA
+40,sanborns,5,NA,NA,NA_NA,40_NA_NA
+40,sirloin stockade,5,NA,NA,NA_NA,40_NA_NA
+40,subway,5,NA,NA,NA_NA,40_NA_NA
+40,vips,5,NA,NA,NA_NA,40_NA_NA
+42,carls jr,5,NA,NA,NA_NA,42_NA_NA
+43,applebees,5,NA,NA,NA_NA,43_NA_NA
+43,pancake house,5,NA,NA,NA_NA,43_NA_NA
+43,villa saverios,5,NA,NA,NA_NA,43_NA_NA
+44,carls jr,5,NA,NA,NA_NA,44_NA_NA
+44,casa plascencia,5,NA,NA,NA_NA,44_NA_NA
+44,giuseppis,5,NA,NA,NA_NA,44_NA_NA
+44,la casa del mole,5,NA,NA,NA_NA,44_NA_NA
+44,la espadana,5,NA,NA,NA_NA,44_NA_NA
+44,pampas do brasil,5,NA,NA,NA_NA,44_NA_NA
+44,ricardos,5,NA,NA,NA_NA,44_NA_NA
+44,villa saverios,5,NA,NA,NA_NA,44_NA_NA
+44,vips,5,NA,NA,NA_NA,44_NA_NA
+46,sanborns,5,NA,NA,NA_NA,46_NA_NA
+46,vips,5,NA,NA,NA_NA,46_NA_NA
+47,cafe de la flor,5,NA,NA,NA_NA,47_NA_NA
+47,cheripan,5,NA,NA,NA_NA,47_NA_NA
+47,la casa del mole,5,NA,NA,NA_NA,47_NA_NA
+47,la espadana,5,NA,NA,NA_NA,47_NA_NA
+47,pampas do brasil,5,NA,NA,NA_NA,47_NA_NA
+47,villa saverios,5,NA,NA,NA_NA,47_NA_NA
+48,applebees,5,NA,NA,NA_NA,48_NA_NA
+48,carls jr,5,NA,NA,NA_NA,48_NA_NA
+48,el mazateno,5,NA,NA,NA_NA,48_NA_NA
+48,la casa del mole,5,NA,NA,NA_NA,48_NA_NA
+48,peter piper pizza,5,NA,NA,NA_NA,48_NA_NA
+48,sirloin stockade,5,NA,NA,NA_NA,48_NA_NA
+48,tortas wash movile,5,NA,NA,NA_NA,48_NA_NA
+49,cafe de la flor,5,NA,NA,NA_NA,49_NA_NA
+49,carls jr,5,NA,NA,NA_NA,49_NA_NA
+49,la espadana,5,NA,NA,NA_NA,49_NA_NA
+1,carls jr,4,NA,NA,NA_NA,1_NA_NA
+1,el mazateno,4,NA,NA,NA_NA,1_NA_NA
+2,applebees,4,NA,NA,NA_NA,2_NA_NA
+2,burger king,4,NA,NA,NA_NA,2_NA_NA
+2,carls jr,4,NA,NA,NA_NA,2_NA_NA
+2,costco,4,NA,NA,NA_NA,2_NA_NA
+2,daruma,4,NA,NA,NA_NA,2_NA_NA
+2,giuseppis,4,NA,NA,NA_NA,2_NA_NA
+2,la casa del mole,4,NA,NA,NA_NA,2_NA_NA
+2,la lena,4,NA,NA,NA_NA,2_NA_NA
+2,los arcos,4,NA,NA,NA_NA,2_NA_NA
+2,peter piper pizza,4,NA,NA,NA_NA,2_NA_NA
+2,californias,4,NA,NA,NA_NA,2_NA_NA
+2,ricardos,4,NA,NA,NA_NA,2_NA_NA
+2,sanborns,4,NA,NA,NA_NA,2_NA_NA
+3,applebees,4,NA,NA,NA_NA,3_NA_NA
+4,peter piper pizza,4,NA,NA,NA_NA,4_NA_NA
+5,cheripan,4,NA,NA,NA_NA,5_NA_NA
+5,pancake house,4,NA,NA,NA_NA,5_NA_NA
+6,costco,4,NA,NA,NA_NA,6_NA_NA
+6,el mazateno,4,NA,NA,NA_NA,6_NA_NA
+6,la torta plaza,4,NA,NA,NA_NA,6_NA_NA
+6,californias,4,NA,NA,NA_NA,6_NA_NA
+7,costco,4,NA,NA,NA_NA,7_NA_NA
+7,daruma,4,NA,NA,NA_NA,7_NA_NA
+7,kentucky fried chicken,4,NA,NA,NA_NA,7_NA_NA
+7,peter piper pizza,4,NA,NA,NA_NA,7_NA_NA
+7,subway,4,NA,NA,NA_NA,7_NA_NA
+8,cheripan,4,NA,NA,NA_NA,8_NA_NA
+8,el porton,4,NA,NA,NA_NA,8_NA_NA
+8,giuseppis,4,NA,NA,NA_NA,8_NA_NA
+8,la casa del mole,4,NA,NA,NA_NA,8_NA_NA
+8,la lena,4,NA,NA,NA_NA,8_NA_NA
+8,mc donals,4,NA,NA,NA_NA,8_NA_NA
+8,peter piper pizza,4,NA,NA,NA_NA,8_NA_NA
+8,ricardos,4,NA,NA,NA_NA,8_NA_NA
+8,sanborns,4,NA,NA,NA_NA,8_NA_NA
+8,tortas chapultepec,4,NA,NA,NA_NA,8_NA_NA
+8,tortas la vuelta,4,NA,NA,NA_NA,8_NA_NA
+9,burger king,4,NA,NA,NA_NA,9_NA_NA
+9,carnitas uruapan,4,NA,NA,NA_NA,9_NA_NA
+9,casa plascencia,4,NA,NA,NA_NA,9_NA_NA
+9,costco,4,NA,NA,NA_NA,9_NA_NA
+9,el rodeo,4,NA,NA,NA_NA,9_NA_NA
+9,fonda argentina,4,NA,NA,NA_NA,9_NA_NA
+9,giuseppis,4,NA,NA,NA_NA,9_NA_NA
+9,kentucky fried chicken,4,NA,NA,NA_NA,9_NA_NA
+9,la querencia,4,NA,NA,NA_NA,9_NA_NA
+9,la torta plaza,4,NA,NA,NA_NA,9_NA_NA
+9,pancake house,4,NA,NA,NA_NA,9_NA_NA
+9,peter piper pizza,4,NA,NA,NA_NA,9_NA_NA
+9,californias,4,NA,NA,NA_NA,9_NA_NA
+10,cafe de la flor,4,NA,NA,NA_NA,10_NA_NA
+10,carls jr,4,NA,NA,NA_NA,10_NA_NA
+10,kentucky fried chicken,4,NA,NA,NA_NA,10_NA_NA
+10,la torta plaza,4,NA,NA,NA_NA,10_NA_NA
+10,subway,4,NA,NA,NA_NA,10_NA_NA
+11,applebees,4,NA,NA,NA_NA,11_NA_NA
+11,cafe de la flor,4,NA,NA,NA_NA,11_NA_NA
+11,la torta plaza,4,NA,NA,NA_NA,11_NA_NA
+11,californias,4,NA,NA,NA_NA,11_NA_NA
+11,ricardos,4,NA,NA,NA_NA,11_NA_NA
+11,sanborns,4,NA,NA,NA_NA,11_NA_NA
+11,sirloin stockade,4,NA,NA,NA_NA,11_NA_NA
+12,burger king,4,NA,NA,NA_NA,12_NA_NA
+12,cafe de la flor,4,NA,NA,NA_NA,12_NA_NA
+12,cheripan,4,NA,NA,NA_NA,12_NA_NA
+12,peter piper pizza,4,NA,NA,NA_NA,12_NA_NA
+13,cafe de la flor,4,NA,NA,NA_NA,13_NA_NA
+14,la torta plaza,4,NA,NA,NA_NA,14_NA_NA
+14,sirloin stockade,4,NA,NA,NA_NA,14_NA_NA
+14,super antojitos,4,NA,NA,NA_NA,14_NA_NA
+15,big boy,4,NA,NA,NA_NA,15_NA_NA
+15,daruma,4,NA,NA,NA_NA,15_NA_NA
+15,dominos pizza,4,NA,NA,NA_NA,15_NA_NA
+15,la torta plaza,4,NA,NA,NA_NA,15_NA_NA
+15,landini ristorante toscano,4,NA,NA,NA_NA,15_NA_NA
+15,pampas do brasil,4,NA,NA,NA_NA,15_NA_NA
+15,californias,4,NA,NA,NA_NA,15_NA_NA
+15,sirloin stockade,4,NA,NA,NA_NA,15_NA_NA
+15,subway,4,NA,NA,NA_NA,15_NA_NA
+15,tortas chapultepec,4,NA,NA,NA_NA,15_NA_NA
+17,carls jr,4,NA,NA,NA_NA,17_NA_NA
+17,costco,4,NA,NA,NA_NA,17_NA_NA
+17,dominos pizza,4,NA,NA,NA_NA,17_NA_NA
+17,kentucky fried chicken,4,NA,NA,NA_NA,17_NA_NA
+17,peter piper pizza,4,NA,NA,NA_NA,17_NA_NA
+17,ricardos,4,NA,NA,NA_NA,17_NA_NA
+17,tortas wash movile,4,NA,NA,NA_NA,17_NA_NA
+17,vips,4,NA,NA,NA_NA,17_NA_NA
+18,burger king,4,NA,NA,NA_NA,18_NA_NA
+18,carnitas uruapan,4,NA,NA,NA_NA,18_NA_NA
+18,cheripan,4,NA,NA,NA_NA,18_NA_NA
+18,costco,4,NA,NA,NA_NA,18_NA_NA
+18,el porton,4,NA,NA,NA_NA,18_NA_NA
+18,giuseppis,4,NA,NA,NA_NA,18_NA_NA
+18,la casa del mole,4,NA,NA,NA_NA,18_NA_NA
+18,la querencia,4,NA,NA,NA_NA,18_NA_NA
+18,la torta plaza,4,NA,NA,NA_NA,18_NA_NA
+18,los arcos,4,NA,NA,NA_NA,18_NA_NA
+18,mc donals,4,NA,NA,NA_NA,18_NA_NA
+18,ricardos,4,NA,NA,NA_NA,18_NA_NA
+18,subway,4,NA,NA,NA_NA,18_NA_NA
+18,tortas wash movile,4,NA,NA,NA_NA,18_NA_NA
+18,vips,4,NA,NA,NA_NA,18_NA_NA
+19,burger king,4,NA,NA,NA_NA,19_NA_NA
+19,super antojitos,4,NA,NA,NA_NA,19_NA_NA
+20,carls jr,4,NA,NA,NA_NA,20_NA_NA
+20,subway,4,NA,NA,NA_NA,20_NA_NA
+21,applebees,4,NA,NA,NA_NA,21_NA_NA
+21,burger king,4,NA,NA,NA_NA,21_NA_NA
+21,carls jr,4,NA,NA,NA_NA,21_NA_NA
+21,costco,4,NA,NA,NA_NA,21_NA_NA
+21,la torta plaza,4,NA,NA,NA_NA,21_NA_NA
+22,applebees,4,NA,NA,NA_NA,22_NA_NA
+22,el porton,4,NA,NA,NA_NA,22_NA_NA
+23,el mazateno,4,NA,NA,NA_NA,23_NA_NA
+23,giuseppis,4,NA,NA,NA_NA,23_NA_NA
+23,kentucky fried chicken,4,NA,NA,NA_NA,23_NA_NA
+23,la espadana,4,NA,NA,NA_NA,23_NA_NA
+23,californias,4,NA,NA,NA_NA,23_NA_NA
+23,subway,4,NA,NA,NA_NA,23_NA_NA
+23,super antojitos,4,NA,NA,NA_NA,23_NA_NA
+23,tortas la vuelta,4,NA,NA,NA_NA,23_NA_NA
+24,cafe de la flor,4,NA,NA,NA_NA,24_NA_NA
+24,carls jr,4,NA,NA,NA_NA,24_NA_NA
+24,carnitas uruapan,4,NA,NA,NA_NA,24_NA_NA
+24,fonda argentina,4,NA,NA,NA_NA,24_NA_NA
+24,la casa del mole,4,NA,NA,NA_NA,24_NA_NA
+24,sirloin stockade,4,NA,NA,NA_NA,24_NA_NA
+24,subway,4,NA,NA,NA_NA,24_NA_NA
+24,super antojitos,4,NA,NA,NA_NA,24_NA_NA
+25,carnitas uruapan,4,NA,NA,NA_NA,25_NA_NA
+25,casa plascencia,4,NA,NA,NA_NA,25_NA_NA
+25,peter piper pizza,4,NA,NA,NA_NA,25_NA_NA
+25,ricardos,4,NA,NA,NA_NA,25_NA_NA
+25,sanborns,4,NA,NA,NA_NA,25_NA_NA
+25,sirloin stockade,4,NA,NA,NA_NA,25_NA_NA
+26,applebees,4,NA,NA,NA_NA,26_NA_NA
+26,big boy,4,NA,NA,NA_NA,26_NA_NA
+26,cafe de la flor,4,NA,NA,NA_NA,26_NA_NA
+26,cheripan,4,NA,NA,NA_NA,26_NA_NA
+26,costco,4,NA,NA,NA_NA,26_NA_NA
+26,el mazateno,4,NA,NA,NA_NA,26_NA_NA
+26,el porton,4,NA,NA,NA_NA,26_NA_NA
+26,kentucky fried chicken,4,NA,NA,NA_NA,26_NA_NA
+26,landini ristorante toscano,4,NA,NA,NA_NA,26_NA_NA
+26,mc donals,4,NA,NA,NA_NA,26_NA_NA
+26,californias,4,NA,NA,NA_NA,26_NA_NA
+26,ricardos,4,NA,NA,NA_NA,26_NA_NA
+26,cien anos,4,NA,NA,NA_NA,26_NA_NA
+26,tortas chapultepec,4,NA,NA,NA_NA,26_NA_NA
+26,vips,4,NA,NA,NA_NA,26_NA_NA
+27,applebees,4,NA,NA,NA_NA,27_NA_NA
+27,burger king,4,NA,NA,NA_NA,27_NA_NA
+27,la torta plaza,4,NA,NA,NA_NA,27_NA_NA
+27,pancake house,4,NA,NA,NA_NA,27_NA_NA
+27,vips,4,NA,NA,NA_NA,27_NA_NA
+28,applebees,4,NA,NA,NA_NA,28_NA_NA
+28,la casa del mole,4,NA,NA,NA_NA,28_NA_NA
+28,peter piper pizza,4,NA,NA,NA_NA,28_NA_NA
+29,carnitas uruapan,4,NA,NA,NA_NA,29_NA_NA
+29,subway,4,NA,NA,NA_NA,29_NA_NA
+30,applebees,4,NA,NA,NA_NA,30_NA_NA
+30,carls jr,4,NA,NA,NA_NA,30_NA_NA
+30,carnitas uruapan,4,NA,NA,NA_NA,30_NA_NA
+31,carnitas uruapan,4,NA,NA,NA_NA,31_NA_NA
+31,la lena,4,NA,NA,NA_NA,31_NA_NA
+31,los arcos,4,NA,NA,NA_NA,31_NA_NA
+31,pampas do brasil,4,NA,NA,NA_NA,31_NA_NA
+32,applebees,4,NA,NA,NA_NA,32_NA_NA
+32,cafe de la flor,4,NA,NA,NA_NA,32_NA_NA
+32,costco,4,NA,NA,NA_NA,32_NA_NA
+32,el mazateno,4,NA,NA,NA_NA,32_NA_NA
+32,fonda argentina,4,NA,NA,NA_NA,32_NA_NA
+32,la lena,4,NA,NA,NA_NA,32_NA_NA
+32,mc donals,4,NA,NA,NA_NA,32_NA_NA
+32,pancake house,4,NA,NA,NA_NA,32_NA_NA
+33,applebees,4,NA,NA,NA_NA,33_NA_NA
+33,carls jr,4,NA,NA,NA_NA,33_NA_NA
+33,el mazateno,4,NA,NA,NA_NA,33_NA_NA
+33,la casa del mole,4,NA,NA,NA_NA,33_NA_NA
+33,subway,4,NA,NA,NA_NA,33_NA_NA
+34,applebees,4,NA,NA,NA_NA,34_NA_NA
+34,carls jr,4,NA,NA,NA_NA,34_NA_NA
+34,giuseppis,4,NA,NA,NA_NA,34_NA_NA
+34,pancake house,4,NA,NA,NA_NA,34_NA_NA
+35,big boy,4,NA,NA,NA_NA,35_NA_NA
+35,carls jr,4,NA,NA,NA_NA,35_NA_NA
+35,cheripan,4,NA,NA,NA_NA,35_NA_NA
+35,el mazateno,4,NA,NA,NA_NA,35_NA_NA
+35,fonda argentina,4,NA,NA,NA_NA,35_NA_NA
+35,la casa del mole,4,NA,NA,NA_NA,35_NA_NA
+35,pancake house,4,NA,NA,NA_NA,35_NA_NA
+35,ricardos,4,NA,NA,NA_NA,35_NA_NA
+35,cien anos,4,NA,NA,NA_NA,35_NA_NA
+35,tortas chapultepec,4,NA,NA,NA_NA,35_NA_NA
+35,vips,4,NA,NA,NA_NA,35_NA_NA
+36,applebees,4,NA,NA,NA_NA,36_NA_NA
+36,big boy,4,NA,NA,NA_NA,36_NA_NA
+36,burger king,4,NA,NA,NA_NA,36_NA_NA
+36,cafe de la flor,4,NA,NA,NA_NA,36_NA_NA
+36,carls jr,4,NA,NA,NA_NA,36_NA_NA
+36,cheripan,4,NA,NA,NA_NA,36_NA_NA
+36,costco,4,NA,NA,NA_NA,36_NA_NA
+36,dominos pizza,4,NA,NA,NA_NA,36_NA_NA
+36,el porton,4,NA,NA,NA_NA,36_NA_NA
+36,el rodeo,4,NA,NA,NA_NA,36_NA_NA
+36,fonda argentina,4,NA,NA,NA_NA,36_NA_NA
+36,kentucky fried chicken,4,NA,NA,NA_NA,36_NA_NA
+36,la casa del mole,4,NA,NA,NA_NA,36_NA_NA
+36,la torta plaza,4,NA,NA,NA_NA,36_NA_NA
+36,la espadana,4,NA,NA,NA_NA,36_NA_NA
+36,los arcos,4,NA,NA,NA_NA,36_NA_NA
+36,mc donals,4,NA,NA,NA_NA,36_NA_NA
+36,pampas do brasil,4,NA,NA,NA_NA,36_NA_NA
+36,peter piper pizza,4,NA,NA,NA_NA,36_NA_NA
+36,californias,4,NA,NA,NA_NA,36_NA_NA
+36,ricardos,4,NA,NA,NA_NA,36_NA_NA
+36,sanborns,4,NA,NA,NA_NA,36_NA_NA
+36,sirloin stockade,4,NA,NA,NA_NA,36_NA_NA
+36,super antojitos,4,NA,NA,NA_NA,36_NA_NA
+36,tortas la vuelta,4,NA,NA,NA_NA,36_NA_NA
+36,vips,4,NA,NA,NA_NA,36_NA_NA
+37,daruma,4,NA,NA,NA_NA,37_NA_NA
+37,kentucky fried chicken,4,NA,NA,NA_NA,37_NA_NA
+37,la torta plaza,4,NA,NA,NA_NA,37_NA_NA
+37,tortas wash movile,4,NA,NA,NA_NA,37_NA_NA
+38,big boy,4,NA,NA,NA_NA,38_NA_NA
+38,carnitas uruapan,4,NA,NA,NA_NA,38_NA_NA
+38,el mazateno,4,NA,NA,NA_NA,38_NA_NA
+38,kentucky fried chicken,4,NA,NA,NA_NA,38_NA_NA
+38,la torta plaza,4,NA,NA,NA_NA,38_NA_NA
+38,mc donals,4,NA,NA,NA_NA,38_NA_NA
+39,la espadana,4,NA,NA,NA_NA,39_NA_NA
+39,pancake house,4,NA,NA,NA_NA,39_NA_NA
+39,sirloin stockade,4,NA,NA,NA_NA,39_NA_NA
+41,cafe de la flor,4,NA,NA,NA_NA,41_NA_NA
+41,carls jr,4,NA,NA,NA_NA,41_NA_NA
+41,costco,4,NA,NA,NA_NA,41_NA_NA
+41,el mazateno,4,NA,NA,NA_NA,41_NA_NA
+41,giuseppis,4,NA,NA,NA_NA,41_NA_NA
+41,kentucky fried chicken,4,NA,NA,NA_NA,41_NA_NA
+41,la querencia,4,NA,NA,NA_NA,41_NA_NA
+41,los arcos,4,NA,NA,NA_NA,41_NA_NA
+41,pampas do brasil,4,NA,NA,NA_NA,41_NA_NA
+41,super antojitos,4,NA,NA,NA_NA,41_NA_NA
+42,burger king,4,NA,NA,NA_NA,42_NA_NA
+42,dominos pizza,4,NA,NA,NA_NA,42_NA_NA
+42,el mazateno,4,NA,NA,NA_NA,42_NA_NA
+42,sanborns,4,NA,NA,NA_NA,42_NA_NA
+43,el porton,4,NA,NA,NA_NA,43_NA_NA
+43,el rodeo,4,NA,NA,NA_NA,43_NA_NA
+43,fonda argentina,4,NA,NA,NA_NA,43_NA_NA
+43,giuseppis,4,NA,NA,NA_NA,43_NA_NA
+43,la casa del mole,4,NA,NA,NA_NA,43_NA_NA
+43,la lena,4,NA,NA,NA_NA,43_NA_NA
+43,la espadana,4,NA,NA,NA_NA,43_NA_NA
+43,los arcos,4,NA,NA,NA_NA,43_NA_NA
+43,pampas do brasil,4,NA,NA,NA_NA,43_NA_NA
+43,cien anos,4,NA,NA,NA_NA,43_NA_NA
+43,subway,4,NA,NA,NA_NA,43_NA_NA
+43,vips,4,NA,NA,NA_NA,43_NA_NA
+44,landini ristorante toscano,4,NA,NA,NA_NA,44_NA_NA
+44,sanborns,4,NA,NA,NA_NA,44_NA_NA
+44,tortas chapultepec,4,NA,NA,NA_NA,44_NA_NA
+45,cafe de la flor,4,NA,NA,NA_NA,45_NA_NA
+45,la casa del mole,4,NA,NA,NA_NA,45_NA_NA
+46,costco,4,NA,NA,NA_NA,46_NA_NA
+46,peter piper pizza,4,NA,NA,NA_NA,46_NA_NA
+47,fonda argentina,4,NA,NA,NA_NA,47_NA_NA
+47,pancake house,4,NA,NA,NA_NA,47_NA_NA
+48,burger king,4,NA,NA,NA_NA,48_NA_NA
+48,costco,4,NA,NA,NA_NA,48_NA_NA
+48,daruma,4,NA,NA,NA_NA,48_NA_NA
+49,daruma,4,NA,NA,NA_NA,49_NA_NA
+49,pampas do brasil,4,NA,NA,NA_NA,49_NA_NA
+49,sanborns,4,NA,NA,NA_NA,49_NA_NA
+49,sirloin stockade,4,NA,NA,NA_NA,49_NA_NA
+49,tortas wash movile,4,NA,NA,NA_NA,49_NA_NA
+50,burger king,4,NA,NA,NA_NA,50_NA_NA
+50,carls jr,4,NA,NA,NA_NA,50_NA_NA
+50,el mazateno,4,NA,NA,NA_NA,50_NA_NA
+50,sanborns,4,NA,NA,NA_NA,50_NA_NA
+50,sirloin stockade,4,NA,NA,NA_NA,50_NA_NA
+1,applebees,3,NA,NA,NA_NA,1_NA_NA
+1,burger king,3,NA,NA,NA_NA,1_NA_NA
+1,dominos pizza,3,NA,NA,NA_NA,1_NA_NA
+2,big boy,3,NA,NA,NA_NA,2_NA_NA
+2,dominos pizza,3,NA,NA,NA_NA,2_NA_NA
+2,kentucky fried chicken,3,NA,NA,NA_NA,2_NA_NA
+2,la torta plaza,3,NA,NA,NA_NA,2_NA_NA
+2,mc donals,3,NA,NA,NA_NA,2_NA_NA
+2,pancake house,3,NA,NA,NA_NA,2_NA_NA
+4,mc donals,3,NA,NA,NA_NA,4_NA_NA
+6,applebees,3,NA,NA,NA_NA,6_NA_NA
+6,big boy,3,NA,NA,NA_NA,6_NA_NA
+6,burger king,3,NA,NA,NA_NA,6_NA_NA
+6,cafe de la flor,3,NA,NA,NA_NA,6_NA_NA
+6,carls jr,3,NA,NA,NA_NA,6_NA_NA
+6,casa plascencia,3,NA,NA,NA_NA,6_NA_NA
+6,cheripan,3,NA,NA,NA_NA,6_NA_NA
+6,daruma,3,NA,NA,NA_NA,6_NA_NA
+6,el porton,3,NA,NA,NA_NA,6_NA_NA
+7,burger king,3,NA,NA,NA_NA,7_NA_NA
+7,carls jr,3,NA,NA,NA_NA,7_NA_NA
+7,la torta plaza,3,NA,NA,NA_NA,7_NA_NA
+7,mc donals,3,NA,NA,NA_NA,7_NA_NA
+7,sanborns,3,NA,NA,NA_NA,7_NA_NA
+7,tortas la vuelta,3,NA,NA,NA_NA,7_NA_NA
+8,applebees,3,NA,NA,NA_NA,8_NA_NA
+8,carnitas uruapan,3,NA,NA,NA_NA,8_NA_NA
+8,el mazateno,3,NA,NA,NA_NA,8_NA_NA
+8,fonda argentina,3,NA,NA,NA_NA,8_NA_NA
+8,kentucky fried chicken,3,NA,NA,NA_NA,8_NA_NA
+8,la torta plaza,3,NA,NA,NA_NA,8_NA_NA
+8,los arcos,3,NA,NA,NA_NA,8_NA_NA
+9,big boy,3,NA,NA,NA_NA,9_NA_NA
+9,cafe de la flor,3,NA,NA,NA_NA,9_NA_NA
+9,cheripan,3,NA,NA,NA_NA,9_NA_NA
+9,daruma,3,NA,NA,NA_NA,9_NA_NA
+9,dominos pizza,3,NA,NA,NA_NA,9_NA_NA
+9,el mazateno,3,NA,NA,NA_NA,9_NA_NA
+9,la espadana,3,NA,NA,NA_NA,9_NA_NA
+9,landini ristorante toscano,3,NA,NA,NA_NA,9_NA_NA
+9,pampas do brasil,3,NA,NA,NA_NA,9_NA_NA
+9,cien anos,3,NA,NA,NA_NA,9_NA_NA
+9,tortas wash movile,3,NA,NA,NA_NA,9_NA_NA
+9,villa saverios,3,NA,NA,NA_NA,9_NA_NA
+10,burger king,3,NA,NA,NA_NA,10_NA_NA
+10,peter piper pizza,3,NA,NA,NA_NA,10_NA_NA
+11,subway,3,NA,NA,NA_NA,11_NA_NA
+11,tortas chapultepec,3,NA,NA,NA_NA,11_NA_NA
+12,el mazateno,3,NA,NA,NA_NA,12_NA_NA
+12,la casa del mole,3,NA,NA,NA_NA,12_NA_NA
+13,la torta plaza,3,NA,NA,NA_NA,13_NA_NA
+13,los arcos,3,NA,NA,NA_NA,13_NA_NA
+14,peter piper pizza,3,NA,NA,NA_NA,14_NA_NA
+14,subway,3,NA,NA,NA_NA,14_NA_NA
+15,applebees,3,NA,NA,NA_NA,15_NA_NA
+15,cafe de la flor,3,NA,NA,NA_NA,15_NA_NA
+15,carnitas uruapan,3,NA,NA,NA_NA,15_NA_NA
+15,casa plascencia,3,NA,NA,NA_NA,15_NA_NA
+15,cheripan,3,NA,NA,NA_NA,15_NA_NA
+15,el mazateno,3,NA,NA,NA_NA,15_NA_NA
+15,el porton,3,NA,NA,NA_NA,15_NA_NA
+15,el rodeo,3,NA,NA,NA_NA,15_NA_NA
+15,kentucky fried chicken,3,NA,NA,NA_NA,15_NA_NA
+15,la casa del mole,3,NA,NA,NA_NA,15_NA_NA
+15,la lena,3,NA,NA,NA_NA,15_NA_NA
+15,la querencia,3,NA,NA,NA_NA,15_NA_NA
+15,los arcos,3,NA,NA,NA_NA,15_NA_NA
+15,pancake house,3,NA,NA,NA_NA,15_NA_NA
+15,sanborns,3,NA,NA,NA_NA,15_NA_NA
+15,super antojitos,3,NA,NA,NA_NA,15_NA_NA
+15,tortas la vuelta,3,NA,NA,NA_NA,15_NA_NA
+17,burger king,3,NA,NA,NA_NA,17_NA_NA
+17,la torta plaza,3,NA,NA,NA_NA,17_NA_NA
+17,subway,3,NA,NA,NA_NA,17_NA_NA
+18,applebees,3,NA,NA,NA_NA,18_NA_NA
+18,big boy,3,NA,NA,NA_NA,18_NA_NA
+18,cafe de la flor,3,NA,NA,NA_NA,18_NA_NA
+18,casa plascencia,3,NA,NA,NA_NA,18_NA_NA
+18,dominos pizza,3,NA,NA,NA_NA,18_NA_NA
+18,el mazateno,3,NA,NA,NA_NA,18_NA_NA
+18,el rodeo,3,NA,NA,NA_NA,18_NA_NA
+18,fonda argentina,3,NA,NA,NA_NA,18_NA_NA
+18,kentucky fried chicken,3,NA,NA,NA_NA,18_NA_NA
+18,la espadana,3,NA,NA,NA_NA,18_NA_NA
+18,landini ristorante toscano,3,NA,NA,NA_NA,18_NA_NA
+18,peter piper pizza,3,NA,NA,NA_NA,18_NA_NA
+18,californias,3,NA,NA,NA_NA,18_NA_NA
+18,cien anos,3,NA,NA,NA_NA,18_NA_NA
+18,super antojitos,3,NA,NA,NA_NA,18_NA_NA
+18,tortas chapultepec,3,NA,NA,NA_NA,18_NA_NA
+18,tortas la vuelta,3,NA,NA,NA_NA,18_NA_NA
+18,villa saverios,3,NA,NA,NA_NA,18_NA_NA
+19,applebees,3,NA,NA,NA_NA,19_NA_NA
+19,big boy,3,NA,NA,NA_NA,19_NA_NA
+19,cafe de la flor,3,NA,NA,NA_NA,19_NA_NA
+19,carls jr,3,NA,NA,NA_NA,19_NA_NA
+19,dominos pizza,3,NA,NA,NA_NA,19_NA_NA
+19,la torta plaza,3,NA,NA,NA_NA,19_NA_NA
+19,los arcos,3,NA,NA,NA_NA,19_NA_NA
+19,pancake house,3,NA,NA,NA_NA,19_NA_NA
+19,peter piper pizza,3,NA,NA,NA_NA,19_NA_NA
+20,burger king,3,NA,NA,NA_NA,20_NA_NA
+20,el mazateno,3,NA,NA,NA_NA,20_NA_NA
+20,peter piper pizza,3,NA,NA,NA_NA,20_NA_NA
+22,kentucky fried chicken,3,NA,NA,NA_NA,22_NA_NA
+22,la torta plaza,3,NA,NA,NA_NA,22_NA_NA
+22,peter piper pizza,3,NA,NA,NA_NA,22_NA_NA
+22,sirloin stockade,3,NA,NA,NA_NA,22_NA_NA
+23,applebees,3,NA,NA,NA_NA,23_NA_NA
+23,big boy,3,NA,NA,NA_NA,23_NA_NA
+23,cafe de la flor,3,NA,NA,NA_NA,23_NA_NA
+23,carnitas uruapan,3,NA,NA,NA_NA,23_NA_NA
+23,casa plascencia,3,NA,NA,NA_NA,23_NA_NA
+23,cheripan,3,NA,NA,NA_NA,23_NA_NA
+23,costco,3,NA,NA,NA_NA,23_NA_NA
+23,daruma,3,NA,NA,NA_NA,23_NA_NA
+23,el porton,3,NA,NA,NA_NA,23_NA_NA
+23,el rodeo,3,NA,NA,NA_NA,23_NA_NA
+23,fonda argentina,3,NA,NA,NA_NA,23_NA_NA
+23,la casa del mole,3,NA,NA,NA_NA,23_NA_NA
+23,la lena,3,NA,NA,NA_NA,23_NA_NA
+23,la querencia,3,NA,NA,NA_NA,23_NA_NA
+23,los arcos,3,NA,NA,NA_NA,23_NA_NA
+23,pampas do brasil,3,NA,NA,NA_NA,23_NA_NA
+23,ricardos,3,NA,NA,NA_NA,23_NA_NA
+23,cien anos,3,NA,NA,NA_NA,23_NA_NA
+23,sanborns,3,NA,NA,NA_NA,23_NA_NA
+23,sirloin stockade,3,NA,NA,NA_NA,23_NA_NA
+23,tortas chapultepec,3,NA,NA,NA_NA,23_NA_NA
+23,tortas wash movile,3,NA,NA,NA_NA,23_NA_NA
+23,villa saverios,3,NA,NA,NA_NA,23_NA_NA
+23,vips,3,NA,NA,NA_NA,23_NA_NA
+24,dominos pizza,3,NA,NA,NA_NA,24_NA_NA
+25,burger king,3,NA,NA,NA_NA,25_NA_NA
+25,carls jr,3,NA,NA,NA_NA,25_NA_NA
+25,costco,3,NA,NA,NA_NA,25_NA_NA
+25,la casa del mole,3,NA,NA,NA_NA,25_NA_NA
+25,los arcos,3,NA,NA,NA_NA,25_NA_NA
+25,pampas do brasil,3,NA,NA,NA_NA,25_NA_NA
+26,burger king,3,NA,NA,NA_NA,26_NA_NA
+26,casa plascencia,3,NA,NA,NA_NA,26_NA_NA
+26,daruma,3,NA,NA,NA_NA,26_NA_NA
+26,dominos pizza,3,NA,NA,NA_NA,26_NA_NA
+26,el rodeo,3,NA,NA,NA_NA,26_NA_NA
+26,fonda argentina,3,NA,NA,NA_NA,26_NA_NA
+26,la casa del mole,3,NA,NA,NA_NA,26_NA_NA
+26,la lena,3,NA,NA,NA_NA,26_NA_NA
+26,la querencia,3,NA,NA,NA_NA,26_NA_NA
+26,la torta plaza,3,NA,NA,NA_NA,26_NA_NA
+26,la espadana,3,NA,NA,NA_NA,26_NA_NA
+26,los arcos,3,NA,NA,NA_NA,26_NA_NA
+26,sanborns,3,NA,NA,NA_NA,26_NA_NA
+26,tortas la vuelta,3,NA,NA,NA_NA,26_NA_NA
+26,tortas wash movile,3,NA,NA,NA_NA,26_NA_NA
+26,villa saverios,3,NA,NA,NA_NA,26_NA_NA
+28,big boy,3,NA,NA,NA_NA,28_NA_NA
+28,carls jr,3,NA,NA,NA_NA,28_NA_NA
+28,dominos pizza,3,NA,NA,NA_NA,28_NA_NA
+28,mc donals,3,NA,NA,NA_NA,28_NA_NA
+28,subway,3,NA,NA,NA_NA,28_NA_NA
+29,burger king,3,NA,NA,NA_NA,29_NA_NA
+29,carls jr,3,NA,NA,NA_NA,29_NA_NA
+29,la torta plaza,3,NA,NA,NA_NA,29_NA_NA
+29,mc donals,3,NA,NA,NA_NA,29_NA_NA
+30,big boy,3,NA,NA,NA_NA,30_NA_NA
+30,cafe de la flor,3,NA,NA,NA_NA,30_NA_NA
+30,casa plascencia,3,NA,NA,NA_NA,30_NA_NA
+30,costco,3,NA,NA,NA_NA,30_NA_NA
+30,dominos pizza,3,NA,NA,NA_NA,30_NA_NA
+30,kentucky fried chicken,3,NA,NA,NA_NA,30_NA_NA
+30,mc donals,3,NA,NA,NA_NA,30_NA_NA
+30,peter piper pizza,3,NA,NA,NA_NA,30_NA_NA
+31,applebees,3,NA,NA,NA_NA,31_NA_NA
+31,el mazateno,3,NA,NA,NA_NA,31_NA_NA
+31,giuseppis,3,NA,NA,NA_NA,31_NA_NA
+31,la torta plaza,3,NA,NA,NA_NA,31_NA_NA
+31,peter piper pizza,3,NA,NA,NA_NA,31_NA_NA
+31,tortas wash movile,3,NA,NA,NA_NA,31_NA_NA
+32,casa plascencia,3,NA,NA,NA_NA,32_NA_NA
+32,dominos pizza,3,NA,NA,NA_NA,32_NA_NA
+32,giuseppis,3,NA,NA,NA_NA,32_NA_NA
+32,la torta plaza,3,NA,NA,NA_NA,32_NA_NA
+32,peter piper pizza,3,NA,NA,NA_NA,32_NA_NA
+32,ricardos,3,NA,NA,NA_NA,32_NA_NA
+32,sirloin stockade,3,NA,NA,NA_NA,32_NA_NA
+32,subway,3,NA,NA,NA_NA,32_NA_NA
+33,costco,3,NA,NA,NA_NA,33_NA_NA
+33,giuseppis,3,NA,NA,NA_NA,33_NA_NA
+33,pancake house,3,NA,NA,NA_NA,33_NA_NA
+33,peter piper pizza,3,NA,NA,NA_NA,33_NA_NA
+33,tortas wash movile,3,NA,NA,NA_NA,33_NA_NA
+34,big boy,3,NA,NA,NA_NA,34_NA_NA
+34,la casa del mole,3,NA,NA,NA_NA,34_NA_NA
+34,la torta plaza,3,NA,NA,NA_NA,34_NA_NA
+34,pampas do brasil,3,NA,NA,NA_NA,34_NA_NA
+34,peter piper pizza,3,NA,NA,NA_NA,34_NA_NA
+34,cien anos,3,NA,NA,NA_NA,34_NA_NA
+34,tortas wash movile,3,NA,NA,NA_NA,34_NA_NA
+35,applebees,3,NA,NA,NA_NA,35_NA_NA
+35,el porton,3,NA,NA,NA_NA,35_NA_NA
+35,el rodeo,3,NA,NA,NA_NA,35_NA_NA
+35,pampas do brasil,3,NA,NA,NA_NA,35_NA_NA
+35,californias,3,NA,NA,NA_NA,35_NA_NA
+35,sirloin stockade,3,NA,NA,NA_NA,35_NA_NA
+35,subway,3,NA,NA,NA_NA,35_NA_NA
+35,tortas la vuelta,3,NA,NA,NA_NA,35_NA_NA
+36,carnitas uruapan,3,NA,NA,NA_NA,36_NA_NA
+36,el mazateno,3,NA,NA,NA_NA,36_NA_NA
+38,burger king,3,NA,NA,NA_NA,38_NA_NA
+38,dominos pizza,3,NA,NA,NA_NA,38_NA_NA
+39,carls jr,3,NA,NA,NA_NA,39_NA_NA
+39,costco,3,NA,NA,NA_NA,39_NA_NA
+39,daruma,3,NA,NA,NA_NA,39_NA_NA
+39,kentucky fried chicken,3,NA,NA,NA_NA,39_NA_NA
+39,ricardos,3,NA,NA,NA_NA,39_NA_NA
+39,sanborns,3,NA,NA,NA_NA,39_NA_NA
+39,tortas chapultepec,3,NA,NA,NA_NA,39_NA_NA
+41,applebees,3,NA,NA,NA_NA,41_NA_NA
+41,big boy,3,NA,NA,NA_NA,41_NA_NA
+41,burger king,3,NA,NA,NA_NA,41_NA_NA
+41,carnitas uruapan,3,NA,NA,NA_NA,41_NA_NA
+41,casa plascencia,3,NA,NA,NA_NA,41_NA_NA
+41,cheripan,3,NA,NA,NA_NA,41_NA_NA
+41,daruma,3,NA,NA,NA_NA,41_NA_NA
+41,dominos pizza,3,NA,NA,NA_NA,41_NA_NA
+41,el porton,3,NA,NA,NA_NA,41_NA_NA
+41,el rodeo,3,NA,NA,NA_NA,41_NA_NA
+41,fonda argentina,3,NA,NA,NA_NA,41_NA_NA
+41,la casa del mole,3,NA,NA,NA_NA,41_NA_NA
+41,la lena,3,NA,NA,NA_NA,41_NA_NA
+41,la torta plaza,3,NA,NA,NA_NA,41_NA_NA
+41,la espadana,3,NA,NA,NA_NA,41_NA_NA
+41,landini ristorante toscano,3,NA,NA,NA_NA,41_NA_NA
+41,mc donals,3,NA,NA,NA_NA,41_NA_NA
+41,pancake house,3,NA,NA,NA_NA,41_NA_NA
+41,peter piper pizza,3,NA,NA,NA_NA,41_NA_NA
+41,californias,3,NA,NA,NA_NA,41_NA_NA
+41,ricardos,3,NA,NA,NA_NA,41_NA_NA
+41,cien anos,3,NA,NA,NA_NA,41_NA_NA
+41,sanborns,3,NA,NA,NA_NA,41_NA_NA
+41,sirloin stockade,3,NA,NA,NA_NA,41_NA_NA
+41,subway,3,NA,NA,NA_NA,41_NA_NA
+41,tortas chapultepec,3,NA,NA,NA_NA,41_NA_NA
+41,tortas la vuelta,3,NA,NA,NA_NA,41_NA_NA
+41,tortas wash movile,3,NA,NA,NA_NA,41_NA_NA
+41,villa saverios,3,NA,NA,NA_NA,41_NA_NA
+41,vips,3,NA,NA,NA_NA,41_NA_NA
+43,big boy,3,NA,NA,NA_NA,43_NA_NA
+43,burger king,3,NA,NA,NA_NA,43_NA_NA
+43,cafe de la flor,3,NA,NA,NA_NA,43_NA_NA
+43,carls jr,3,NA,NA,NA_NA,43_NA_NA
+43,costco,3,NA,NA,NA_NA,43_NA_NA
+43,daruma,3,NA,NA,NA_NA,43_NA_NA
+43,dominos pizza,3,NA,NA,NA_NA,43_NA_NA
+43,el mazateno,3,NA,NA,NA_NA,43_NA_NA
+43,kentucky fried chicken,3,NA,NA,NA_NA,43_NA_NA
+43,la querencia,3,NA,NA,NA_NA,43_NA_NA
+43,peter piper pizza,3,NA,NA,NA_NA,43_NA_NA
+43,californias,3,NA,NA,NA_NA,43_NA_NA
+43,ricardos,3,NA,NA,NA_NA,43_NA_NA
+43,sanborns,3,NA,NA,NA_NA,43_NA_NA
+43,sirloin stockade,3,NA,NA,NA_NA,43_NA_NA
+43,super antojitos,3,NA,NA,NA_NA,43_NA_NA
+43,tortas wash movile,3,NA,NA,NA_NA,43_NA_NA
+44,el mazateno,3,NA,NA,NA_NA,44_NA_NA
+44,fonda argentina,3,NA,NA,NA_NA,44_NA_NA
+44,sirloin stockade,3,NA,NA,NA_NA,44_NA_NA
+44,subway,3,NA,NA,NA_NA,44_NA_NA
+45,burger king,3,NA,NA,NA_NA,45_NA_NA
+45,carls jr,3,NA,NA,NA_NA,45_NA_NA
+45,costco,3,NA,NA,NA_NA,45_NA_NA
+45,el mazateno,3,NA,NA,NA_NA,45_NA_NA
+45,subway,3,NA,NA,NA_NA,45_NA_NA
+46,carls jr,3,NA,NA,NA_NA,46_NA_NA
+46,dominos pizza,3,NA,NA,NA_NA,46_NA_NA
+47,applebees,3,NA,NA,NA_NA,47_NA_NA
+47,californias,3,NA,NA,NA_NA,47_NA_NA
+49,la torta plaza,3,NA,NA,NA_NA,49_NA_NA
+49,peter piper pizza,3,NA,NA,NA_NA,49_NA_NA
+50,costco,3,NA,NA,NA_NA,50_NA_NA
+50,daruma,3,NA,NA,NA_NA,50_NA_NA
+50,kentucky fried chicken,3,NA,NA,NA_NA,50_NA_NA
+50,peter piper pizza,3,NA,NA,NA_NA,50_NA_NA
+6,carnitas uruapan,2,NA,NA,NA_NA,6_NA_NA
+6,dominos pizza,2,NA,NA,NA_NA,6_NA_NA
+8,burger king,2,NA,NA,NA_NA,8_NA_NA
+8,costco,2,NA,NA,NA_NA,8_NA_NA
+8,dominos pizza,2,NA,NA,NA_NA,8_NA_NA
+11,kentucky fried chicken,2,NA,NA,NA_NA,11_NA_NA
+13,kentucky fried chicken,2,NA,NA,NA_NA,13_NA_NA
+15,burger king,2,NA,NA,NA_NA,15_NA_NA
+15,fonda argentina,2,NA,NA,NA_NA,15_NA_NA
+17,mc donals,2,NA,NA,NA_NA,17_NA_NA
+17,sanborns,2,NA,NA,NA_NA,17_NA_NA
+18,pancake house,2,NA,NA,NA_NA,18_NA_NA
+18,sanborns,2,NA,NA,NA_NA,18_NA_NA
+19,casa plascencia,2,NA,NA,NA_NA,19_NA_NA
+19,cheripan,2,NA,NA,NA_NA,19_NA_NA
+19,costco,2,NA,NA,NA_NA,19_NA_NA
+19,daruma,2,NA,NA,NA_NA,19_NA_NA
+19,el rodeo,2,NA,NA,NA_NA,19_NA_NA
+19,landini ristorante toscano,2,NA,NA,NA_NA,19_NA_NA
+19,pampas do brasil,2,NA,NA,NA_NA,19_NA_NA
+19,californias,2,NA,NA,NA_NA,19_NA_NA
+19,ricardos,2,NA,NA,NA_NA,19_NA_NA
+19,cien anos,2,NA,NA,NA_NA,19_NA_NA
+19,sanborns,2,NA,NA,NA_NA,19_NA_NA
+19,sirloin stockade,2,NA,NA,NA_NA,19_NA_NA
+19,subway,2,NA,NA,NA_NA,19_NA_NA
+19,tortas chapultepec,2,NA,NA,NA_NA,19_NA_NA
+19,tortas la vuelta,2,NA,NA,NA_NA,19_NA_NA
+22,burger king,2,NA,NA,NA_NA,22_NA_NA
+25,dominos pizza,2,NA,NA,NA_NA,25_NA_NA
+25,la torta plaza,2,NA,NA,NA_NA,25_NA_NA
+25,mc donals,2,NA,NA,NA_NA,25_NA_NA
+25,subway,2,NA,NA,NA_NA,25_NA_NA
+28,burger king,2,NA,NA,NA_NA,28_NA_NA
+28,costco,2,NA,NA,NA_NA,28_NA_NA
+29,dominos pizza,2,NA,NA,NA_NA,29_NA_NA
+29,tortas la vuelta,2,NA,NA,NA_NA,29_NA_NA
+30,burger king,2,NA,NA,NA_NA,30_NA_NA
+31,burger king,2,NA,NA,NA_NA,31_NA_NA
+32,burger king,2,NA,NA,NA_NA,32_NA_NA
+32,sanborns,2,NA,NA,NA_NA,32_NA_NA
+33,big boy,2,NA,NA,NA_NA,33_NA_NA
+34,burger king,2,NA,NA,NA_NA,34_NA_NA
+34,tortas la vuelta,2,NA,NA,NA_NA,34_NA_NA
+34,vips,2,NA,NA,NA_NA,34_NA_NA
+35,burger king,2,NA,NA,NA_NA,35_NA_NA
+35,costco,2,NA,NA,NA_NA,35_NA_NA
+35,dominos pizza,2,NA,NA,NA_NA,35_NA_NA
+35,kentucky fried chicken,2,NA,NA,NA_NA,35_NA_NA
+35,la torta plaza,2,NA,NA,NA_NA,35_NA_NA
+35,mc donals,2,NA,NA,NA_NA,35_NA_NA
+35,peter piper pizza,2,NA,NA,NA_NA,35_NA_NA
+35,super antojitos,2,NA,NA,NA_NA,35_NA_NA
+35,tortas wash movile,2,NA,NA,NA_NA,35_NA_NA
+39,burger king,2,NA,NA,NA_NA,39_NA_NA
+39,cafe de la flor,2,NA,NA,NA_NA,39_NA_NA
+39,casa plascencia,2,NA,NA,NA_NA,39_NA_NA
+39,dominos pizza,2,NA,NA,NA_NA,39_NA_NA
+39,el mazateno,2,NA,NA,NA_NA,39_NA_NA
+39,fonda argentina,2,NA,NA,NA_NA,39_NA_NA
+39,giuseppis,2,NA,NA,NA_NA,39_NA_NA
+39,la casa del mole,2,NA,NA,NA_NA,39_NA_NA
+39,la lena,2,NA,NA,NA_NA,39_NA_NA
+39,la querencia,2,NA,NA,NA_NA,39_NA_NA
+39,landini ristorante toscano,2,NA,NA,NA_NA,39_NA_NA
+39,los arcos,2,NA,NA,NA_NA,39_NA_NA
+39,pampas do brasil,2,NA,NA,NA_NA,39_NA_NA
+39,super antojitos,2,NA,NA,NA_NA,39_NA_NA
+39,villa saverios,2,NA,NA,NA_NA,39_NA_NA
+39,vips,2,NA,NA,NA_NA,39_NA_NA
+43,carnitas uruapan,2,NA,NA,NA_NA,43_NA_NA
+43,casa plascencia,2,NA,NA,NA_NA,43_NA_NA
+43,cheripan,2,NA,NA,NA_NA,43_NA_NA
+43,tortas chapultepec,2,NA,NA,NA_NA,43_NA_NA
+43,tortas la vuelta,2,NA,NA,NA_NA,43_NA_NA
+44,kentucky fried chicken,2,NA,NA,NA_NA,44_NA_NA
+44,pancake house,2,NA,NA,NA_NA,44_NA_NA
+45,mc donals,2,NA,NA,NA_NA,45_NA_NA
+1,mc donals,1,NA,NA,NA_NA,1_NA_NA
+11,big boy,1,NA,NA,NA_NA,11_NA_NA
+11,mc donals,1,NA,NA,NA_NA,11_NA_NA
+15,mc donals,1,NA,NA,NA_NA,15_NA_NA
+19,carnitas uruapan,1,NA,NA,NA_NA,19_NA_NA
+19,el mazateno,1,NA,NA,NA_NA,19_NA_NA
+19,el porton,1,NA,NA,NA_NA,19_NA_NA
+19,fonda argentina,1,NA,NA,NA_NA,19_NA_NA
+19,giuseppis,1,NA,NA,NA_NA,19_NA_NA
+19,kentucky fried chicken,1,NA,NA,NA_NA,19_NA_NA
+19,la casa del mole,1,NA,NA,NA_NA,19_NA_NA
+19,la lena,1,NA,NA,NA_NA,19_NA_NA
+19,la querencia,1,NA,NA,NA_NA,19_NA_NA
+19,la espadana,1,NA,NA,NA_NA,19_NA_NA
+19,mc donals,1,NA,NA,NA_NA,19_NA_NA
+19,tortas wash movile,1,NA,NA,NA_NA,19_NA_NA
+19,villa saverios,1,NA,NA,NA_NA,19_NA_NA
+19,vips,1,NA,NA,NA_NA,19_NA_NA
+23,dominos pizza,1,NA,NA,NA_NA,23_NA_NA
+23,mc donals,1,NA,NA,NA_NA,23_NA_NA
+25,kentucky fried chicken,1,NA,NA,NA_NA,25_NA_NA
+30,subway,1,NA,NA,NA_NA,30_NA_NA
+31,mc donals,1,NA,NA,NA_NA,31_NA_NA
+33,carnitas uruapan,1,NA,NA,NA_NA,33_NA_NA
+33,el porton,1,NA,NA,NA_NA,33_NA_NA
+34,mc donals,1,NA,NA,NA_NA,34_NA_NA
+39,applebees,1,NA,NA,NA_NA,39_NA_NA
+39,big boy,1,NA,NA,NA_NA,39_NA_NA
+39,carnitas uruapan,1,NA,NA,NA_NA,39_NA_NA
+39,el porton,1,NA,NA,NA_NA,39_NA_NA
+39,el rodeo,1,NA,NA,NA_NA,39_NA_NA
+39,mc donals,1,NA,NA,NA_NA,39_NA_NA
+39,peter piper pizza,1,NA,NA,NA_NA,39_NA_NA
+39,cien anos,1,NA,NA,NA_NA,39_NA_NA
+43,la torta plaza,1,NA,NA,NA_NA,43_NA_NA
+43,landini ristorante toscano,1,NA,NA,NA_NA,43_NA_NA
+43,mc donals,1,NA,NA,NA_NA,43_NA_NA
+44,applebees,1,NA,NA,NA_NA,44_NA_NA
+44,big boy,1,NA,NA,NA_NA,44_NA_NA
+44,burger king,1,NA,NA,NA_NA,44_NA_NA
+44,cafe de la flor,1,NA,NA,NA_NA,44_NA_NA
+44,carnitas uruapan,1,NA,NA,NA_NA,44_NA_NA
+44,cheripan,1,NA,NA,NA_NA,44_NA_NA
+44,costco,1,NA,NA,NA_NA,44_NA_NA
+44,daruma,1,NA,NA,NA_NA,44_NA_NA
+44,dominos pizza,1,NA,NA,NA_NA,44_NA_NA
+44,el porton,1,NA,NA,NA_NA,44_NA_NA
+44,el rodeo,1,NA,NA,NA_NA,44_NA_NA
+44,la lena,1,NA,NA,NA_NA,44_NA_NA
+44,la querencia,1,NA,NA,NA_NA,44_NA_NA
+44,la torta plaza,1,NA,NA,NA_NA,44_NA_NA
+44,los arcos,1,NA,NA,NA_NA,44_NA_NA
+44,mc donals,1,NA,NA,NA_NA,44_NA_NA
+44,peter piper pizza,1,NA,NA,NA_NA,44_NA_NA
+44,californias,1,NA,NA,NA_NA,44_NA_NA
+44,cien anos,1,NA,NA,NA_NA,44_NA_NA
+44,super antojitos,1,NA,NA,NA_NA,44_NA_NA
+44,tortas la vuelta,1,NA,NA,NA_NA,44_NA_NA
+44,tortas wash movile,1,NA,NA,NA_NA,44_NA_NA
+45,kentucky fried chicken,1,NA,NA,NA_NA,45_NA_NA
+45,ricardos,1,NA,NA,NA_NA,45_NA_NA
