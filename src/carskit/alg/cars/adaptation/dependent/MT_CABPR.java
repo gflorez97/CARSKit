@@ -157,25 +157,18 @@ public class MT_CABPR extends ContextRecommender {
                         double qif = Q.get(i, f);
                         double qjf = Q.get(j, f);
 
-                        // Rating
-                        P.add(u1, f, lRate * alpha * (euj * qjf - regU * puf));
-                        Q.add(i, f, lRate * alpha * (eui * puf - regI * qif));
-                        Q.add(j, f, lRate * alpha * (euj * puf - regI * qjf));
+
+//                        P.add(u1, f, lRate * alpha * (euj * qjf - regU * puf));
+//                        Q.add(i, f, lRate * alpha * (eui * puf - regI * qif));
+//                        Q.add(j, f, lRate * alpha * (euj * puf - regI * qjf));
 
                         //TODO the one above or this one?
-//                        for (int cond : getConditions(ctx1)) {
-//                            double bc = condBias.get(cond);
-//                            P.add(u1, f, lRate * (alpha*qif*(globalMean + bu + bi + bc - ruic) - regU * puf));
-//                            Q.add(i, f, lRate * (alpha*puf*(globalMean + bu + bi + bc - ruic) - regI * qif));
-//                            P.add(u1, f, lRate * (alpha*qjf*(globalMean + bu + bj + bc - rujc) - regU * puf));
-//                            Q.add(j, f, lRate * (alpha*puf*(globalMean + bu + bj + bc - rujc) - regI * qjf));
-//                        }
-
-                        // Ranking
-                        P.add(u1, f, lRate * (alpha - 1) * (Math.exp(pred2) * (qif-qjf)/(Math.exp(pred1)+Math.exp(pred2)) - regU * puf));
-                        Q.add(i, f, lRate * (alpha - 1) * (Math.exp(pred2) * (puf)/(Math.exp(pred1)+Math.exp(pred2)) - regI * qif));
-                        Q.add(j, f, lRate * (alpha - 1) * (Math.exp(pred1) * (puf)/(Math.exp(pred1)+Math.exp(pred2)) - regI * qjf));
-
+                        for (int cond : getConditions(ctx1)) {
+                            double bc = condBias.get(cond);
+                            P.add(u1, f, lRate * (alpha*qif*(globalMean + bu + bi + bc + puf*qif - ruic) + (alpha*qjf*(globalMean + bu + bj + bc + puf * qjf - rujc)) + (alpha - 1) * (Math.exp(pred2) * (qif-qjf)/(Math.exp(pred1)+Math.exp(pred2))) - regU * puf));
+                            Q.add(i, f, lRate * (alpha*puf*(globalMean + bu + bi + bc + puf*qif - ruic) + (alpha - 1) * (Math.exp(pred2) * (puf)/(Math.exp(pred1)+Math.exp(pred2))) - regI * qif));
+                            Q.add(j, f, lRate * (alpha*puf*(globalMean + bu + bj + bc + puf*qjf - rujc) + (alpha - 1) * (Math.exp(pred1) * (puf)/(Math.exp(pred1)+Math.exp(pred2))) - regI * qjf));
+                        }
 
                         loss += regU * puf * puf + regI * qif * qif + regI * qjf * qjf;
                     }

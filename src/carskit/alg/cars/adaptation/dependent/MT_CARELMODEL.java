@@ -38,6 +38,12 @@ public class MT_CARELMODEL extends ContextRecommender {
     protected void initModel() throws Exception {
         super.initModel();
 
+        userBias = new DenseVector(numUsers);
+        userBias.init(initMean, initStd);
+
+        itemBias = new DenseVector(numItems);
+        itemBias.init(initMean, initStd);
+
         condBias = new DenseVector(numConditions);
         condBias.init(initMean, initStd);
     }
@@ -124,7 +130,7 @@ public class MT_CARELMODEL extends ContextRecommender {
                     if(i >= j) continue; //to make sure unique pairs are selected (1,2 ; 1,3 ; 2,3 ; but not 2,1 ; 3,2 ; 3,1
 
                     double piHat = predictRel(u1, i, j, ctx1);
-                    System.out.println(piHat);
+                    //System.out.println(piHat);
 
                     double euij = pi - piHat;
 
@@ -150,13 +156,27 @@ public class MT_CARELMODEL extends ContextRecommender {
                     }
                     loss += regB * bc_sum;*/
 
+                    double bu = userBias.get(u1); //bu1 == bu2
+                    double sgd = eui - regB * bu;
+                    double sgd2 = euj - regB * bu;
+                    userBias.add(u1, lRate * sgd);
+                    loss += regB * bu * bu;
+
+                    double bi = itemBias.get(i);
+                    sgd = eui - regB * bi;
+                    itemBias.add(i, lRate * sgd);
+                    double bj = itemBias.get(j);
+                    sgd2 = euj - regB * bj;
+                    itemBias.add(j, lRate * sgd2);
+                    loss += regB * bi * bi + regB * bj * bj;
+
                     double bc_sum = 0;
                     for (int cond : getConditions(ctx1)) {
                         double bc = condBias.get(cond);
                         bc_sum += bc;
 
                         //Only for rating
-                        double sgd = euj - regC * bc;
+                        sgd = euj - regC * bc;
                         condBias.add(cond, lRate * sgd);
                     }
 
@@ -170,29 +190,17 @@ public class MT_CARELMODEL extends ContextRecommender {
                         Q.add(i, f, lRate * ((puf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi)/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3) + regI * qif));
                         Q.add(j, f, lRate * ((puf)*(Math.exp(puf*(qif-qjf)))*((pi-1) * Math.exp(puf*(qif-qjf)) + pi)/Math.pow(Math.exp(puf*(qif-qjf)) + 1,3) + regI * qjf));*/
 
-                        // Rating
-                        P.add(u1, f, lRate * alpha * (euj * qjf - regU * puf));
-                        Q.add(i, f, lRate * alpha * (eui * puf - regI * qif));
-                        Q.add(j, f, lRate * alpha * (euj * puf - regI * qjf));
-
-                        for (int cond : getConditions(ctx1)) {
-                            double bc = condBias.get(cond);
-                            /*P.add(u1, f, lRate * (alpha*qif*(globalMean + bu + bi + bc - ruic) + regU * puf)); //TODO what about the biases here?
-                            Q.add(i, f, lRate * (alpha*puf*(globalMean + bu + bi + bc - ruic) + regI * qif));
-                            P.add(u1, f, lRate * (alpha*qjf*(globalMean + bu + bj + bc - rujc) + regU * puf));
-                            Q.add(j, f, lRate * (alpha*puf*(globalMean + bu + bj + bc - rujc) + regI * qjf));
-                            */
-                        }
-
-                        // Ranking
                         double eAux = Math.exp(puf*(qif-qjf) + bc_sum);
                         double eDiv = eAux / (1+eAux);
 
-                        P.add(u1, f, lRate * (alpha - 1) * ((((qif-qjf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regU * puf));
-                        Q.add(i, f, lRate * (alpha - 1) * ((((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regI * qif));
-                        Q.add(j, f, lRate * (alpha - 1) * ((((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regI * qjf));
+                        for (int cond : getConditions(ctx1)) {
+                            double bc = condBias.get(cond);
+                            P.add(u1, f, lRate * (alpha*qif*(globalMean + bu + bi + bc  - ruic) + (alpha*qjf*(globalMean + bu + bj + bc + puf * qjf - rujc)) + (alpha - 1) * (((qif-qjf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regU * puf));
+                            Q.add(i, f, lRate * (alpha*puf*(globalMean + bu + bi + bc + puf*qif - ruic) + (alpha - 1) * (((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regI * qif));
+                            Q.add(j, f, lRate * (alpha*puf*(globalMean + bu + bj + bc + puf*qjf - rujc) + (alpha - 1) * (((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regI * qjf));
+                        }
 
-                        double sgd = 0.0;
+                        sgd = 0.0;
                         for (int cond : getConditions(ctx1)) {
                             double bc = condBias.get(cond);
                             condBias.add(cond, lRate * (alpha - 1) * - (((eAux*((pi-1)*eAux + pi))/Math.pow(eAux + 1,3)) - regB * bc));

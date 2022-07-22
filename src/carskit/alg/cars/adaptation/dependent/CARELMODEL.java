@@ -142,7 +142,7 @@ public class CARELMODEL extends ContextRecommender {
                     //if(i >= j) continue; //to make sure unique pairs are selected (1,2 ; 1,3 ; 2,3 ; but not 2,1 ; 3,2 ; 3,1
 
                     double piHat = predictRel(u1, i, j, ctx1);
-                    System.out.println(piHat);
+                    //System.out.println(piHat);
 
                     double euij = pi - piHat;
 
