@@ -139,9 +139,10 @@ public class CARELMODEL extends ContextRecommender {
 
                     int i = rateDao.getItemIdFromUI(ui);
                     int j = rateDao.getItemIdFromUI(ui2);
-                    if(i >= j) continue; //to make sure unique pairs are selected (1,2 ; 1,3 ; 2,3 ; but not 2,1 ; 3,2 ; 3,1
+                    //if(i >= j) continue; //to make sure unique pairs are selected (1,2 ; 1,3 ; 2,3 ; but not 2,1 ; 3,2 ; 3,1
 
                     double piHat = predictRel(u1, i, j, ctx1);
+                    System.out.println(piHat);
 
                     double euij = pi - piHat;
 
@@ -174,14 +175,14 @@ public class CARELMODEL extends ContextRecommender {
 
                         double eAux = Math.exp(puf*(qif-qjf) + bc_sum);
                         double eDiv = eAux / (1+eAux);
-                        P.add(u1, f, lRate * ((((qif-qjf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regU * puf));
-                        Q.add(i, f, lRate * ((((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regI * qif));
-                        Q.add(j, f, lRate * ((((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) + regI * qjf));
+                        P.add(u1, f, lRate * ((((qif-qjf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regU * puf));
+                        Q.add(i, f, lRate * ((((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regI * qif));
+                        Q.add(j, f, lRate * ((((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regI * qjf));
 
                         double sgd = 0.0;
                         for (int cond : getConditions(ctx1)) {
                             double bc = condBias.get(cond);
-                            condBias.add(cond, lRate * - (((eAux*((pi-1)*eAux + pi))/Math.pow(eAux + 1,3)) + regB * bc));
+                            condBias.add(cond, lRate * - (((eAux*((pi-1)*eAux + pi))/Math.pow(eAux + 1,3)) - regB * bc));
                         }
 
                         loss += regU * puf * puf + regI * qif * qif + regI * qjf * qjf + regB * bc_sum * bc_sum;

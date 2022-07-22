@@ -171,9 +171,9 @@ public class CABPR extends ContextRecommender {
                         Q.add(i, f, lRate * (Math.exp(puf*qjf) * (puf)/(Math.exp(puf*qif)+Math.exp(puf*qjf)) + regI * qif));
                         Q.add(j, f, lRate * (Math.exp(puf*qif) * (puf)/(Math.exp(puf*qif)+Math.exp(puf*qjf)) + regI * qjf));*/
 
-                        P.add(u1, f, lRate * (Math.exp(pred2) * (qif-qjf)/(Math.exp(pred1)+Math.exp(pred2)) + regU * puf));
-                        Q.add(i, f, lRate * (Math.exp(pred2) * (puf)/(Math.exp(pred1)+Math.exp(pred2)) + regI * qif));
-                        Q.add(j, f, lRate * (Math.exp(pred1) * (puf)/(Math.exp(pred1)+Math.exp(pred2)) + regI * qjf));
+                        P.add(u1, f, lRate * (Math.exp(pred2) * (qif-qjf)/(Math.exp(pred1)+Math.exp(pred2)) - regU * puf));
+                        Q.add(i, f, lRate * (Math.exp(pred2) * (puf)/(Math.exp(pred1)+Math.exp(pred2)) - regI * qif));
+                        Q.add(j, f, lRate * (Math.exp(pred1) * (puf)/(Math.exp(pred1)+Math.exp(pred2)) - regI * qjf));
 
 
                         loss += regU * puf * puf + regI * qif * qif + regI * qjf * qjf;
