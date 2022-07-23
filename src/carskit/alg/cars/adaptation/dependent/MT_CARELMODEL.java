@@ -176,10 +176,12 @@ public class MT_CARELMODEL extends ContextRecommender {
                         bc_sum += bc;
 
                         //Only for rating
-                        sgd = euj - regC * bc;
+                        sgd = eui - regC * bc;
+                        sgd2 = euj - regC * bc;
                         condBias.add(cond, lRate * sgd);
+                        condBias.add(cond, lRate * sgd2);
                     }
-
+                    loss += regB * bc_sum;
 
                     for (int f = 0; f < numFactors; f++) {
                         double puf = P.get(u1, f);

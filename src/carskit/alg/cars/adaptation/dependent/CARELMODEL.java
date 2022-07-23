@@ -139,7 +139,7 @@ public class CARELMODEL extends ContextRecommender {
 
                     int i = rateDao.getItemIdFromUI(ui);
                     int j = rateDao.getItemIdFromUI(ui2);
-                    //if(i >= j) continue; //to make sure unique pairs are selected (1,2 ; 1,3 ; 2,3 ; but not 2,1 ; 3,2 ; 3,1
+                    if(i >= j) continue; //to make sure unique pairs are selected (1,2 ; 1,3 ; 2,3 ; but not 2,1 ; 3,2 ; 3,1
 
                     double piHat = predictRel(u1, i, j, ctx1);
                     //System.out.println(piHat);
