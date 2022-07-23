@@ -195,7 +195,7 @@ public class MT_CARELMODEL extends ContextRecommender {
 
                         for (int cond : getConditions(ctx1)) {
                             double bc = condBias.get(cond);
-                            P.add(u1, f, lRate * (alpha*qif*(globalMean + bu + bi + bc  - ruic) + (alpha*qjf*(globalMean + bu + bj + bc + puf * qjf - rujc)) + (alpha - 1) * (((qif-qjf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regU * puf));
+                            P.add(u1, f, lRate * (alpha*qif*(globalMean + bu + bi + bc + puf*qif - ruic) + (alpha*qjf*(globalMean + bu + bj + bc + puf * qjf - rujc)) + (alpha - 1) * (((qif-qjf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regU * puf));
                             Q.add(i, f, lRate * (alpha*puf*(globalMean + bu + bi + bc + puf*qif - ruic) + (alpha - 1) * (((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regI * qif));
                             Q.add(j, f, lRate * (alpha*puf*(globalMean + bu + bj + bc + puf*qjf - rujc) + (alpha - 1) * (((puf)*(pi-eDiv)*(pi-eDiv)*(eDiv))/(1+eAux)) - regI * qjf));
                         }
